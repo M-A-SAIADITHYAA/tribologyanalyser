@@ -1,0 +1,14 @@
+{
+  "paper_id": "CASTPA6G2018",
+  "counterface": "S235 steel",
+  "test_type": "pin-on-disc / pin-on-plate",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm",
+  "fabrication": "cast",
+  "pa6_grade": "PA6G",
+  "source_doi": "10.1016/j.compositesb.2018.10.017",
+  "n_conditions": 7
+}

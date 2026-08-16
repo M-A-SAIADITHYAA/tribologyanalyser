@@ -1,0 +1,10 @@
+PAPER_ID: GFRPA6PV2023
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Variation of the coefficient of friction (μ) with the abrading time at 300 rpm for PA6 and PA6 composites; Left hand side: PA6 at 10 N, 20 N, 35 N and 50 N, and Right hand side: PA625GF at 10 N, 20 N, 35 N and 50 N.
+X_AXIS: Timestamp (Seconds)
+Y_AXIS: Coefficient of friction (μ)
+SERIES: PA6 at 10 N, PA6 at 20 N, PA6 at 35 N, PA6 at 50 N, PA625GF at 10 N, PA625GF at 20 N, PA625GF at 35 N, PA625GF at 50 N
+TEST_CONDITIONS: Speed = 300 RPM; Loads = 10 N, 20 N, 35 N, 50 N; Materials = PA6, PA625GF
+WHAT_TO_EXTRACT: Steady-state Coefficient of Friction across abrading time
+WEBPLOTDIGITIZER_NOTES: Contains 8 subplots stacked vertically in 2 columns. High noise/fluctuations in COF signal for pure PA6.

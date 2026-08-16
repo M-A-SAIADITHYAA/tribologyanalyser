@@ -1,0 +1,10 @@
+PAPER_ID: IJEMS2018
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7 — Effect of control factor on coefficient of friction for mean; Fig. 8 — Effect of control factor on specific wear rate for mean; Fig. 9 — Effect of control factor on coefficient of friction for S/N ratio
+X_AXIS: Control factors: Glass Fiber (wt. %), Load (N), Sliding Velocity (m/s)
+Y_AXIS: Fig 7: Mean of Means of Coefficient of Friction; Fig 8: Mean of Specific Wear Rate (mm3/Nm); Fig 9: Means of SN ratios of Coefficient of Friction
+SERIES: Glass Fiber wt%, Applied Load N, Sliding Velocity m/s
+TEST_CONDITIONS: Taguchi L16 design levels (GF: 0, 10, 20, 30 wt%; Load: 5, 10, 15, 20 N; Velocity: 0.5, 1.0, 1.5, 2.0 m/s)
+WHAT_TO_EXTRACT: Mean COF and specific wear rate for each parameter level
+WEBPLOTDIGITIZER_NOTES: Multi-panel main effects plots with discrete factor levels on the x-axis

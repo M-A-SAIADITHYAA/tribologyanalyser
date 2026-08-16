@@ -1,0 +1,13 @@
+{
+  "paper_id": "UNAL2012",
+  "counterface": "steel",
+  "test_type": "PoD",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection",
+  "source_doi": "10.1016/j.wear.2012.01.006",
+  "n_conditions": 36
+}

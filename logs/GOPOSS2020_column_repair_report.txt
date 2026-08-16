@@ -1,0 +1,2 @@
+Corrected a detectable one-cell right shift in the experimental condition block for CSV row(s): 1, 2, 3, 4, 5, 6.
+The original Gemini response is retained in logs/PAPERID_raw_response.txt; corrected values still undergo full validation.

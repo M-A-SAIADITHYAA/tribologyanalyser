@@ -1,0 +1,10 @@
+PAPER_ID: PMC2013
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Figure 1: Mechanical property of PA6/GF composites filled with different single solid lubricant (content at zero is PA6/GF-15 sample). (a) Hardness. (b) Tensile strength and impact strength.
+X_AXIS: Content of solid lubricant (wt.%)
+Y_AXIS: (a) Hardness (N/mm2); (b) Tensile strength (MPa) [left y-axis], Impact strength (kJ/m2) [right y-axis]
+SERIES: PTFE, Graphite, UHMWPE
+TEST_CONDITIONS: Tensile test at 5 mm/min (GB/T1040-2006); U-notch impact test (GB/T1043-93); Brinell hardness load 31.25 kg for 30 s
+WHAT_TO_EXTRACT: Hardness, tensile strength, and impact strength across filler loadings (0 to 20 wt%)
+WEBPLOTDIGITIZER_NOTES: Figure 1(b) contains dual y-axes. Left y-axis is Tensile strength (10 to 70 MPa); right y-axis is Impact strength (20 to 40 kJ/m2).

@@ -1,0 +1,14 @@
+{
+  "paper_id": "PA66TEMP2019",
+  "counterface": "416 stainless steel",
+  "test_type": "pin-on-disc",
+  "environment": "lubricated and dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "µm",
+  "fabrication": "injection molding",
+  "pa6_grade": null,
+  "source_doi": "10.3390/ma12203452",
+  "n_conditions": 180
+}

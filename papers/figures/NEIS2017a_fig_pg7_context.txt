@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017a
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. a) Coefficient of friction, b) wear of the stationary pin, c) wear of the rotating disc and d) temperature of the stationary pin for the PA6/PA6 contact configuration.
+X_AXIS: Sliding speed, m/s
+Y_AXIS: a) Coefficient of friction, /; b) Wear of PA6 pin, mm^3/Nm; c) Wear of PA6 disc, mm^3/Nm; d) PA6 pin temperature, °C
+SERIES: 4 N, 6 N, 8 N
+TEST_CONDITIONS: Self-mated PA6 pin on PA6 disc (PA6/PA6), Loads = 4 N, 6 N, 8 N; Speeds = 0.4, 0.7, 1.0 m/s
+WHAT_TO_EXTRACT: COF, pin wear rate, disc wear rate, and pin temperature for PA6/PA6 self-mated contact
+WEBPLOTDIGITIZER_NOTES: Fig. 12b and 12c Y-axes use logarithmic scales (10^-7 to 10^-4 mm^3/Nm). High velocity/load conditions (v >= 1 m/s at 4 N or v >= 0.7 m/s at >=6 N) could not be quantified due to severe vibrations.

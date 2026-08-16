@@ -1,0 +1,10 @@
+,medium,reported wear 0.5e-13 m2/N
+
+Row 20:
+UNAL2023,PA6,graphite,15,wax,2,250,0.5,1000,,PA6,PoD,dry,,23,injection,0.07,0.00004,,,,10.002/mawe.202200057,line_graph,medium,reported wear 0.4e-13 m2/N
+
+Row 21:
+UNAL2023,PA6,graphite,15,wax,6,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00021,,,,10.002/mawe.202200057,line_graph,medium,reported wear 2.1e-13 m2/N
+
+Row 22:
+UNAL2023,PA6,graphite,15,wax,6,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00020,,,,10.002/mawe.202200057,line_graph,medium,reported wear 2.0

@@ -1,0 +1,10 @@
+PAPER_ID: GFRPA6PV2023
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. Specific wear rate against the applied load for PA6 and PA6 composite samples. / Fig. 5. Wear volume against the applied load for PA6 and PA6 composite samples.
+X_AXIS: Applied Load (N)
+Y_AXIS: Specific Wear Rate (mm3/N.m) x 10-3 [Fig. 4] / Wear Volume (mm3) [Fig. 5]
+SERIES: PA6, PA625GF
+TEST_CONDITIONS: Speed = 300 RPM; Loads = 10 N, 20 N, 35 N, 50 N
+WHAT_TO_EXTRACT: Specific wear rate and wear volume values versus applied load for PA6 and PA625GF
+WEBPLOTDIGITIZER_NOTES: Linear axes. Two distinct data series per graph.

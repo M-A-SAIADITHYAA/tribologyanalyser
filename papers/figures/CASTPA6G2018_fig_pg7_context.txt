@@ -1,0 +1,10 @@
+PAPER_ID: CASTPA6G2018
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 6. Friction, wear and heat generation in pin-on-disc model of overload operating condition. pv = 1.79 MPa ms−1 with v = 0.22 m/s, dry friction.
+X_AXIS: sliding distance [m]
+Y_AXIS: (a) friction coefficient, (b) wear [mm], (c) temperature [°C]
+SERIES: PA 6G/1, PA 6G/2, PA 6G SL/1, PA 6G SL/2
+TEST_CONDITIONS: Pin-on-disc HPV overload condition: p = 8.14 MPa, v = 0.22 m/s, pv = 1.79 MPa ms-1, dry friction
+WHAT_TO_EXTRACT: COF, total wear, and contact temperature values up to 3000 m; note thermal instability/melting after 2000 m for neat PA6G
+WEBPLOTDIGITIZER_NOTES: Neat PA6G curves exhibit steep spikes after 2000 m due to surface melting; read composite values at steady state

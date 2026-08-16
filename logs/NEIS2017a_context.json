@@ -1,0 +1,14 @@
+{
+  "paper_id": "NEIS2017a",
+  "counterface": "stainless steel (X105CrMo17) and PA6",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 50,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection moulded",
+  "pa6_grade": "Ultramid B3S",
+  "source_doi": "10.1016/j.wear.2017.01.118",
+  "n_conditions": 27
+}

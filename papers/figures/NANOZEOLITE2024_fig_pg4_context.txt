@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Training loss curves showing the progression of U-Net training.
+X_AXIS: Epochs
+Y_AXIS: Loss
+SERIES: Training loss
+TEST_CONDITIONS: U-Net neural network training over 150 epochs using Adam optimizer with learning rate 1e-4
+WHAT_TO_EXTRACT: Final convergence training loss value at 150 epochs
+WEBPLOTDIGITIZER_NOTES: Single smooth decaying curve converging near zero

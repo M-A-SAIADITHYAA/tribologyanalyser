@@ -1,0 +1,14 @@
+{
+  "paper_id": "SILICAPA62020",
+  "counterface": "hardened AISI 4140 steel (65 HRc)",
+  "test_type": "pin-on-disk",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/m",
+  "fabrication": "injection moulded",
+  "pa6_grade": "Arkema PA6",
+  "source_doi": "10.12693/APhysPolA.125.478",
+  "n_conditions": 36
+}

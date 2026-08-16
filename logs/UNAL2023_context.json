@@ -1,0 +1,14 @@
+{
+  "paper_id": "UNAL2023",
+  "counterface": "polyamide 6 / PA6 composite (self-operation)",
+  "test_type": "pin-on-disc",
+  "environment": "dry sliding",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "m2/N",
+  "fabrication": "injection molding",
+  "pa6_grade": "Domomid 6 NC01",
+  "source_doi": "10.1002/mawe.202200057",
+  "n_conditions": 28
+}

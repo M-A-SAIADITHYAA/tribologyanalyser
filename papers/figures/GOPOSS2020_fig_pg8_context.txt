@@ -1,0 +1,10 @@
+PAPER_ID: GOPOSS2020
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. (a) Typical stress-strain curves of pure PA6 and its nanocomposites. (b–c) Mechanical properties of PA6 nanocomposites. (d) Shore hardness of PA6/rGO-POSS composites with different contents.
+X_AXIS: Tensile strain (%)
+Y_AXIS: Tensile stress (MPa)
+SERIES: PA6, PA6/rGO-POSS(0.1%), PA6/rGO-POSS(0.3%), PA6/rGO-POSS(0.5%), PA6/rGO-POSS(0.7%), PA6/rGO-POSS(0.9%)
+TEST_CONDITIONS: Tensile test according to GB/T1040-1992, speed 10 mm/min, fixture spacing 30 ± 0.5 mm
+WHAT_TO_EXTRACT: Tensile strength and elongation at break (Note: Mechanical property, non-tribological)
+WEBPLOTDIGITIZER_NOTES: Curves overlap significantly at lower strain levels; 0.3 wt% extends furthest to ~260% strain.

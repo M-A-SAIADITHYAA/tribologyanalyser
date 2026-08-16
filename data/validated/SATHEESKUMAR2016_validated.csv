@@ -1,0 +1,3 @@
+paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes,validation_status,validation_notes
+SATHEESKUMAR2016,PA6,unfilled,,,,,,5,5.23,1000,,steel,PoD,dry,,,injection,0.30,0.0030,,,,10.1007/s12034-016-1296-6,line_graph,medium,Wear rate reported as 3.0e-3 mm3/Nm,fail,speed_ms=5.23 exceeds max 5
+SATHEESKUMAR2016,PA6,unfilled,,,,,,5,7.85,1000,,steel,PoD,dry,,,injection,0.33,0.0051,,,,10.1007/s12034-016-1296-6,line_graph,medium,Wear rate reported as 5.1e-3 mm3,fail,speed_ms=7.85 exceeds max 5

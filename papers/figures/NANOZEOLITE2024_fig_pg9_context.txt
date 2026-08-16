@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10. Correlation plots between predicted and actual values for: (a) friction coefficient, and (b) wear rate, using the SVM model.
+X_AXIS: (a) Actual coefficient of friction, (b) Actual wear rate (mm^3/Nm) x 10^-5
+Y_AXIS: (a) Predicted coefficient of friction, (b) Predicted wear rate (mm^3/Nm) x 10^-5
+SERIES: Perfect Fit (y = x), Predicted Data Points
+TEST_CONDITIONS: Support Vector Regression (SVR) model performance evaluation against experimental dataset
+WHAT_TO_EXTRACT: Predicted vs actual values for friction coefficient and specific wear rate
+WEBPLOTDIGITIZER_NOTES: Scatter points plotted relative to a 1:1 parity line (y = x)

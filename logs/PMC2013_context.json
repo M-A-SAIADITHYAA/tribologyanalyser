@@ -1,0 +1,14 @@
+{
+  "paper_id": "PMC2013",
+  "counterface": "steel",
+  "test_type": "reciprocating",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "cm3/Nm",
+  "fabrication": "injection molded",
+  "pa6_grade": "BST 425",
+  "source_doi": "10.1155/2013/320837",
+  "n_conditions": 35
+}

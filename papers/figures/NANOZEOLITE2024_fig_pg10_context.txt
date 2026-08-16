@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 11. 3D plots illustrating the variation of the friction coefficient and specific wear rate with respect to CDI, load, and hardness (the third variable is set to the average value across all nanocomposites).
+X_AXIS: CDI / Hardness, Shore D / Load (N)
+Y_AXIS: CDI / Hardness, Shore D / Load (N)
+SERIES: SVR model 3D response surfaces
+TEST_CONDITIONS: SVR response surface analysis evaluating combined effects of Combined Dispersion Index (CDI), normal load (60-100 N), and Shore D hardness (79-82)
+WHAT_TO_EXTRACT: Optimal parameter regions minimizing friction coefficient and specific wear rate
+WEBPLOTDIGITIZER_NOTES: 3D surface plots with colorbar intensity mapping; data grid extraction recommended

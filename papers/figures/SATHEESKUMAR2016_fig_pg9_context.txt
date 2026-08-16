@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 9. Friction co-efficient of 20 N load. / Figure 10. Friction co-efficient of 30 N load. / Figure 11. Wear rate of 5 N load. / Figure 12. Wear rate of 10 N load. / Figure 13. Wear rate of 20 N load.
+X_AXIS: Sliding velocity (m s⁻¹)
+Y_AXIS: Friction co-efficient (Figs 9, 10) / Wear rate (mm³ Nm⁻¹) (Figs 11-13)
+SERIES: PA6, 5 wt% Al2O3, 10 wt% Al2O3, 20 wt% Al2O3, 30 wt% Al2O3
+TEST_CONDITIONS: Loads = 5 N, 10 N, 20 N, 30 N; dry sliding against EN31 steel disc
+WHAT_TO_EXTRACT: Friction coefficient and wear rate values as a function of sliding velocity
+WEBPLOTDIGITIZER_NOTES: Read values at predefined sliding velocity points (0, 5.2, 7.85, 10 m/s)

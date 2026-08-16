@@ -1,0 +1,14 @@
+{
+  "paper_id": "ABRASIVEGFPA6",
+  "counterface": "Silicon carbide (SiC)",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 102,
+  "load_unit": "N",
+  "speed_unit": "rpm, m/s",
+  "wear_unit": "mm3/N.m, mg, mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": null,
+  "source_doi": "10.1007/s11249-023-01774-9",
+  "n_conditions": 15
+}

@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017a
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 6. Evolution of the coefficient of friction with sliding distance for SS/PA6 at 0.7 m/s and 4 N.; Fig. 7. a) Coefficient of friction, b) wear of rotating PA6 disc and c) temperature of the stationary SS pin for the SS/PA6 combination.
+X_AXIS: Fig. 6: Sliding distance, km; Fig. 7a-c: Sliding speed, m/s
+Y_AXIS: Fig. 6: Coefficient of friction; Fig. 7a: Coefficient of friction, /; Fig. 7b: Wear of PA6 disc, mm^3/Nm; Fig. 7c: SS pin temperature, °C
+SERIES: Fig. 6: 1 series (0.7 m/s, 4 N); Fig. 7a-c: 3 series (4 N, 6 N, 8 N)
+TEST_CONDITIONS: Stainless steel pin sliding against PA6 disc (SS/PA6), Loads = 4 N, 6 N, 8 N; Speeds = 0.4, 0.7, 1.0 m/s
+WHAT_TO_EXTRACT: COF vs distance, steady-state COF, PA6 disc wear rate, and SS pin temperature vs speed and load
+WEBPLOTDIGITIZER_NOTES: Fig. 7b Y-axis is logarithmic (10^-6 to 10^-4 mm^3/Nm). Fig. 6 shows friction reaching steady state after ~6 km.

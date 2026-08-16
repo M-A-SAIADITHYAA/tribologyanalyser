@@ -1,0 +1,10 @@
+PAPER_ID: WOLLASTONITE2014
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Figure 3(a).Plots for weight loss of samples: Main effects; Figure 3(b). Plots for weight loss of samples: Interaction effects
+X_AXIS: Material type, Sliding speed (m/s), Applied load (N)
+Y_AXIS: Mean of SN ratios (dB)
+SERIES: Main effects: Material type (PA-6, PA-6+5%W, PA-6+10%W), Sliding speed (1.0, 1.5, 2.0 m/s), Applied load (6, 10, 20 N), Interaction effects: Material type x Sliding speed, Material type x Applied load, Sliding speed x Applied load
+TEST_CONDITIONS: Taguchi L27 experimental matrix (Load: 6, 10, 20 N; Speed: 1.0, 1.5, 2.0 m/s; Material: Pure PA-6, PA-6+5%W, PA-6+10%W)
+WHAT_TO_EXTRACT: Mean S/N ratios for weight loss across levels of control factors and interaction plots
+WEBPLOTDIGITIZER_NOTES: Taguchi signal-to-noise ratio plots for weight loss (Smaller is better)

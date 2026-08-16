@@ -1,0 +1,10 @@
+PAPER_ID: PMC2013
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Figure 3: Friction and wear behaviors of PA6/GF composites filled with single solid lubricant.
+X_AXIS: Content of solid lubricant (wt.%)
+Y_AXIS: Left y-axis: Coefficient of friction (0 to 1.0); Right y-axis: Wear rate (×10^-5 cm3/N·m, -4 to 16)
+SERIES: PTFE (COF), Graphite (COF), UHMWPE (COF), PTFE (Wear rate), Graphite (Wear rate), UHMWPE (Wear rate)
+TEST_CONDITIONS: Reciprocating UMT-3 tribometer, dry sliding against steel counterface, normal load 100 N, speed 200 rpm, duration 2 h, room temperature
+WHAT_TO_EXTRACT: Coefficient of friction and specific wear rate vs solid lubricant loading (0 to 15 wt%)
+WEBPLOTDIGITIZER_NOTES: Dual y-axis plot. Solid markers represent COF on left y-axis; open markers with dashed lines represent wear rate on right y-axis.

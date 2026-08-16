@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017a
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 11. Evolution of the coefficient of friction with sliding distance for PA6/PA6 at 0.7 m/s and 4 N.
+X_AXIS: Sliding distance, km
+Y_AXIS: Coefficient of friction
+SERIES: PA6/PA6 at 0.7 m/s, 4 N
+TEST_CONDITIONS: Self-mated PA6 pin against PA6 disc (PA6/PA6), Load = 4 N, Speed = 0.7 m/s
+WHAT_TO_EXTRACT: Running-in distance (~15 km) and average steady-state COF (~1.09)
+WEBPLOTDIGITIZER_NOTES: High noise and sharp fluctuations in friction force; average steady-state value should be extracted after 15 km.

@@ -1,0 +1,14 @@
+{
+  "paper_id": "WOLLASTONITE2014",
+  "counterface": "AISI 4140 steel disc",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mg",
+  "fabrication": "injection molding",
+  "pa6_grade": null,
+  "source_doi": "10.21533/pen.v2i1.35",
+  "n_conditions": 27
+}

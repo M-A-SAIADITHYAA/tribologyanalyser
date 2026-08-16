@@ -1,0 +1,10 @@
+PAPER_ID: ABRASIVEGFPA6
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7 Compressive strength for polymeric materials and variations of glass fibre reinforced PA6
+X_AXIS: Material compositions (TPU, PA6, PA25GF, PA25GF+5%MoS2, PA33GF, PA50GF)
+Y_AXIS: Compressive Strength (MPa)
+SERIES: Compressive Strength
+TEST_CONDITIONS: Compression testing (ASTM D695), crosshead speed = 1.3 mm/min
+WHAT_TO_EXTRACT: Compressive strength for TPU, PA6, and PA6 composites
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis with 6 material compositions; page also contains Table 2

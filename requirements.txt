@@ -1,0 +1,7 @@
+google-genai>=1.0.0
+pandas
+pdf2image
+pillow
+pdfplumber
+openpyxl
+python-dotenv

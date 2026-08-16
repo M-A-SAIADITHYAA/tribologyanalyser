@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Figure 16. Variations of the wear rate for PA6 and PA6/Gr composites. / Figure 17. Variations of the wear loss for PA6 and PA6/Gr composites.
+X_AXIS: Load (N)
+Y_AXIS: Wear rate x 10⁻³ (mm³ Nm⁻¹) (Fig 16) / Wear loss (g) (Fig 17)
+SERIES: PA6, 5% graphite, 10% graphite, 20% graphite, 30% graphite
+TEST_CONDITIONS: Dry sliding conditions under 5, 10, 20, 30 N normal loads
+WHAT_TO_EXTRACT: Specific wear rate and total wear loss across normal loads
+WEBPLOTDIGITIZER_NOTES: Curves decrease with load; note Y-axis multiplier on Figure 16 (x 10⁻³)

@@ -1,0 +1,4 @@
+paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+CHERNETSSWIC,PA6,unfilled,0,,,,14.14,0.4,,,steel,PoD,dry,50,20,,0.41,5.22e-09,,,,10.12913/22998624/161591,table,high,p=2 MPa; Sustamid 6; d=3mm pin
+CHERNETSSWIC,PA6,unfilled,0,,,,28.27,0.4,,,steel,PoD,dry,50,20,,0.41,4.80e-09,,,,10.12913/22998624/161591,table,high,p=4 MPa; Sustamid 6; d=3mm pin
+CHERNETSSWIC

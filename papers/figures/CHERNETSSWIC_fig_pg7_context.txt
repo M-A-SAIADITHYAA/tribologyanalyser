@@ -1,0 +1,10 @@
+PAPER_ID: CHERNETSSWIC
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Wear resistance diagrams of polyamides; Fig. 4. Combined wear resistance diagrams of studied materials
+X_AXIS: τ, MPa (Specific friction force)
+Y_AXIS: Φ(τ) (Wear resistance function)
+SERIES: 1 - PA6, 2 - PA66, 3 - PA6+30GF, 4 - PA6+MoS2, 5 - PA6+30CF, 6 - PA6+oil
+TEST_CONDITIONS: Dry sliding friction, double pin-on-disk, sliding speed v = 0.4 m/s, contact pressure p = 2, 4, 6, 8 MPa, temperature T = 293 K, counterpart C45 steel disc
+WHAT_TO_EXTRACT: Wear resistance function Φ as a function of specific friction force τ
+WEBPLOTDIGITIZER_NOTES: Logarithmic Y-axis scale (10^7 to 10^9). Fig. 3 displays separate sub-plots for each material; Fig. 4 presents combined overlapping curves with various dashed line styles.

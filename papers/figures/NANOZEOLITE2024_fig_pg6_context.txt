@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Variation of the friction coefficient for the compounds under: (a) 60 N load, and (b) 100 N load.
+X_AXIS: Sliding Distance (m)
+Y_AXIS: Friction Coefficient
+SERIES: PA6, PA6/2.5NZ, PA6/5NZ, PA6/7.5NZ
+TEST_CONDITIONS: Pin-on-disk test according to ASTM G99, sliding speed = 0.5 m/s, sliding distance = 6000 m, counterface AISI 314 steel disc, loads = 60 N (a) and 100 N (b)
+WHAT_TO_EXTRACT: Steady-state friction coefficient values at 2000 m, 4000 m, and 6000 m for each compound
+WEBPLOTDIGITIZER_NOTES: Multiple curves with error bars; curves show slight upward trend with distance

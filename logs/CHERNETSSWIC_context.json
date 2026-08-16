@@ -1,0 +1,14 @@
+{
+  "paper_id": "CHERNETSSWIC",
+  "counterface": "C45 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry air",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": null,
+  "pa6_grade": "Sustamid 6",
+  "source_doi": "10.12913/22998624/161591",
+  "n_conditions": 24
+}

@@ -1,0 +1,10 @@
+PAPER_ID: GNPCFPBO2019
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1. COF curves of different GNP content filled PA6,6 composites.
+X_AXIS: Distance (m)
+Y_AXIS: Coefficient of Friction
+SERIES: -PA6,6, -0.1GNP, -0.3GNP, -0.5GNP
+TEST_CONDITIONS: Pin-on-disc adhesive wear test, 3 mm radius ceramic ball, 4 mm friction radius, 35 N contact load, 70 m sliding distance, 100 rpm disc speed
+WHAT_TO_EXTRACT: Steady-state COF values over sliding distance
+WEBPLOTDIGITIZER_NOTES: Linear scale on both axes (0 to 70 m on X-axis, 0 to 0.5 on Y-axis). Multiple overlapping lines.

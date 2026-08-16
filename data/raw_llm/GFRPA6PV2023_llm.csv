@@ -1,0 +1,3 @@
+paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+GFRPA6PV2023,PA6,unfilled,,,,,,10,0.0016037830496575896,,0.07803,other,PoD,dry,50,25,injection,0.878,0.012371,6.814,7.7,,10.1016/j.triboint.2023.109059,table,high,SiC abrasive paper grit 200 counterface; 300 rpm; Converted from rpm to m/s using 50 mm disc diameter
+GFRPA6PV2023,PA6,unfilled,,,,,,20,0.0016037830496575896,,0.15607,other,PoD,dry,50,25,injection,0.857,0.011327,12.478,14.1,,,,,Converted from rpm to m/s using 50 mm disc diameter

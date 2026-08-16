@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016
+PAGE: 13
+FIGURE_TYPE: line_graph
+CAPTION: Figure 19. Surface roughness of various weight percentage for Al2O3 and graphite composites.
+X_AXIS: PA6 and PA6 with Al2O3 and graphite wt% (PA6, 5%, 10%, 20%, 30%)
+Y_AXIS: Surface roughness, Ra (micrometre)
+SERIES: Al2O3, Graphite
+TEST_CONDITIONS: 30 N load post-wear surface roughness measurements
+WHAT_TO_EXTRACT: Surface roughness Ra (µm) for Al2O3 and graphite filled PA6 composites
+WEBPLOTDIGITIZER_NOTES: Linear plot over weight percentages; exact numerical values are also provided in Table 5 on the same page

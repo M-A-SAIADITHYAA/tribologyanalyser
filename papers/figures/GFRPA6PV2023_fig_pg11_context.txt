@@ -1,0 +1,10 @@
+PAPER_ID: GFRPA6PV2023
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10. Variation of the coefficient of friction (μ) with the abrading time at 40 N for PA6 and PA6 composites; Left hand side: PA6 at 400 rpm, 600 rpm and 800 rpm, and Right hand side: PA625GF at 400 rpm, 600 rpm and 800 rpm.
+X_AXIS: Timestamp (Seconds)
+Y_AXIS: Coefficient of friction (μ)
+SERIES: PA6 at 400 RPM, PA6 at 600 RPM, PA6 at 800 RPM, PA6 at 1000 RPM, PA625GF at 400 RPM, PA625GF at 600 RPM, PA625GF at 800 RPM, PA625GF at 1000 RPM
+TEST_CONDITIONS: Applied Load = 50 N; Speeds = 400, 600, 800, 1000 RPM; Materials = PA6, PA625GF
+WHAT_TO_EXTRACT: Friction evolution and failure transition thresholds (excessive increase in friction)
+WEBPLOTDIGITIZER_NOTES: Multiple vertically stacked subplots. High spikes at 800 and 1000 RPM indicate failure.

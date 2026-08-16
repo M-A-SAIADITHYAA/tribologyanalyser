@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 14. Wear rate of 30 N load. / Figure 15. Variations of the friction co-efficient for PA6 and graphite/PA6 composites.
+X_AXIS: Sliding velocity (m s⁻¹) (Fig 14) / Load (N) (Fig 15)
+Y_AXIS: Wear rate (mm³ Nm⁻¹) (Fig 14) / Co-efficient of friction (Fig 15)
+SERIES: PA6, 5% graphite, 10% graphite, 20% graphite, 30% graphite
+TEST_CONDITIONS: Dry friction against EN31 steel disc across loads 5 N, 10 N, 20 N, 30 N
+WHAT_TO_EXTRACT: Wear rate at 30 N load (Fig 14); Friction coefficient vs load for graphite composites (Fig 15)
+WEBPLOTDIGITIZER_NOTES: Figure 15 shows COF versus applied load (5, 10, 20, 30 N)

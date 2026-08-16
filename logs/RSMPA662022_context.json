@@ -1,0 +1,14 @@
+{
+  "paper_id": "RSMPA662022",
+  "counterface": "EN31 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 165,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "m3/Nm",
+  "fabrication": "injection molding",
+  "pa6_grade": "PA66",
+  "source_doi": "10.3390/ma15196520",
+  "n_conditions": 20
+}

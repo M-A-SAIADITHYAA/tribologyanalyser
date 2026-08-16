@@ -1,0 +1,14 @@
+{
+  "paper_id": "SPRINGER2015",
+  "counterface": null,
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "m2/N",
+  "fabrication": null,
+  "pa6_grade": null,
+  "source_doi": "10.1007/s40430-015-0398-1",
+  "n_conditions": 27
+}

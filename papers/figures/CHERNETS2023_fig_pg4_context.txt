@@ -1,0 +1,10 @@
+PAPER_ID: CHERNETS2023
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Wear resistance diagrams of polyamides for MP bearings.
+X_AXIS: Specific friction force τ (MPa)
+Y_AXIS: Wear resistance indicator Φ(τ) (dimensionless, log scale)
+SERIES: 1 - PA6, 2 - PA66, 3 - PA6+30GF, 4 - PA6+MoS2, 5 - PA6+30CF, 6 - PA6+Oil
+TEST_CONDITIONS: Dry sliding end friction, v = 0.4 m/s, paired with carbon steel (0.45%C), contact pressure pi = 2, 4, 6, 8 MPa
+WHAT_TO_EXTRACT: Wear resistance values Φ(τ) across specific friction force τ
+WEBPLOTDIGITIZER_NOTES: Y-axis uses logarithmic scale (10^7 to 10^9). Multiple overlapping dashed and solid lines between τ = 0.4 and 2.8 MPa.

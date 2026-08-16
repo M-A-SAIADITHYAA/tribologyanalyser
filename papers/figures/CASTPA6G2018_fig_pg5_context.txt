@@ -1,0 +1,10 @@
+PAPER_ID: CASTPA6G2018
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. Friction coefficients of natural cast PA6 samples (a) composite PA6 (b) under 10 cycles, 5 speed levels (v1-2 = 0.0083 m/s, v3-4 = 0.016 m/s, v5-6 = 0.03 m/s, v7-8 = 0.041 m/s, v9-10 = 0.083 m/s).
+X_AXIS: time [s]
+Y_AXIS: friction coefficient
+SERIES: PA 6G/1 (natural), PA 6G/2 (natural), PA 6G SL/1 (composite), PA 6G SL/2 (composite)
+TEST_CONDITIONS: Pin-on-plate dynamic II conditions, p = 3.05 MPa, v = 0.008-0.08 m/s, pv regime 0.024-0.24 MPa m/s
+WHAT_TO_EXTRACT: Running-in friction coefficient variations across speed/cycle levels
+WEBPLOTDIGITIZER_NOTES: High frequency oscillation per cycle; read mean COF per cycle block or amplitude range

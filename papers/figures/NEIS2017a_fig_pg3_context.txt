@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017a
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Evolution of the coefficient of friction with the sliding distance for the PA6/SS contact configuration at 0.4 m/s and 6 N.
+X_AXIS: Sliding distance, km
+Y_AXIS: Coefficient of friction
+SERIES: PA6/SS at 0.4 m/s, 6 N
+TEST_CONDITIONS: PA6 pin sliding against SS disc (PA6/SS), Load = 6 N (0.85 MPa), Speed = 0.4 m/s
+WHAT_TO_EXTRACT: Steady-state coefficient of friction plateau value (~0.44)
+WEBPLOTDIGITIZER_NOTES: Linear axes. Read steady-state plateau after initial run-in (x > 0.5 km).

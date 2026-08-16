@@ -1,0 +1,10 @@
+PAPER_ID: CASTPA6G2018
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5. Pin-on-disc model results of normal operating condition of a polymer slide bearing: pv = 0.43 MPa ms−1 with v = 0.14 m/s, dry friction.
+X_AXIS: sliding distance [m]
+Y_AXIS: (a) friction coefficient, (b) wear [mm], (c) temperature [°C]
+SERIES: PA 6G/1, PA 6G/2, PA 6G SL/1, PA 6G SL/2
+TEST_CONDITIONS: Pin-on-disc LPV condition: p = 3.05 MPa, v = 0.14 m/s, pv = 0.43 MPa ms-1, dry friction
+WHAT_TO_EXTRACT: Steady-state COF plateau (distance > 1000 m), cumulative wear displacement at 2000 m, steady-state contact temperature plateau
+WEBPLOTDIGITIZER_NOTES: Linear x-axis from 0 to 2000 m. Curves stabilize into steady state after ~500-1000 m

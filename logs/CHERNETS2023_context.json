@@ -1,0 +1,14 @@
+{
+  "paper_id": "CHERNETS2023",
+  "counterface": "normalized carbon steel (0.45%C)",
+  "test_type": "end friction",
+  "environment": "dry",
+  "disc_diameter_mm": 3.0,
+  "load_unit": "MPa",
+  "speed_unit": "m/s",
+  "wear_unit": "mm",
+  "fabrication": "cast",
+  "pa6_grade": null,
+  "source_doi": "10.24874/ti.1526.07.23.09",
+  "n_conditions": 30
+}

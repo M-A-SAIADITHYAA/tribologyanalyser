@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017a
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. a) Coefficient of friction, b) wear of the stationary PA6 pin and c) temperature of the PA6 pin for the PA6/SS combination.
+X_AXIS: Sliding speed, m/s
+Y_AXIS: a) Coefficient of friction, /; b) Wear of PA6 pin, mm^3/Nm; c) PA6 pin temperature, °C
+SERIES: 4 N, 6 N, 8 N
+TEST_CONDITIONS: PA6 pin sliding against SS disc (PA6/SS), Loads = 4 N, 6 N, 8 N; Speeds = 0.4, 0.7, 1.0 m/s
+WHAT_TO_EXTRACT: Friction coefficient, pin wear rate, and pin temperature as a function of sliding speed and load
+WEBPLOTDIGITIZER_NOTES: Fig. 3b uses a logarithmic Y-axis scale (10^-6 to 10^-4 mm^3/Nm). Fig. 3a and 3c use linear Y-axes.

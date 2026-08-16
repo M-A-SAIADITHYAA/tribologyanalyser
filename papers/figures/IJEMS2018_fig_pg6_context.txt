@@ -1,0 +1,10 @@
+PAPER_ID: IJEMS2018
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10 — Effect of control factor on specific wear rate for S/N ratio
+X_AXIS: Control factors: Glass Fiber (wt%), Load (N), Sliding Velocity (m/s)
+Y_AXIS: Mean of SN ratios for Specific Wear Rate
+SERIES: Glass Fiber wt%, Applied Load N, Sliding Velocity m/s
+TEST_CONDITIONS: Taguchi L16 experimental design factor levels
+WHAT_TO_EXTRACT: S/N ratio values for specific wear rate across factor levels
+WEBPLOTDIGITIZER_NOTES: 3-panel main effects plot for S/N ratio with discrete levels

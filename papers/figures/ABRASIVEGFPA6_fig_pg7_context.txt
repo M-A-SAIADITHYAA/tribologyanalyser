@@ -1,0 +1,10 @@
+PAPER_ID: ABRASIVEGFPA6
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 6 Young’s modulus for PA6 and glass fibre reinforced PA6 at different fibre volume fractions
+X_AXIS: Material compositions (PA6, PA625GF, PA625GF5MoS2, PA633GF, PA650GF)
+Y_AXIS: Young's Modulus (MPa)
+SERIES: Young's Modulus
+TEST_CONDITIONS: Tensile testing (ASTM D638-10), crosshead speed = 5 mm/min, room temperature
+WHAT_TO_EXTRACT: Young's modulus values for PA6 and its composites
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis with 5 data points

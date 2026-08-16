@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. Temperature variation with sliding distance for different samples under: (a) 60 N load, and (b) 100 N load.
+X_AXIS: Sliding Distance (m)
+Y_AXIS: Temperature (°C)
+SERIES: PA6, PA6/2.5NZ, PA6/5NZ, PA6/7.5NZ
+TEST_CONDITIONS: Pin-on-disk test, sliding speed = 0.5 m/s, sliding distance = 6000 m, applied loads = 60 N (a) and 100 N (b)
+WHAT_TO_EXTRACT: Final steady-state surface temperature at 6000 m for each material formulation
+WEBPLOTDIGITIZER_NOTES: Highly fluctuating noise on temperature curves, particularly for neat PA6 under 100 N load; Fig. 9 on same page is a bar chart showing specific wear rate and is extractable by LLM

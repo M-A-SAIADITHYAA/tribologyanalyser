@@ -1,0 +1,10 @@
+PAPER_ID: NANOZEOLITE2024
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. Sensitivity analysis of friction coefficient and specific wear rate as output variables, in response to CDI, load, and hardness as input factors.
+X_AXIS: (a, e) CDI; (b, f) Load (N); (c, g) Hardness, Shore D
+Y_AXIS: (a-c) Predicted Friction Coefficient; (e-g) Predicted specific wear rate (mm^3/Nm) x 10^-5
+SERIES: SVR sensitivity response curve
+TEST_CONDITIONS: One-at-a-time parameter sensitivity evaluation holding two input variables at mean values while varying the third
+WHAT_TO_EXTRACT: Functional trend and value ranges for friction coefficient and wear rate across CDI, load, and hardness ranges
+WEBPLOTDIGITIZER_NOTES: Six clean subplots with individual 1D sensitivity curves

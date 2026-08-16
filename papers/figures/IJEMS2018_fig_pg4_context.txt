@@ -1,0 +1,10 @@
+PAPER_ID: IJEMS2018
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5 — Relation between sliding distance and coefficient of friction under varying glass fiber content at velocity 0.5 m/s irrespective of load
+X_AXIS: Sliding Distance (m)
+Y_AXIS: Coefficient of friction (μ)
+SERIES: 0 wt% GF, 10 wt% GF, 20 wt% GF, 30 wt% GF
+TEST_CONDITIONS: Sliding velocity = 0.5 m/s, varying glass fiber content (0, 10, 20, 30 wt%), constant sliding distance = 1000 m
+WHAT_TO_EXTRACT: Steady-state COF vs sliding distance
+WEBPLOTDIGITIZER_NOTES: Linear scales; 4 continuous curves across 0 to 1000 m sliding distance

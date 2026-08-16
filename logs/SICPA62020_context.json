@@ -1,0 +1,14 @@
+{
+  "paper_id": "SICPA62020",
+  "counterface": "EN31 Steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 100,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection moulding",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.dib.2020.105662",
+  "n_conditions": 20
+}

@@ -1,0 +1,14 @@
+{
+  "paper_id": "IJEMS2018",
+  "counterface": "AISI D2 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 70,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molded",
+  "pa6_grade": null,
+  "source_doi": null,
+  "n_conditions": 16
+}

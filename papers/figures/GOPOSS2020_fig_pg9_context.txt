@@ -1,0 +1,10 @@
+PAPER_ID: GOPOSS2020
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 9. (a) Friction coefficient of PA6/rGO-POSS nanocomposites with varying rGO-POSS content. (b) Variations of the wear rate of pure PA6 and PA6/rGO-POSS nanocomposites under different contents.
+X_AXIS: Time (s)
+Y_AXIS: Friction coefficient
+SERIES: PA6, PA6/rGO-POSS(0.1%), PA6/rGO-POSS(0.3%), PA6/rGO-POSS(0.5%), PA6/rGO-POSS(0.7%), PA6/rGO-POSS(0.9%)
+TEST_CONDITIONS: Dry sliding ball-on-block reciprocating test against 45# steel ball, Load = 12 N, Sliding frequency = 4 Hz, Stroke length = 5 mm, Duration = 2 h (3600 s)
+WHAT_TO_EXTRACT: Steady-state friction coefficient plateau values over time for each rGO-POSS content
+WEBPLOTDIGITIZER_NOTES: Multiple curves closely spaced at low COF values (0.05 to 0.10) for 0.1–0.7 wt% loadings. The 0.9 wt% loading curve features a sharp, large peak between ~2500 s and ~3100 s.

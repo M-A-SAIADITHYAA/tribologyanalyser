@@ -1,0 +1,9 @@
+paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+NANOZEOLITE2024,PA6,unfilled,0,,,,,,60,0.5,6000,,steel,PoD,dry,35,,extrusion,0.3,0.0000288,,,42,10.1016/j.triboint.2024.110455,mixed,medium,Neat PA6 baseline at 60 N
+NANOZEOLITE2024,PA6,nano-zeolite,2.5,,,,,,60,0.5,6000,,steel,PoD,dry,35,,extrusion,0.24,0.0000197386,,,28,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 1
+NANOZEOLITE2024,PA6,nano-zeolite,5,,,,,,60,0.5,6000,,steel,PoD,dry,35,,extrusion,0.2,0.0000165692,,,24,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 2
+NANOZEOLITE2024,PA6,nano-zeolite,7.5,,,,,,60,0.5,6000,,steel,PoD,dry,35,,extrusion,0.33,0.0000226608,,,31,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 3
+NANOZEOLITE2024,PA6,unfilled,0,,,,,,100,0.5,6000,,steel,PoD,dry,35,,extrusion,0.7,0.0000666,,,66,10.1016/j.triboint.2024.110455,mixed,medium,Neat PA6 baseline at 100 N
+NANOZEOLITE2024,PA6,nano-zeolite,2.5,,,,,,100,0.5,6000,,steel,PoD,dry,35,,extrusion,0.51,0.0000327485,,,38,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 4
+NANOZEOLITE2024,PA6,nano-zeolite,5,,,,,,100,0.5,6000,,steel,PoD,dry,35,,extrusion,0.39,0.000028655,,,36,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 5
+NANOZEOLITE2024,PA6,nano-zeolite,7.5,,,,,,100,0.5,6000,,steel,PoD,dry,35,,extrusion,0.65,0.0000425439,,,42,10.1016/j.triboint.2024.110455,table,high,Table 3 Test 6

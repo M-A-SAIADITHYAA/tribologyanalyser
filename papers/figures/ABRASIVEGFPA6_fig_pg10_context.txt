@@ -1,0 +1,10 @@
+PAPER_ID: ABRASIVEGFPA6
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8 Average specific wear rate for polymers and their fibre reinforced variations for three different grit sizes of SiC counter-face
+X_AXIS: Material compositions (PA6, PA633GF, PA625GF5MoS2, PA625GF, PA650GF)
+Y_AXIS: Specific Wear Rate (mm3/N.m x 10-3)
+SERIES: Grit size 220, Grit size 500, Grit size 1000
+TEST_CONDITIONS: Pin-on-disc abrasive wear test, load = 10 N, abrading distance = 257.48 m, speed = 72 rpm (0.31 m/s), dry sliding
+WHAT_TO_EXTRACT: Specific wear rate values for each material at 220, 500, and 1000 grit sizes
+WEBPLOTDIGITIZER_NOTES: 3 distinct data series on a categorical X-axis; values for grit size 220 (20–50 x10^-3 mm3/N.m) are significantly larger than those for 500 and 1000 grit sizes (<10 x10^-3 mm3/N.m)

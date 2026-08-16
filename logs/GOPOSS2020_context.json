@@ -1,0 +1,14 @@
+{
+  "paper_id": "GOPOSS2020",
+  "counterface": "45# steel ball",
+  "test_type": "ball-on-block",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "Hz",
+  "wear_unit": "mm3/N m",
+  "fabrication": "in-situ polymerization",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.triboint.2020.106747",
+  "n_conditions": 6
+}

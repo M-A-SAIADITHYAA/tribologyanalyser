@@ -1,0 +1,10 @@
+PAPER_ID: SILICAPA62020
+PAGE: 2
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1. Variation of coefficient of friction and wear rate values of pure PA6 and silica filled polyamide composites at the sliding speeds of (a) 0.5 m/s, (b) 1.0 m/s, and (c) 1.5 m/s.
+X_AXIS: Applied load (N) / Silica content (wt%)
+Y_AXIS: Friction coefficient (left Y-axis) and Wear rate (mm^3/m) (right Y-axis)
+SERIES: 4 compositions (Pure PA6, PA6+5 wt% silica, PA6+10 wt% silica, PA6+30 wt% silica) tested across loads and speeds
+TEST_CONDITIONS: Loads = 5, 10, 20 N; Sliding speeds = 0.5, 1.0, 1.5 m/s; Materials = Pure PA6 and PA6/SiO2 composites; Counterface = AISI 4140 steel (65 HRc), dry sliding
+WHAT_TO_EXTRACT: Coefficient of friction and wear rate values as a function of load, sliding speed, and silica filler weight percentage
+WEBPLOTDIGITIZER_NOTES: Figure 1 contains sub-panels (a, b, c) for speeds 0.5, 1.0, and 1.5 m/s, each with dual Y-axes (left for COF, right for wear rate). Figure 2 contains 2D contour maps of wear rate.

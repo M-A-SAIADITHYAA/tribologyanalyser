@@ -1,0 +1,10 @@
+PAPER_ID: RSMPA662022
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. (a) Relationship between actual and predicted values of GFRPA66 30 wt.% COF; (b) relationship between actual and predicted values of GFRPA66 35 wt.% COF; (c) relationship between actual and predicted values of GFRPA66 30 wt.% SWR; (d) relationship between actual and predicted values of GFRPA66 35 wt.% SWR.
+X_AXIS: Actual
+Y_AXIS: Predicted
+SERIES: GFRPA66 30 wt.% COF, GFRPA66 35 wt.% COF, GFRPA66 30 wt.% SWR, GFRPA66 35 wt.% SWR
+TEST_CONDITIONS: Load (60, 70, 80 N), Sliding velocity (0.16, 0.19, 0.22 m/s), Sliding distance (2500, 3000, 3500 m) for GFRPA66 composites
+WHAT_TO_EXTRACT: Model validation alignment between actual and predicted values
+WEBPLOTDIGITIZER_NOTES: Scatter plots with 45-degree reference line for RSM regression model accuracy validation

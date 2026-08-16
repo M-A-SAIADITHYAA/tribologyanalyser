@@ -1,0 +1,10 @@
+PAPER_ID: SPRINGER2015
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1 Main effect plots for specific wear rate of pure PA 6 composites; Fig. 2 Interaction effect plots for specific wear rate of PA 6 composites
+X_AXIS: Control factor levels (1, 2, 3)
+Y_AXIS: Mean of SN ratios (dB)
+SERIES: Main effects: Material type (A), Applied load (B), Sliding speed (C), Interaction effects: Material type x Applied load, Material type x Sliding speed, Applied load x Sliding speed
+TEST_CONDITIONS: Loads: 50, 75, 100 N; Sliding speeds: 0.4, 0.8, 1.6 m/s; Materials: PA 6, PA 6 + 15% graphite, PA 6 + 15% graphite + 4% wax
+WHAT_TO_EXTRACT: Mean S/N ratio values across control factor levels and their interactions
+WEBPLOTDIGITIZER_NOTES: Taguchi analysis S/N main effect and interaction plots with discrete factor levels (1, 2, 3) on the X-axis.
