@@ -27,3 +27,21 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-16 20:26:46,SPRINGER2015,done,22,0,22,0,1,
 2026-08-16 20:28:34,UNAL2023,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNAL2023_raw_response.txt
 2026-08-16 20:29:37,WOLLASTONITE2014,done,27,0,27,0,2,
+2026-08-17 10:42:14,ABRASIVECFPA6,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-08-17 10:44:18,AUTAY2019,done,16,0,16,0,5,
+2026-08-17 10:46:20,CFPA6FFF2021,done,3,2,1,0,4,
+2026-08-17 10:47:57,NEIS2017b,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-08-17 10:48:56,PA66BLEND2017,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-08-17 10:50:09,PA6B2O32021,done,7,0,7,0,2,
+2026-08-17 10:51:16,PA6PPS2015,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/PA6PPS2015_raw_response.txt
+2026-08-17 10:52:16,PA6TPU2015,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-08-17 10:53:55,UNAL2023,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNAL2023_raw_response.txt
+2026-08-17 10:55:34,ABRASIVECFPA6,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/ABRASIVECFPA6_raw_response.txt
+2026-08-17 10:57:58,NEIS2017b,done,19,3,16,0,3,
+2026-08-17 11:05:40,ABRASIVECFPA6,failed,0,0,0,0,0,RuntimeError: Unable to upload ABRASIVECFPA6.pdf after 3 attempts
+2026-08-17 11:07:45,ABRASIVECFPA6,done,5,0,5,0,2,
+2026-08-17 11:09:41,PA66BLEND2017,done,5,4,1,0,2,
+2026-08-17 11:11:29,PA6PPS2015,done,3,0,3,0,5,
+2026-08-17 11:13:03,PA6TPU2015,done,12,0,12,0,2,
+2026-08-17 11:14:05,UNAL2023,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-08-17 11:17:04,UNAL2023,done,17,0,17,0,3,

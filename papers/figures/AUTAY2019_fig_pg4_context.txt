@@ -1,0 +1,10 @@
+PAPER_ID: AUTAY2019
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. Stress–strain curves versus glass fiber weight fractions.
+X_AXIS: Strain %
+Y_AXIS: Stress (MPa)
+SERIES: PA66GF00, PA66GF10, PA66GF20, PA66GF30
+TEST_CONDITIONS: Monotonic tensile test per ISO 527-1/2, crosshead speed 1 mm/min, room temperature, 50% relative humidity
+WHAT_TO_EXTRACT: Ultimate tensile strength (peak stress) and elongation at break
+WEBPLOTDIGITIZER_NOTES: Curves show transition from ductile (PA66GF00) to brittle (PA66GF30) behavior.

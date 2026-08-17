@@ -1,0 +1,14 @@
+{
+  "paper_id": "NEIS2017b",
+  "counterface": "steel SAE 1020",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 159,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "g",
+  "fabrication": "cast",
+  "pa6_grade": "TECAST T, TECAST T MO Black, TECAGLIDE Green",
+  "source_doi": "10.1016/j.wear.2017.01.090",
+  "n_conditions": 20
+}

@@ -1,0 +1,10 @@
+PAPER_ID: PA6TPU2015
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 8. Friction coefficient and wear rate of PA6 and PA6-TPU composites at a normal load of 5 N and sliding speed of 500 r/min.
+X_AXIS: TPU content (wt%)
+Y_AXIS: Left axis: Friction coefficient; Right axis: Wear rate (×10⁻⁴ mm³/Nm)
+SERIES: Friction coefficient (square symbols), Wear rate (triangle symbols)
+TEST_CONDITIONS: Normal load = 5 N, sliding speed = 500 r/min, counterface = 6-mm chromium steel ball
+WHAT_TO_EXTRACT: Friction coefficient and specific wear rate at TPU contents 0, 5, 10, and 15 wt%
+WEBPLOTDIGITIZER_NOTES: Dual Y-axes line plot. Left axis ranges from 0.32 to 0.44 for friction coefficient; right axis ranges from 8 to 22 (×10⁻⁴ mm³/Nm) for wear rate.

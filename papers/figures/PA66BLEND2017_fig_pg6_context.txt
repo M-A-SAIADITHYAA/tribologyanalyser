@@ -1,0 +1,10 @@
+PAPER_ID: PA66BLEND2017
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Figure 4. Impact of sliding velocity on wear response of Nano composites: a) Wear volume loss and b) Specific wear rate
+X_AXIS: Sliding Velocity (m/s)
+Y_AXIS: a) Wear Volume (mm3), b) Specific Wear rate, Ks x 10-6 (mm3/N-m)
+SERIES: Blend(PA66/PA6), Blend/PTFE /MoS2, Blend/PTFE /MoS2 /TiO2 /Nanographene
+TEST_CONDITIONS: Load = 100 N, Distance = 1000 m, Velocity = 0.5, 1.0, 1.5, 2.0 m/s
+WHAT_TO_EXTRACT: Wear volume loss (mm3) and Specific wear rate (x 10-6 mm3/N-m) vs Sliding velocity
+WEBPLOTDIGITIZER_NOTES: Two subplots side by side (a and b). Linear scales. 3 data series per plot. SEM figures at the bottom of the page.

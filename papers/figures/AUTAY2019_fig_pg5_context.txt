@@ -1,0 +1,10 @@
+PAPER_ID: AUTAY2019
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Figure 6. Flexural stress–strain curves versus glass fiber weight fractions.
+X_AXIS: Flexural strain
+Y_AXIS: Flexural stress (MPa)
+SERIES: PA66GF00, PA66GF10, PA66GF20, PA66GF30
+TEST_CONDITIONS: Three-point bending test per ASTM D-790, crosshead speed 5 mm/min, support span 70 mm
+WHAT_TO_EXTRACT: Maximum flexural stress (flexural strength) and strain at peak
+WEBPLOTDIGITIZER_NOTES: Smooth continuous flexural stress-strain curves up to strain ~0.11.

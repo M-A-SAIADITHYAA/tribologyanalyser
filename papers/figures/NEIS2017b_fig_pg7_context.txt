@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017b
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 13. Friction-time curves showing classical stick-slip motion for the green and black PA 6 analyzed in this study.
+X_AXIS: Time [s]
+Y_AXIS: Coefficient of friction [-]
+SERIES: Black PA 6, Green PA 6
+TEST_CONDITIONS: Low-velocity sliding tests (4.2 mm/s) for stick-slip measurement
+WHAT_TO_EXTRACT: Amplitude and baseline levels of friction coefficient stick-slip oscillations
+WEBPLOTDIGITIZER_NOTES: High-frequency saw-tooth oscillations overlapping across 0–10 seconds interval.

@@ -1,0 +1,10 @@
+PAPER_ID: AUTAY2019
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Figure 10. Wear rate versus rubbing time.; Figure 12. Coefficient of friction versus rubbing time for F = 25 N.
+X_AXIS: Rubbing time (min / s)
+Y_AXIS: Wear rate (%) / Coefficient of friction
+SERIES: PA66GF00, PA66GF10, PA66GF20, PA66GF30
+TEST_CONDITIONS: Reciprocating flat-on-flat abrasive wear test against grade 60 SiC paper, stroke 56 mm, speed 0.056 m/s, frequency 1 Hz, normal load F = 25.6 N / 55.6 N
+WHAT_TO_EXTRACT: Wear rate percentage over time (Fig 10) and steady-state COF over time (Fig 12)
+WEBPLOTDIGITIZER_NOTES: Figure 11 on this page is a bar chart extractable directly by LLM showing wear rate % vs GF weight fraction at 25.6 N and 55.6 N.

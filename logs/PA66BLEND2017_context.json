@@ -1,0 +1,14 @@
+{
+  "paper_id": "PA66BLEND2017",
+  "counterface": "hardened steel disc",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 165,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3, mm3/N-m",
+  "fabrication": "extrusion melt mixing followed by injection moulding",
+  "pa6_grade": "Zytel 101L NC010",
+  "source_doi": null,
+  "n_conditions": 21
+}

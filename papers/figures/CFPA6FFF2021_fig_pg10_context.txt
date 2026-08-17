@@ -1,0 +1,10 @@
+PAPER_ID: CFPA6FFF2021
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 14. Comparison between specimens with and without CM process in different fibre orientations in terms of (a) coefficient of friction, and (b) wear rate.
+X_AXIS: Pressure (MPa) [for a]; pv (MPa·m/s) [for b]
+Y_AXIS: Coefficient of friction [for a]; Time-related depth wear rate (nm/s) [for b]
+SERIES: 6 series: Parallel, Parallel (with CM), Anti-parallel, Anti-parallel (with CM), Normal, Normal (with CM)
+TEST_CONDITIONS: As-printed vs compression moulding (CM) post-processed CCF/PA6 composites, speed 0.5 m/s, pressures 0.5, 1.0, 2.0 MPa
+WHAT_TO_EXTRACT: COF vs nominal pressure and depth wear rate vs pv factor comparing standard and CM processed specimens
+WEBPLOTDIGITIZER_NOTES: Multiple overlapping data lines in both subplots; careful reading required for CM vs non-CM curves

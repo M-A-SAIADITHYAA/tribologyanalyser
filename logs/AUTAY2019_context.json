@@ -1,0 +1,14 @@
+{
+  "paper_id": "AUTAY2019",
+  "counterface": "100Cr6 bearing steel ball (friction), SiC abrasive paper grade 60 (wear)",
+  "test_type": "reciprocating ball-on-flat (friction), reciprocating flat-on-flat (wear)",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "%",
+  "fabrication": "injection molding",
+  "pa6_grade": "HERAMID A NAT (PA66)",
+  "source_doi": "10.1177/0967391119853956",
+  "n_conditions": 16
+}

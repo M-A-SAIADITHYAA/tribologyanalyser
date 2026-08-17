@@ -1,0 +1,10 @@
+PAPER_ID: AUTAY2019
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Figure 13. Coefficient of friction versus rubbing time for F = 55 N.
+X_AXIS: Rubbing time (s)
+Y_AXIS: Coefficient of friction
+SERIES: PA66GF00, PA66GF10, PA66GF20, PA66GF30
+TEST_CONDITIONS: Flat-on-flat abrasive wear test against SiC paper (grade 60), load F = 55.6 N, speed v = 0.056 m/s, stroke 56 mm
+WHAT_TO_EXTRACT: Quasi-stable COF values during rubbing time (100–600 s)
+WEBPLOTDIGITIZER_NOTES: Read plateau value after initial run-in (x > 100 s). SEM micrographs (Figure 14) are present on the lower half of the page.

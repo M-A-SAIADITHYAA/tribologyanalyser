@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017b
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Friction and temperature curves obtained in the PV tests, for conditions (a) before reaching the PV limit, and (b) after PV limit is reached (Specimen used in this test: TECAGLIDE Green).
+X_AXIS: Time [s]
+Y_AXIS: Left Y-axis: Coefficient of friction [-]; Right Y-axis: Temperature [°C]
+SERIES: COF (green line), Temperature (red line)
+TEST_CONDITIONS: Material: TECAGLIDE Green; Load: 500 N; Speed: 250 RPM for (a) and 300 RPM for (b)
+WHAT_TO_EXTRACT: Friction coefficient and temperature stability before PV limit versus rapid temperature rise and COF instability after reaching PV limit
+WEBPLOTDIGITIZER_NOTES: Dual Y-axes on both subplots (a and b). Note: Page also contains bar charts in Fig. 5 (Mean coefficient of friction) and Fig. 6 (Mass loss) which are extractable directly by LLM.

@@ -1,0 +1,10 @@
+PAPER_ID: CFPA6FFF2021
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. Comparison of tribological performance: (a) coefficient of friction; (b) time-related depth wear rate under different printing layer directions.
+X_AXIS: pv (MPa·m/s) [for b]; Pressure (MPa) [for a]
+Y_AXIS: Time-related depth wear rate (nm/s) [for b]; Coefficient of friction [for a]
+SERIES: 2 series: N-perpendicular, N-parallel
+TEST_CONDITIONS: CCF/PA6 composite in N-fibre orientation, layer deposition directions perpendicular vs parallel, speed 0.5 m/s, pressures 0.5, 1.0, 2.0 MPa
+WHAT_TO_EXTRACT: Depth wear rate vs pv factor and COF vs pressure for layer directions
+WEBPLOTDIGITIZER_NOTES: Two series showing minimal deviation between printing layer directions

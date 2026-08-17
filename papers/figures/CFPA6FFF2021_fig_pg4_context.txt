@@ -1,0 +1,10 @@
+PAPER_ID: CFPA6FFF2021
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. (a) The friction and (b) wear behaviour of neat PA6 tested under different loads. Fig. 5. Representative evolution of the friction coefficients in the P-, AP-, and N-fibre orientation as a function of sliding time.
+X_AXIS: Time (h)
+Y_AXIS: Coefficient of friction
+SERIES: Fig 4a: 3 series (0.5 MPa, 1 MPa, 2 MPa for neat PA6); Fig 5: 3 subplots (P, AP, N) with 3 load series each (0.5 MPa, 1 MPa, 2 MPa)
+TEST_CONDITIONS: Unlubricated pin-on-disc, sliding speed 0.5 m/s, normal pressures 0.5, 1.0, 2.0 MPa, testing time 20 h
+WHAT_TO_EXTRACT: Friction coefficient evolution over time and steady-state values
+WEBPLOTDIGITIZER_NOTES: Fig 5 contains multiple overlapping curves across subplots; digitize plateau regions for steady-state COF

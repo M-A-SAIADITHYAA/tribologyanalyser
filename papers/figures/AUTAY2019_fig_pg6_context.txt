@@ -1,0 +1,10 @@
+PAPER_ID: AUTAY2019
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Figure 8. Coefficient of friction versus glass fiber rate when sliding parallel (0°) to the fiber direction.; Figure 9. Coefficient of friction versus glass fiber rate when sliding perpendicular (90°) to the fiber direction.
+X_AXIS: Number of cycles
+Y_AXIS: Coefficient of friction
+SERIES: PA66GF00, PA66GF10, PA66GF20, PA66GF30
+TEST_CONDITIONS: Reciprocating friction test, ball-on-flat configuration (100Cr6 steel ball, 20 mm diameter), normal load 22.4 N, Hertzian pressure 966 MPa, stroke 10 mm, speed 0.01 m/s, frequency 1 Hz, 40% RH, dry sliding
+WHAT_TO_EXTRACT: Steady-state coefficient of friction plateau (after 15,000 cycles)
+WEBPLOTDIGITIZER_NOTES: Read steady-state values after initial run-in period (x > 15,000 cycles) for both 0° and 90° orientation graphs.

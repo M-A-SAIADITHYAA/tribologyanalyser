@@ -1,63 +1,72 @@
 paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes,date_added
-CASTPA6G2018,PA6,unfilled,,,,,,59.89,0.14,2000,0.43,steel,PoD,dry,57,23,cast,0.5,,,,40,10.1016/j.compositesb.2018.10.017,line_graph,medium,LPV steady-state condition; linear wear ~0.035 mm,2026-08-16
-CASTPA6G2018,PA6,other,,,,,,59.89,0.14,2000,0.43,steel,PoD,dry,57,23,cast,0.48,,,,29,10.1016/j.compositesb.2018.10.017,line_graph,medium,LPV steady-state condition; PE solid lubricant filler; linear wear ~0.025 mm,2026-08-16
-CASTPA6G2018,PA6,unfilled,,,,,,159.83,0.22,3000,1.79,steel,PoD,dry,57,23,cast,0.75,,,,180,10.1016/j.compositesb.2018.10.017,prose,high,HPV overload condition; surface melting occurred; linear wear ~0.17 mm,2026-08-16
-CASTPA6G2018,PA6,other,,,,,,159.83,0.22,3000,1.79,steel,PoD,dry,57,23,cast,0.4,,,,40,10.1016/j.compositesb.2018.10.017,prose,high,HPV overload condition; PE solid lubricant filler; linear wear ~0.11 mm,2026-08-16
-CASTPA6G2018,PA6,other,,,,,,68.72,0.083,,,steel,BoP,dry,57,23,cast,0.251,,,,,10.1016/j.compositesb.2018.10.017,table,high,Dynamic PoP test; PE filler; cycle 9 average for PA 6G SL/1,2026-08-16
-CHERNETS2023,PA6,unfilled,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.77,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-16
-CHERNETS2023,PA6,unfilled,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.52,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA6,unfilled,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.39,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA6,unfilled,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.34,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA6,unfilled,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-CHERNETS2023,PA66,unfilled,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.50,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA66,unfilled,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.36,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA66,unfilled,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.31,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA66,unfilled,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.25,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-CHERNETS2023,PA6,GF,30,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.88,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-16
-CHERNETS2023,PA6,GF,30,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.68,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA6,GF,30,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.53,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA6,GF,30,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.48,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA6,GF,30,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.42,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-CHERNETS2023,PA6,MoS2,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.60,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-16
-CHERNETS2023,PA6,MoS2,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.35,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA6,MoS2,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA6,MoS2,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.24,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA6,MoS2,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.20,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-CHERNETS2023,PA6,CF,30,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.85,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-16
-CHERNETS2023,PA6,CF,30,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.61,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA6,CF,30,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.48,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA6,CF,30,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.44,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA6,CF,30,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.35,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-CHERNETS2023,PA6,other,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.67,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-16
-CHERNETS2023,PA6,other,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.43,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-16
-CHERNETS2023,PA6,other,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.34,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-16
-CHERNETS2023,PA6,other,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-16
-CHERNETS2023,PA6,other,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.22,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-16
-GOPOSS2020,PA6,unfilled,0,,,,,12,0.04,288,,steel,BoP,dry,,,,0.44,0.000113,,,,10.1016/j.triboint.2020.106747,mixed,high,neat PA6 control,2026-08-16
-GOPOSS2020,PA6,GO,0.1,,,,,12,0.04,288,,steel,BoP,dry,,,,0.08,0.000065,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-16
-GOPOSS2020,PA6,GO,0.3,,,,,12,0.04,288,,steel,BoP,dry,,,,0.06,0.000038,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-16
-GOPOSS2020,PA6,GO,0.5,,,,,12,0.04,288,,steel,BoP,dry,,,,0.07,0.000048,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-16
-GOPOSS2020,PA6,GO,0.7,,,,,12,0.04,288,,steel,BoP,dry,,,,0.08,0.000006,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-16
-GOPOSS2020,PA6,GO,0.9,,,,,12,0.04,288,,steel,BoP,dry,,,,0.24,0.000085,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,4,0.4,25000,,steel,PoD,dry,40,24,injection,0.43,1.8e-5,,,33,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,4,0.7,25000,,steel,PoD,dry,40,24,injection,0.43,1.6e-5,,,37,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,4,1,25000,,steel,PoD,dry,40,24,injection,0.42,1.5e-5,,,41,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,6,0.4,25000,,steel,PoD,dry,40,24,injection,0.44,1.1e-5,,,34,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,6,0.7,25000,,steel,PoD,dry,40,24,injection,0.45,1.3e-5,,,40,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,6,1,25000,,steel,PoD,dry,40,24,injection,0.43,1.3e-5,,,45,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,8,0.4,25000,,steel,PoD,dry,40,24,injection,0.43,1.1e-5,,,37,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,8,0.7,25000,,steel,PoD,dry,40,24,injection,0.42,1.7e-5,,,41,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,8,1,25000,,steel,PoD,dry,40,24,injection,0.44,2e-5,,,47,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,4,1,25000,,steel,PoD,dry,40,24,injection,0.85,1.18e-5,,,117,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,6,1,25000,,steel,PoD,dry,40,24,injection,0.87,9.93e-5,,,147,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,8,1,25000,,steel,PoD,dry,40,24,injection,0.74,0.000121,,,160,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,6,0.4,50000,,PA6,PoD,dry,40,24,injection,0.77,1.2e-6,,,82,10.1016/j.wear.2017.01.118,mixed,high,Self-mated PA6/PA6; disc wear rate=2.0e-6 mm3/Nm,2026-08-16
-NEIS2017a,PA6,unfilled,,,,,,8,0.4,50000,,PA6,PoD,dry,40,24,injection,0.81,1.1e-6,,,100,10.1016/j.wear.2017.01.118,mixed,high,Self-mated PA6/PA6; disc wear rate=1.8e-6 mm3/Nm,2026-08-16
-UNAL2012,PA6,unfilled,0,,,,,50,0.4,1000,,steel,PoD,dry,,,injection,0.42,9e-5,,, ,10.1016/j.wear.2012.01.006,table,high,Steady-state value reported in table,2026-08-16
-UNAL2012,PA6,graphite,5,,,,,50,0.4,1000,,steel,PoD,dry,,,injection,0.31,4.8e-5,,,,10.1016/j.wear.2012.01.006,table,high,5 wt% graphite,2026-08-16
-UNAL2012,PA6,graphite,15,,,,,50,1.6,1000,,steel,PoD,dry,,,injection,0.24,2.1e-5,,,,10.1016/j.wear.2012.01.006,table,high,15 wt% graphite,2026-08-16
-UNAL2012,PA6,wax,4,,,,,50,1.6,1000,,steel,PoD,dry,,,injection,0.28,1.8e-5,,,,10.1016/j.wear.2012.01.006,table,high,4 wt% wax,2026-08-16
-UNAL2012,PA6,unfilled,0,,,,,100,0.4,1000,,steel,PoD,dry,,,injection,0.39,8.2e-5,,,,10.1016/j.wear.2012.01.006,table,high,Unfilled PA6 at 100 N,2026-08-16
-UNAL2012,PA6,graphite,5,,,,,100,0.4,1000,,steel,PoD,dry,,,injection,0.29,4.1e-5,,,,10.1016/j.wear.2012.01.006,table,high,5 wt% graphite at 100 N,2026-08-16
-UNAL2012,PA6,graphite,15,,,,,100,1.6,1000,,steel,PoD,dry,,,injection,0.18,8e-6,,,,10.1016/j.wear.2012.01.006,table,high,Lowest friction condition in sample,2026-08-16
-UNAL2012,PA6,wax,4,,,,,100,1.6,1000,,steel,PoD,dry,,,injection,0.25,1.5e-5,,,,10.1016/j.wear.2012.01.006,table,high,4 wt% wax at 100 N,2026-08-16
+CASTPA6G2018,PA6,unfilled,,,,,,59.89,0.14,2000,0.43,steel,PoD,dry,57,23,cast,0.5,,,,40,10.1016/j.compositesb.2018.10.017,line_graph,medium,LPV steady-state condition; linear wear ~0.035 mm,2026-08-17
+CASTPA6G2018,PA6,other,,,,,,59.89,0.14,2000,0.43,steel,PoD,dry,57,23,cast,0.48,,,,29,10.1016/j.compositesb.2018.10.017,line_graph,medium,LPV steady-state condition; PE solid lubricant filler; linear wear ~0.025 mm,2026-08-17
+CASTPA6G2018,PA6,unfilled,,,,,,159.83,0.22,3000,1.79,steel,PoD,dry,57,23,cast,0.75,,,,180,10.1016/j.compositesb.2018.10.017,prose,high,HPV overload condition; surface melting occurred; linear wear ~0.17 mm,2026-08-17
+CASTPA6G2018,PA6,other,,,,,,159.83,0.22,3000,1.79,steel,PoD,dry,57,23,cast,0.4,,,,40,10.1016/j.compositesb.2018.10.017,prose,high,HPV overload condition; PE solid lubricant filler; linear wear ~0.11 mm,2026-08-17
+CASTPA6G2018,PA6,other,,,,,,68.72,0.083,,,steel,BoP,dry,57,23,cast,0.251,,,,,10.1016/j.compositesb.2018.10.017,table,high,Dynamic PoP test; PE filler; cycle 9 average for PA 6G SL/1,2026-08-17
+CFPA6FFF2021,PA6,CF,,,,,,8,0.5,36000,,steel,PoD,dry,,,AM,0.37,4.2e-7,,,,10.1016/j.compositesb.2021.109332,table,high,Fibre orientation: Parallel; pressure 0.5 MPa; 35 vol% CF,2026-08-17
+CFPA6FFF2021,PA6,CF,,,,,,16,0.5,36000,,steel,PoD,dry,,,AM,0.49,2.08e-6,,,,10.1016/j.compositesb.2021.109332,table,high,Fibre orientation: Parallel; pressure 1 MPa; 35 vol% CF,2026-08-17
+CHERNETS2023,PA6,unfilled,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.77,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-17
+CHERNETS2023,PA6,unfilled,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.52,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA6,unfilled,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.39,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA6,unfilled,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.34,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA6,unfilled,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+CHERNETS2023,PA66,unfilled,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.50,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA66,unfilled,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.36,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA66,unfilled,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.31,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA66,unfilled,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.25,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+CHERNETS2023,PA6,GF,30,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.88,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-17
+CHERNETS2023,PA6,GF,30,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.68,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA6,GF,30,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.53,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA6,GF,30,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.48,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA6,GF,30,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.42,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+CHERNETS2023,PA6,MoS2,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.60,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-17
+CHERNETS2023,PA6,MoS2,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.35,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA6,MoS2,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA6,MoS2,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.24,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA6,MoS2,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.20,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+CHERNETS2023,PA6,CF,30,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.85,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-17
+CHERNETS2023,PA6,CF,30,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.61,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA6,CF,30,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.48,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA6,CF,30,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.44,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA6,CF,30,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.35,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+CHERNETS2023,PA6,other,,,,,,14.14,0.4,,,steel,PoD,dry,50,23,cast,0.67,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 2 MPa pressure,2026-08-17
+CHERNETS2023,PA6,other,,,,,,28.27,0.4,,,steel,PoD,dry,50,23,cast,0.43,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 4 MPa pressure,2026-08-17
+CHERNETS2023,PA6,other,,,,,,42.41,0.4,,,steel,PoD,dry,50,23,cast,0.34,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 6 MPa pressure,2026-08-17
+CHERNETS2023,PA6,other,,,,,,56.55,0.4,,,steel,PoD,dry,50,23,cast,0.28,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 8 MPa pressure,2026-08-17
+CHERNETS2023,PA6,other,,,,,,84.82,0.4,,,steel,PoD,dry,50,23,cast,0.22,,,,,10.24874/ti.1526.07.23.09,line_graph,medium,COF extracted from Fig. 6 at 12 MPa pressure,2026-08-17
+GOPOSS2020,PA6,unfilled,0,,,,,12,0.04,288,,steel,BoP,dry,,,,0.44,0.000113,,,,10.1016/j.triboint.2020.106747,mixed,high,neat PA6 control,2026-08-17
+GOPOSS2020,PA6,GO,0.1,,,,,12,0.04,288,,steel,BoP,dry,,,,0.08,0.000065,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-17
+GOPOSS2020,PA6,GO,0.3,,,,,12,0.04,288,,steel,BoP,dry,,,,0.06,0.000038,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-17
+GOPOSS2020,PA6,GO,0.5,,,,,12,0.04,288,,steel,BoP,dry,,,,0.07,0.000048,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-17
+GOPOSS2020,PA6,GO,0.7,,,,,12,0.04,288,,steel,BoP,dry,,,,0.08,0.000006,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-17
+GOPOSS2020,PA6,GO,0.9,,,,,12,0.04,288,,steel,BoP,dry,,,,0.24,0.000085,,,,10.1016/j.triboint.2020.106747,mixed,high,rGO-POSS filler,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,4,0.4,25000,,steel,PoD,dry,40,24,injection,0.43,1.8e-5,,,33,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,4,0.7,25000,,steel,PoD,dry,40,24,injection,0.43,1.6e-5,,,37,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,4,1,25000,,steel,PoD,dry,40,24,injection,0.42,1.5e-5,,,41,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,6,0.4,25000,,steel,PoD,dry,40,24,injection,0.44,1.1e-5,,,34,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,6,0.7,25000,,steel,PoD,dry,40,24,injection,0.45,1.3e-5,,,40,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,6,1,25000,,steel,PoD,dry,40,24,injection,0.43,1.3e-5,,,45,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,8,0.4,25000,,steel,PoD,dry,40,24,injection,0.43,1.1e-5,,,37,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,8,0.7,25000,,steel,PoD,dry,40,24,injection,0.42,1.7e-5,,,41,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,8,1,25000,,steel,PoD,dry,40,24,injection,0.44,2e-5,,,47,10.1016/j.wear.2017.01.118,line_graph,medium,PA6 pin sliding against steel disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,4,1,25000,,steel,PoD,dry,40,24,injection,0.85,1.18e-5,,,117,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,6,1,25000,,steel,PoD,dry,40,24,injection,0.87,9.93e-5,,,147,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,8,1,25000,,steel,PoD,dry,40,24,injection,0.74,0.000121,,,160,10.1016/j.wear.2017.01.118,mixed,high,Steel pin sliding against PA6 disc,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,6,0.4,50000,,PA6,PoD,dry,40,24,injection,0.77,1.2e-6,,,82,10.1016/j.wear.2017.01.118,mixed,high,Self-mated PA6/PA6; disc wear rate=2.0e-6 mm3/Nm,2026-08-17
+NEIS2017a,PA6,unfilled,,,,,,8,0.4,50000,,PA6,PoD,dry,40,24,injection,0.81,1.1e-6,,,100,10.1016/j.wear.2017.01.118,mixed,high,Self-mated PA6/PA6; disc wear rate=1.8e-6 mm3/Nm,2026-08-17
+NEIS2017b,PA6,unfilled,,,,,,300,1.4,,,steel,PoD,dry,,30,cast,0.511,,,0.0498,,10.1016/j.wear.2017.01.090,mixed,high,reported mass loss in g (0.0498 g),2026-08-17
+NEIS2017b,PA6,other,,,,,,300,1.4,,,steel,PoD,dry,,30,cast,0.275,,,0.0019,,10.1016/j.wear.2017.01.090,mixed,high,special solid lubricant filler; reported mass loss in g (0.0019 g),2026-08-17
+NEIS2017b,PA6,MoS2,,,,,,300,1.4,,,steel,PoD,dry,,30,cast,0.628,,,0.0740,,10.1016/j.wear.2017.01.090,mixed,high,reported mass loss in g (0.0740 g),2026-08-17
+PA66BLEND2017,PA6-PA66,unfilled,,,,,,25,0.5,1000,,steel,PoD,dry,,,injection,,6.3e-06,0.16,,,,mixed,high,,2026-08-17
+PA66BLEND2017,PA6-PA66,unfilled,,,,,,50,0.5,1000,,steel,PoD,dry,,,injection,,3.8e-06,0.19,,,,line_graph,medium,,2026-08-17
+PA66BLEND2017,PA6-PA66,unfilled,,,,,,75,0.5,1000,,steel,PoD,dry,,,injection,,3.0e-06,0.225,,,,line_graph,medium,,2026-08-17
+PA66BLEND2017,PA6-PA66,unfilled,,,,,,100,0.5,1000,,steel,PoD,dry,,,injection,,2.7e-06,0.27,,,,mixed,high,,2026-08-17
+UNAL2012,PA6,unfilled,0,,,,,50,0.4,1000,,steel,PoD,dry,,,injection,0.42,9e-5,,, ,10.1016/j.wear.2012.01.006,table,high,Steady-state value reported in table,2026-08-17
+UNAL2012,PA6,graphite,5,,,,,50,0.4,1000,,steel,PoD,dry,,,injection,0.31,4.8e-5,,,,10.1016/j.wear.2012.01.006,table,high,5 wt% graphite,2026-08-17
+UNAL2012,PA6,graphite,15,,,,,50,1.6,1000,,steel,PoD,dry,,,injection,0.24,2.1e-5,,,,10.1016/j.wear.2012.01.006,table,high,15 wt% graphite,2026-08-17
+UNAL2012,PA6,wax,4,,,,,50,1.6,1000,,steel,PoD,dry,,,injection,0.28,1.8e-5,,,,10.1016/j.wear.2012.01.006,table,high,4 wt% wax,2026-08-17
+UNAL2012,PA6,unfilled,0,,,,,100,0.4,1000,,steel,PoD,dry,,,injection,0.39,8.2e-5,,,,10.1016/j.wear.2012.01.006,table,high,Unfilled PA6 at 100 N,2026-08-17
+UNAL2012,PA6,graphite,5,,,,,100,0.4,1000,,steel,PoD,dry,,,injection,0.29,4.1e-5,,,,10.1016/j.wear.2012.01.006,table,high,5 wt% graphite at 100 N,2026-08-17
+UNAL2012,PA6,graphite,15,,,,,100,1.6,1000,,steel,PoD,dry,,,injection,0.18,8e-6,,,,10.1016/j.wear.2012.01.006,table,high,Lowest friction condition in sample,2026-08-17
+UNAL2012,PA6,wax,4,,,,,100,1.6,1000,,steel,PoD,dry,,,injection,0.25,1.5e-5,,,,10.1016/j.wear.2012.01.006,table,high,4 wt% wax at 100 N,2026-08-17

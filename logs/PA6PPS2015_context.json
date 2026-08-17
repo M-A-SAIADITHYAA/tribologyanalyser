@@ -1,0 +1,14 @@
+{
+  "paper_id": "PA6PPS2015",
+  "counterface": "chromium steel ball",
+  "test_type": "ball-on-disk",
+  "environment": "dry",
+  "disc_diameter_mm": 20.0,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molded",
+  "pa6_grade": null,
+  "source_doi": "10.1177/0892705712461516",
+  "n_conditions": 20
+}

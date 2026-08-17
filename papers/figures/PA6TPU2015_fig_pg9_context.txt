@@ -1,0 +1,10 @@
+PAPER_ID: PA6TPU2015
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 7. Variation in the friction coefficient with sliding time at a normal load of 5 N and sliding speed of 500 r/min for PA6 and PA6-TPU composites.
+X_AXIS: Time (s)
+Y_AXIS: Friction coefficient
+SERIES: PA, PA-TPU5%, PA-TPU10%, PA-TPU15%
+TEST_CONDITIONS: Normal load = 5 N, sliding speed = 500 r/min, counterface = 6-mm chromium steel ball, room temperature
+WHAT_TO_EXTRACT: Steady-state friction coefficient values averaged in the last 30 minutes (1200–2400 s)
+WEBPLOTDIGITIZER_NOTES: Highly fluctuating overlapping raw friction signal lines. Digitize the central average trend in the steady-state regime after initial run-in.

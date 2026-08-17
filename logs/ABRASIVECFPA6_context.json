@@ -1,0 +1,14 @@
+{
+  "paper_id": "ABRASIVECFPA6",
+  "counterface": "silicon carbide (SiC) abrasive paper",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "cm s^-1",
+  "wear_unit": "m^3",
+  "fabrication": null,
+  "pa6_grade": "Nylon 6,6",
+  "source_doi": null,
+  "n_conditions": null
+}

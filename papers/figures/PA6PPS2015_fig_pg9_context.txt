@@ -1,0 +1,10 @@
+PAPER_ID: PA6PPS2015
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 4. Mechanical properties of PA6 and PA6-PPS composites: (a) tensile, (b) bending and (c) impact strength and hardness (HRR).
+X_AXIS: PPS content / wt%
+Y_AXIS: (A) Breaking elongation %, Tensile strength MPa, Tensile modulus MPa; (B) Bending strength MPa, Bending modulus; (C) Impact strength (KJ/mm^2), Hardness (HRC)
+SERIES: 7
+TEST_CONDITIONS: Tensile and bending tests per GB standards, impact per GB/T 1451-2005, Rockwell hardness (HRR)
+WHAT_TO_EXTRACT: Mechanical properties (modulus, strength, elongation, impact, hardness) vs PPS content
+WEBPLOTDIGITIZER_NOTES: Three separate subplots (A, B, C) showing mechanical properties as a function of PPS content

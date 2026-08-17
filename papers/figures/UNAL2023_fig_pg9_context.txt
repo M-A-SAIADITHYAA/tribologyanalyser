@@ -1,0 +1,10 @@
+PAPER_ID: UNAL2023
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 6 Graph showing the relationship between the specific wear rate and applied load for the pure polyamide 6 (PA6), and the polyamide 6-graphite, polyamide 6 graphite-wax composites (sliding speed 0.5 ms−1).
+X_AXIS: Load, N
+Y_AXIS: Specific wear rate, m^2/N
+SERIES: PA6, PA6-5% graphite, PA6-10% graphite, PA6-15% graphite, PA6-15% graphite-2% wax, PA6-15% graphite-6% wax
+TEST_CONDITIONS: Sliding speed: 0.5 m/s, Sliding distance: 1000 m, Load: 10 N to 250 N
+WHAT_TO_EXTRACT: Specific wear rate vs applied load
+WEBPLOTDIGITIZER_NOTES: Main plot scale ranges up to 6.E-12 m^2/N. An inset zoomed plot is provided for wax-containing composites in the load range 10 N to 250 N (scale 0 to 2.E-13 m^2/N).

@@ -1,0 +1,10 @@
+PAPER_ID: UNAL2023
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 4 Graph showing the relationship between the friction coefficient and the sliding distance of pure polyamide 6 (PA6) and polyamide 6-graphite and polyamide 6-graphite-wax composites (load: 30 N, sliding distance: 0.5 ms−1). FIGURE 5 Graph showing the relationships between the friction coefficient values and the applied for the pure polyamide 6 (PA6) and the polyamide 6-graphite and polyamide 6-graphite-wax composites (sliding speed 0.5 ms−1).
+X_AXIS: Sliding distance, m (Fig 4) / Load, N (Fig 5)
+Y_AXIS: Coefficient of friction, μ
+SERIES: PA6, PA6-5% graphite, PA6-10% graphite, PA6-15% graphite, PA6-15% graphite-2% wax, PA6-15% graphite-6% wax
+TEST_CONDITIONS: Sliding speed: 0.5 m/s, Load: 30 N for Fig 4; Loads: 10 N to 250 N for Fig 5
+WHAT_TO_EXTRACT: Friction coefficient as a function of sliding distance and load
+WEBPLOTDIGITIZER_NOTES: Figure 5 shows discrete load points (10, 20, 30, 50, 75, 100, 200, 250 N) with error bars. Note that PA6 and graphite-only composites stop at 30 N due to excessive wear/failure.

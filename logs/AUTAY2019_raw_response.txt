@@ -1,0 +1,17 @@
+paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+AUTAY2019,PA66,unfilled,0,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,line_graph,medium,Sliding parallel (0 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,10,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.37,,,,,10.1177/0967391119853956,line_graph,medium,Sliding parallel (0 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,20,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.27,,,,,10.1177/0967391119853956,line_graph,medium,Sliding parallel (0 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,30,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.24,,,,,10.1177/0967391119853956,line_graph,medium,Sliding parallel (0 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,unfilled,0,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,line_graph,medium,Sliding perpendicular (90 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,10,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.44,,,,,10.1177/0967391119853956,line_graph,medium,Sliding perpendicular (90 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,20,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.34,,,,,10.1177/0967391119853956,line_graph,medium,Sliding perpendicular (90 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,GF,30,,,,,,22.4,0.01,306,,steel,BoP,dry,40,,injection,0.23,,,,,10.1177/0967391119853956,line_graph,medium,Sliding perpendicular (90 deg) to fiber direction; 100Cr6 steel ball counterface
+AUTAY2019,PA66,unfilled,0,,,,,,25.6,0.056,40.32,,other,BoP,dry,40,,injection,0.65,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 2.67 % mass loss
+AUTAY2019,PA66,GF,10,,,,,,25.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 2.67 % mass loss
+AUTAY2019,PA66,GF,20,,,,,,25.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 3.67 % mass loss
+AUTAY2019,PA66,GF,30,,,,,,25.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 6.89 % mass loss
+AUTAY2019,PA66,unfilled,0,,,,,,55.6,0.056,40.32,,other,BoP,dry,40,,injection,0.65,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 7.78 % mass loss
+AUTAY2019,PA66,GF,10,,,,,,55.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 15.44 % mass loss
+AUTAY2019,PA66,GF,20,,,,,,55.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 32.67 % mass loss
+AUTAY2019,PA66,GF,30,,,,,,55.6,0.056,40.32,,other,BoP,dry,40,,injection,0.55,,,,,10.1177/0967391119853956,mixed,high,SiC abrasive paper grade 60 counterface; wear rate reported as 80.33 % mass loss

@@ -1,0 +1,10 @@
+PAPER_ID: PA6PPS2015
+PAGE: 13
+FIGURE_TYPE: line_graph
+CAPTION: Figure 9. Friction coefficient of PA6 and PA6-PPS composites under different sliding speed (load: 15 N).
+X_AXIS: PPS content (wt%)
+Y_AXIS: Friction coefficient
+SERIES: 3
+TEST_CONDITIONS: Normal load = 15 N, sliding speeds = 500, 1000, 1500 rpm across PPS content (0, 10, 20, 30 wt%)
+WHAT_TO_EXTRACT: Friction coefficient at different rotation speeds vs PPS content
+WEBPLOTDIGITIZER_NOTES: Three distinct line series representing speed variations

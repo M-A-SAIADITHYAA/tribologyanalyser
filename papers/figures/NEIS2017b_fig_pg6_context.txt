@@ -1,0 +1,10 @@
+PAPER_ID: NEIS2017b
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. PV curves plotted for the green and black plastics analyzed in this study.
+X_AXIS: Sliding velocity [m/s]
+Y_AXIS: Contact pressure [MPa]
+SERIES: GREEN (TECAGLIDE Green), BLACK (TECAST T MO Black)
+TEST_CONDITIONS: PV limit tests at various contact pressure and sliding velocity combinations
+WHAT_TO_EXTRACT: Contact pressure vs sliding velocity data points and linear boundary lines defining PV limits
+WEBPLOTDIGITIZER_NOTES: Linear fit lines plotted with corresponding equations and R^2 values directly on the chart.

@@ -1,0 +1,10 @@
+PAPER_ID: PA6B2O32021
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5. (a) Real-time temperature of the central position of the rotation axis fitted with the steel ring and (b–h) infrared thermal images of C0, C5, C10, C15, C20, C30, and C40 samples measured at 1800 s of the friction test. The white dashed ellipses in (b–h) indicate the contact areas between the specimens and the steel ring.
+X_AXIS: Time (s)
+Y_AXIS: Temperature (°C)
+SERIES: C0, C5, C10, C15, C20, C30, C40
+TEST_CONDITIONS: Real-time temperature recording during block-on-ring friction test at load = 85 N and sliding velocity = 0.42 m/s.
+WHAT_TO_EXTRACT: Final steady-state friction temperature at x = 1800 s.
+WEBPLOTDIGITIZER_NOTES: Pure C0 temperature rises sharply to ~100 °C near 500 s. Composite lines strongly overlap in the range 35–45 °C; see inset for magnified region between 1500–1800 s. Table 1 on the same page gives exact numerical values at 1800 s.

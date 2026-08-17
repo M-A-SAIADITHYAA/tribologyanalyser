@@ -1,0 +1,14 @@
+{
+  "paper_id": "PA6B2O32021",
+  "counterface": "45# steel ring",
+  "test_type": "block-on-ring",
+  "environment": "dry",
+  "disc_diameter_mm": 40.0,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "monomer casting",
+  "pa6_grade": "MC PA6",
+  "source_doi": "10.1016/j.porgcoat.2021.106528",
+  "n_conditions": 7
+}

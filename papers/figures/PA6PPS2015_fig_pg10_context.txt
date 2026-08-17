@@ -1,0 +1,10 @@
+PAPER_ID: PA6PPS2015
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. Variation of the friction coefficient with sliding time at a normal load of 15 N and sliding speed of 1,000 r/min for PA6 and PA6-PPS composites. / Figure 6. Friction coefficient and wear rate of PA6 and PA6-PPS composites sliding at a normal load of 15 N and speed of 1000 r/min.
+X_AXIS: Figure 5: Time (s); Figure 6: PPS content (wt%)
+Y_AXIS: Figure 5: Friction coefficient; Figure 6: Left y-axis: Friction coefficient, Right y-axis: Wear rate (x10^-5 mm^3/Nm)
+SERIES: Figure 5: 4 series (PA, PA-PPS10%, PA-PPS20%, PA-PP30%); Figure 6: 2 series (Friction coefficient, Wear rate)
+TEST_CONDITIONS: Normal load = 15 N, sliding speed = 1000 r/min (1000 rpm), steel ball-on-disk counterface
+WHAT_TO_EXTRACT: Steady-state friction coefficient and specific wear rate for each composite composition
+WEBPLOTDIGITIZER_NOTES: Figure 5 has overlapping transient curves; read steady-state values between 600s and 2400s. Figure 6 uses dual y-axes.
