@@ -1,0 +1,10 @@
+PAPER_ID: CHEN2022
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. (a, b) Storage modulus curves and (c, d) tan delta curves of pure PA6 and its composites (the red arrow indicates the offset of tan delta peaks of samples).
+X_AXIS: Temperature (°C)
+Y_AXIS: Storage modulus (GPa) for (a,b); Tan delta for (c,d)
+SERIES: PA6, PA6/Gr10, PA6/Gr20, PA6/Gr30, PA6-BOB/Gr10, PA6-BOB/Gr20, PA6-BOB/Gr30, PA6-BOB/HOGr10, PA6-BOB/HOGr20, PA6-BOB/HOGr30
+TEST_CONDITIONS: DMA tension mode, frequency = 1 Hz, amplitude = 15 μm, temperature range = -10 to 150 °C at 3 °C/min rate
+WHAT_TO_EXTRACT: Storage modulus at room temperature (25 °C) and peak Tg temperature from tan delta curves
+WEBPLOTDIGITIZER_NOTES: Linear axes; data values are also summarized in Table 3 on the same page

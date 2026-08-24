@@ -1,0 +1,14 @@
+{
+  "paper_id": "BIRYUKOV2023",
+  "counterface": "40X steel",
+  "test_type": "plane-ring",
+  "environment": "lubricated",
+  "disc_diameter_mm": null,
+  "load_unit": "MPa",
+  "speed_unit": "m/s",
+  "wear_unit": null,
+  "fabrication": null,
+  "pa6_grade": null,
+  "source_doi": "10.1051/e3sconf/202345802018",
+  "n_conditions": 12
+}

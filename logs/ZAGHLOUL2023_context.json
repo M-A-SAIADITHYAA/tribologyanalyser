@@ -1,0 +1,14 @@
+{
+  "paper_id": "ZAGHLOUL2023",
+  "counterface": "Silicon carbide (SiC) abrasive sandpaper (200 grit)",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 50,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/N.m",
+  "fabrication": "twin-screw extrusion and injection moulding",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.triboint.2023.109059",
+  "n_conditions": 16
+}

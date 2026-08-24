@@ -1,0 +1,10 @@
+PAPER_ID: CHEN2022
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. (a) Thermal conductivity and (b) the maximum tribo-surface temperature during the friction of pure PA6 and its composites; (c) The infrared images of some representative samples during the friction test.
+X_AXIS: Gr content (wt%)
+Y_AXIS: Thermal conductivity (W/(m K)) for (a); Temperature (°C) for (b)
+SERIES: PA6/Gr, PA6-BOB/Gr, PA6-BOB/HOGr
+TEST_CONDITIONS: Reciprocating friction test under 10 N load, 20 Hz, surface temperature recorded in real-time by FLIR T620 infrared thermal imager
+WHAT_TO_EXTRACT: In-plane thermal conductivity values from (a) and maximum tribo-surface temperatures from (b)
+WEBPLOTDIGITIZER_NOTES: Linear axes; individual data points in graph (b) and bars in (a) are explicitly labeled with numerical values

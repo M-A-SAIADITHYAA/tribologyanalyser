@@ -1,0 +1,10 @@
+PAPER_ID: ZAVRAZHIN2025
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Figure 3. TG/DSC curves of samples PA6 (1), 0.5 MA (2), 0.5 DT (3), 3 MA (4), and 3 DT (5).
+X_AXIS: Temperature/°C
+Y_AXIS: TG/% (left Y-axis) and DSC/(µV/mg) (right Y-axis)
+SERIES: 1: PA6, 2: 0.5 MA, 3: 0.5 DT, 4: 3 MA, 5: 3 DT
+TEST_CONDITIONS: TGA/DSC in air from 40 to 900 °C at a heating rate of 10 °C·min⁻¹
+WHAT_TO_EXTRACT: Mass loss temperatures (5% and 50%), peak decomposition temperature (Tmax), and DSC melting/oxidation peaks
+WEBPLOTDIGITIZER_NOTES: Dual Y-axes present (TG% on left axis, DSC µV/mg on right axis); multiple curves closely overlap across the 350–600 °C region.

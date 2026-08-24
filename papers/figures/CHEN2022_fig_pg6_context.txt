@@ -1,0 +1,10 @@
+PAPER_ID: CHEN2022
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5. Coefficient of friction curves of (a) pure PA6 and PA6/Gr10 ~ PA6/Gr30, (b) PA6-BOB/Gr10 ~ PA6-BOB/Gr30, (c) PA6-BOB/HOGr10 ~ PA6-BOB/HOGr30; statistical charts of (d) average coefficient of friction and (e) specific wear rate of pure PA6 and its composites.
+X_AXIS: Distance(m) for (a,b,c); Gr content (wt%) for (d,e)
+Y_AXIS: Coefficient of Friction for (a,b,c,d); Specific Wear Rate (10^-5 mm^3/Nm) for (e)
+SERIES: 5(a): PA6, PA6/Gr10, PA6/Gr20, PA6/Gr30, 5(b): PA6-BOB/Gr10, PA6-BOB/Gr20, PA6-BOB/Gr30, 5(c): PA6-BOB/HOGr10, PA6-BOB/HOGr20, PA6-BOB/HOGr30, 5(d,e) Bar Charts: PA6/Gr, PA6-BOB/Gr, PA6-BOB/HOGr at 0, 10, 20, 30 wt% Gr
+TEST_CONDITIONS: Ball-on-plate reciprocating sliding, normal load = 10 N, frequency = 20 Hz, stroke = 10 mm, sliding distance = 100 m, counterpart = 304 stainless steel ball (10 mm diameter, Ra = 0.2 μm)
+WHAT_TO_EXTRACT: Steady-state COF plateaus (20-100 m) from (a-c); average COF values from (d); specific wear rate values from (e)
+WEBPLOTDIGITIZER_NOTES: Linear scales; COF line graphs have high noise/fluctuations; bar charts in (d) and (e) contain explicit numerical labels for exact data extraction

@@ -1,0 +1,7 @@
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+KUMAR2024,PA66,0,0,0,0,100,,,10,,,,steel,BoP,dry,,25,injection,0.395,2.55e-6,,,,10.002/pc.29270,bar_chart,high,abrading frequency = 5 Hz; stroke length = 5 mm; test time = 30 min
+KUMAR2024,PA66,0,0,0,0,100,,,30,,,,steel,BoP,dry,,25,injection,0.425,3.10e-6,,,,10.002/pc.29270,bar_chart,high,abrading frequency = 5 Hz; stroke length = 5 mm; test time = 30 min
+KUMAR2024,PA66,0,0,0,0,100,,,50,,,,steel,BoP,dry,,25,injection,0.455,3.80e-6,,,,10.002/pc.29270,bar_chart,high,abrading frequency = 5 Hz; stroke length = 5 mm; test time = 30 min
+KUMAR2024,PA66,0,0,0,0.5,99,GnPs,0.5,10,,,,steel,BoP,dry,,25,injection,0.277,1.43e-6,,,,10.002/pc.29270,bar_chart,high,abrading frequency = 5 Hz; stroke length = 5 mm; test time = 30 min
+KUMAR2024,PA66,0,0,0,0.5,99,GnPs,0.5,30,,,,steel,BoP,dry,,25,injection,0.323,2.29e-6,,,,10.002/pc.29270,bar_chart,high,abrading frequency = 5 Hz; stroke length = 5 mm; test time = 30 min
+KUMAR2024,PA66,0,0,0,0.5,99,

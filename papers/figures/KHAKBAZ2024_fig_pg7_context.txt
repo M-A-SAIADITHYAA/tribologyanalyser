@@ -1,0 +1,10 @@
+PAPER_ID: KHAKBAZ2024
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Stress-strain graphs of unconditioned and conditioned specimens made of PA6 and PA6_GF composites at RT, 40 °C and 60 °C.
+X_AXIS: Strain (%)
+Y_AXIS: Stress (MPa)
+SERIES: PA6_Unconditioned, PA6_Conditioned at RT, PA6_Conditioned at 40 C, PA6_Conditioned at 60 C, PA6-15GF_Unconditioned, PA6-15GF_Conditioned at RT, PA6-15GF_Conditioned at 40 C, PA6-15GF_Conditioned at 60 C, PA6-25GF_Unconditioned, PA6-25GF_Conditioned at RT, PA6-25GF_Conditioned at 40 C, PA6-25GF_Conditioned at 60 C
+TEST_CONDITIONS: Tensile testing per ASTM D638, speed 10 mm/min
+WHAT_TO_EXTRACT: Ultimate tensile strength (peak stress), yield point, strain at break
+WEBPLOTDIGITIZER_NOTES: Three separate subpanel graphs with distinct x-axis scales for strain (0-400%, 0-200%, 0-10%).

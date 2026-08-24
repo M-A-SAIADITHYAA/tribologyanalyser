@@ -1,0 +1,10 @@
+PAPER_ID: KHAKBAZ2024
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. Heating scans of unconditioned and conditioned (in water at 60 °C) PA6 and PA6-GF composites.
+X_AXIS: Temperature (°C)
+Y_AXIS: Exo up (a.u.)
+SERIES: PA6_Unconditioned, PA6-15GF_Unconditioned, PA6-25GF_Unconditioned, PA6_Conditioned, PA6-15GF_Conditioned, PA6-25GF_Conditioned
+TEST_CONDITIONS: DSC heating from -40 °C to 240 °C
+WHAT_TO_EXTRACT: Melting peak temperature and area under peak for enthalpy of fusion
+WEBPLOTDIGITIZER_NOTES: Stacked DSC thermograms with primary endothermic melting peak around 220 °C.

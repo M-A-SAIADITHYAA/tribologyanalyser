@@ -1,0 +1,10 @@
+PAPER_ID: LORBER2025
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. Normalized DSC curves of the cooling cycle.
+X_AXIS: Temperature [°C]
+Y_AXIS: Normalized Heat Flow (Scale bar: 10 W/g)
+SERIES: PA6, PA6-C, PA6BF, PA6BF-C, PA6BF-PTFE-C, PA6GF, PA6GF-C, PA6GF-PTFE-C
+TEST_CONDITIONS: DSC first cooling cycle from 260 to 0 °C at a rate of 10 K/min in a nitrogen atmosphere (20 mL/min)
+WHAT_TO_EXTRACT: Crystallization peak temperature (Tc) and crystallization onset shifts across formulations
+WEBPLOTDIGITIZER_NOTES: Stacked/vertically offset baseline curves. Y-axis uses a relative 10 W/g scale bar rather than absolute coordinates.

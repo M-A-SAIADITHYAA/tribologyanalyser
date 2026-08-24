@@ -210,22 +210,36 @@ EXTRACTION RULES:
 11. Do not convert units — preserve reported numeric values and state source units in notes.
    converter.py performs auditable conversion later.
 
-OUTPUT: Return ONLY valid CSV. The first row must be the exact header below;
-no markdown, code fences, explanation, or extra rows.
+OUTPUT INSTRUCTIONS:
+Return ONLY valid CSV text containing the data rows.
+DO NOT output a summary, bulleted list, key-value mapping, or conversational text.
+The very first line MUST be the single exact CSV header line:
+{header_line}
 
-COLUMNS (in this exact order):
-paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,
-other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,
-counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,
-wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,
-extraction_method,confidence,notes
+Followed immediately by the comma-separated data rows.
 """
 
 
 def _strip_markdown_fence(text: str) -> str:
     text = text.lstrip("\ufeff").strip()
-    match = re.fullmatch(r"```(?:csv|json)?\s*(.*?)\s*```", text, flags=re.DOTALL | re.IGNORECASE)
-    return match.group(1).strip() if match else text
+    match = re.search(r"```(?:csv|json)?\s*\n?(.*?)\n?```", text, flags=re.DOTALL | re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+    return text
+
+
+def _extract_csv_block(text: str) -> str:
+    cleaned = _strip_markdown_fence(text)
+    lines = cleaned.splitlines()
+    for i, line in enumerate(lines):
+        clean_line = line.lstrip("\ufeff").strip()
+        try:
+            row = next(csv.reader([clean_line]))
+            if row == ALL_COLUMNS:
+                return "\n".join(lines[i:]).strip()
+        except Exception:
+            continue
+    return cleaned
 
 
 def _save_raw_response(paper_id: str, response_text: str, suffix: str = "raw_response") -> Path:
@@ -265,21 +279,42 @@ def extract_paper_context(gemini_file: Any, paper_id: str) -> dict[str, Any]:
 
 def extract_all_data(gemini_file: Any, paper_id: str, context: dict[str, Any]) -> pd.DataFrame:
     """Extract all experimental rows from a paper and robustly parse Gemini CSV."""
+    header_line = ",".join(ALL_COLUMNS)
     prompt = EXTRACTION_PROMPT.format(
         context=json.dumps(context, indent=2, ensure_ascii=False),
         schema=get_schema_description(),
+        header_line=header_line,
     )
     response = safe_gemini_call([gemini_file, prompt])
     if response is None:
         raise RuntimeError("Gemini did not return extracted CSV")
     raw_response = getattr(response, "text", "")
-    cleaned = _strip_markdown_fence(raw_response)
-    first_line = cleaned.splitlines()[0].lstrip("\ufeff") if cleaned.splitlines() else ""
+    csv_text = _extract_csv_block(raw_response)
+    first_line = csv_text.splitlines()[0].lstrip("\ufeff") if csv_text.splitlines() else ""
     try:
         received_header = next(csv.reader([first_line]))
-    except (csv.Error, StopIteration) as exc:
-        raw_path = _save_raw_response(paper_id, raw_response)
-        raise ValueError(f"Gemini response has no readable CSV header; saved to {raw_path}") from exc
+    except (csv.Error, StopIteration):
+        received_header = None
+
+    if received_header != ALL_COLUMNS:
+        print("Gemini response did not start with CSV header. Attempting corrective retry...")
+        retry_prompt = (
+            "You previously returned notes or an invalid format instead of CSV data rows.\n\n"
+            "Please extract the experimental rows from the paper and return ONLY a valid CSV table.\n"
+            "The first row MUST be exactly:\n"
+            f"{header_line}\n\n"
+            "Do NOT return bullet points, key-value pairs, or explanation. Return only CSV rows."
+        )
+        retry_response = safe_gemini_call([gemini_file, prompt, raw_response, retry_prompt])
+        if retry_response is not None:
+            raw_response = getattr(retry_response, "text", "")
+            csv_text = _extract_csv_block(raw_response)
+            first_line = csv_text.splitlines()[0].lstrip("\ufeff") if csv_text.splitlines() else ""
+            try:
+                received_header = next(csv.reader([first_line]))
+            except (csv.Error, StopIteration):
+                received_header = None
+
     if received_header != ALL_COLUMNS:
         raw_path = _save_raw_response(paper_id, raw_response)
         raise ValueError(
@@ -287,7 +322,7 @@ def extract_all_data(gemini_file: Any, paper_id: str, context: dict[str, Any]) -
             f"saved raw response to {raw_path}"
         )
     try:
-        df = pd.read_csv(io.StringIO(cleaned), dtype=object, keep_default_na=False)
+        df = pd.read_csv(io.StringIO(csv_text), dtype=object, keep_default_na=False)
     except Exception as exc:
         raw_path = _save_raw_response(paper_id, raw_response)
         raise ValueError(f"Gemini response was not parseable CSV; saved to {raw_path}") from exc

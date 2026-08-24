@@ -1,0 +1,10 @@
+PAPER_ID: KUMAR2024
+PAGE: 17
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 10 Evolution of CoF for pure PA-6,6 and its PGM hybrid composite.
+X_AXIS: Time (sec)
+Y_AXIS: Coefficient of friction (μ)
+SERIES: Pure PA-6,6, PGM_1%, PGM_3%, PGM_5%, PGM_10%
+TEST_CONDITIONS: Linearly reciprocating ball-on-plate sliding wear test against 100Cr6 steel ball (hardened 60-66 HRC), dry contact, RT (25±2°C), stroke length 5 mm, 30 min duration. Six subplots: (A) 5 Hz, 10 N; (B) 5 Hz, 30 N; (C) 5 Hz, 50 N; (D) 25 Hz, 10 N; (E) 25 Hz, 30 N; (F) 25 Hz, 50 N.
+WHAT_TO_EXTRACT: Steady-state Coefficient of Friction (CoF) values after the initial run-in period (t > 900 s).
+WEBPLOTDIGITIZER_NOTES: High fluctuation and signal noise across 5 formulations per subplot. Measure the average horizontal trendline in the steady-state plateau region (900 s to 1800 s).

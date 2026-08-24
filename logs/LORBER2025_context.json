@@ -1,0 +1,14 @@
+{
+  "paper_id": "LORBER2025",
+  "counterface": "34CrNiMo6 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "MPa",
+  "speed_unit": "m/s",
+  "wear_unit": "10^-6 cm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": "Akulon K222-D",
+  "source_doi": "10.3144/expresspolymlett.2025.83",
+  "n_conditions": 8
+}

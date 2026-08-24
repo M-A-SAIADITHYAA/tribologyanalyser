@@ -1,0 +1,14 @@
+{
+  "paper_id": "KUMAR2024",
+  "counterface": "100Cr6 high chromium steel ball",
+  "test_type": "ball-on-plate",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "Hz",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "melt-mixing and injection molding",
+  "pa6_grade": "PA-6,6 (PXR-01 NC)",
+  "source_doi": "10.1002/pc.29270",
+  "n_conditions": 30
+}

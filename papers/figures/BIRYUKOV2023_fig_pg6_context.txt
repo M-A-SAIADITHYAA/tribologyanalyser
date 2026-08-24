@@ -1,0 +1,10 @@
+PAPER_ID: BIRYUKOV2023
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Dependence of the jamming load on the sliding speed a, P180, b, P600, c, P1200: 1 - BNC, 2 - 6, 3 - 6+ MoS2, 4- 6 + Gr
+X_AXIS: Velocity V, m/s
+Y_AXIS: Pressure, MPa
+SERIES: 1: BNC, 2: PA 6, 3: PA 6 + MoS2, 4: PA 6 + Gr
+TEST_CONDITIONS: Jamming load limit determination under hydraulic oil MGE-10 lubrication; Fig. 2b: P600 counter-tile surface finish; Fig. 2c: P1200 counter-tile surface finish
+WHAT_TO_EXTRACT: Jamming limit load (Pressure in MPa) vs sliding speed (0 to 3.0 m/s)
+WEBPLOTDIGITIZER_NOTES: Page contains Fig. 2b and Fig. 2c. Linear axes with dashed trend lines connecting discrete data points.

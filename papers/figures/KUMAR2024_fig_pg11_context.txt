@@ -1,0 +1,10 @@
+PAPER_ID: KUMAR2024
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 5 DSC thermograms indicating (A) second heating cycle and (B) cooling cycle of pure PA-6,6 and its PGM composite.
+X_AXIS: Temperature (°C)
+Y_AXIS: Heat Flow (a.u.)
+SERIES: Pure PA-6,6, PGM-1%, PGM-3%, PGM-5%, PGM-10%
+TEST_CONDITIONS: Differential Scanning Calorimetry (DSC) heat-cool-heat method at 10 °C/min under nitrogen atmosphere.
+WHAT_TO_EXTRACT: Melting peak temperatures (Tm) and crystallization temperatures (Tc).
+WEBPLOTDIGITIZER_NOTES: Stacked thermograms with baseline offsets.

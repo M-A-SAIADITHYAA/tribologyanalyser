@@ -1,0 +1,14 @@
+{
+  "paper_id": "BASAVARAJ2013",
+  "counterface": "stainless steel (AISI 314)",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 150,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "g",
+  "fabrication": "injection moulded",
+  "pa6_grade": "DuPont Zytel 7300T",
+  "source_doi": "10.1016/j.matchemphys.2012.12.035",
+  "n_conditions": 135
+}

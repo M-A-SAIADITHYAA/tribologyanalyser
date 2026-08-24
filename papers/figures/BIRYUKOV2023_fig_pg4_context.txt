@@ -1,0 +1,10 @@
+PAPER_ID: BIRYUKOV2023
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1. Dependences of friction coefficients on pressure at constant sliding velocity a, P180, b, P600, c, P1200: 1 - BNR, 2 - 6, 3 - 6+ MoS2, 4- 6 + Gr
+X_AXIS: Pressure P, MPa
+Y_AXIS: Coefficient of friction, f
+SERIES: 1: BNR (Nitrile butadiene rubber), 2: PA 6, 3: PA 6 + MoS2, 4: PA 6 + Gr (Graphite)
+TEST_CONDITIONS: Constant sliding velocity, steel 40X counter-tile lubricated with MGE-10A hydraulic oil; Fig. 1a: P180 counter-tile roughness; Fig. 1b: P600 counter-tile roughness
+WHAT_TO_EXTRACT: Friction coefficient vs contact pressure (0 to 5.0 MPa)
+WEBPLOTDIGITIZER_NOTES: Page contains Fig. 1a and Fig. 1b. Linear scale on both axes. Lines 3 and 4 run close together at higher pressure values.

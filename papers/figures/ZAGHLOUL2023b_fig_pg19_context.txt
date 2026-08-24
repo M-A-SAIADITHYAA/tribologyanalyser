@@ -1,0 +1,10 @@
+PAPER_ID: ZAGHLOUL2023b
+PAGE: 19
+FIGURE_TYPE: line_graph
+CAPTION: Figure 18. Tensile modulus, hardness, and specific wear rate of PA6 and glass fibre reinforced PA6.
+X_AXIS: Specimen Code (PA6, PA633GF, PA625GF5MoS2, PA650GF, PA625GF)
+Y_AXIS: Specific Wear Rate (x10^-3 mm^3/N.m), Hardness (Shore D), Tensile Modulus (MPa)
+SERIES: Specific Wear Rate (x10^-3 mm^3/N.m), Hardness (Shore D), Tensile Modulus (MPa)
+TEST_CONDITIONS: Dry sliding pin-on-disc abrasive wear against SiC paper (grit 500), Load = 10 N, Velocity = 0.31 m/s (72 RPM), Sliding distance = 257.48 m
+WHAT_TO_EXTRACT: Tensile Modulus, Shore D Hardness, and Specific Wear Rate values across PA6 formulations
+WEBPLOTDIGITIZER_NOTES: Multi-axis categorical line chart. Exact values are also explicitly annotated in individual figures on pages 9, 10, and 13.

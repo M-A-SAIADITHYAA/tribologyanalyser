@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016b
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4 Variations of the friction coefficient for PA6 and graphite-reinforced PA6 composites
+X_AXIS: Load (N)
+Y_AXIS: Co-efficient of friction
+SERIES: 6
+TEST_CONDITIONS: Dry sliding pin-on-disk test against EN31 steel, loads 5 to 30 N, sliding velocity up to 2000 rpm, distance 1000 m
+WHAT_TO_EXTRACT: Coefficient of friction values across applied loads (5N, 10N, 20N, 30N) for pure PA6 and graphite composites (5-40 wt%)
+WEBPLOTDIGITIZER_NOTES: Linear scales. X-axis discrete points (5N, 10N, 20N, 30N). Y-axis 0 to 0.45. 6 distinct color-coded line series with data markers.

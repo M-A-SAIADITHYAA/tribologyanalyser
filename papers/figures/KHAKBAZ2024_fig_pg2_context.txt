@@ -1,0 +1,10 @@
+PAPER_ID: KHAKBAZ2024
+PAGE: 2
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Water absorption curves of PA6 and its PA6-GF composites at RT, 40 °C and 60 °C.
+X_AXIS: Aging time (h^(1/2))
+Y_AXIS: Mass changes (%)
+SERIES: PA6-RT, PA6-40C, PA6-60C, PA6-15GF-RT, PA6-15GF-40C, PA6-15GF-60C, PA6-25GF-RT, PA6-25GF-40C, PA6-25GF-60C
+TEST_CONDITIONS: Demineralized water immersion at 25 °C (RT), 40 °C, and 60 °C
+WHAT_TO_EXTRACT: Equilibrium saturation moisture content (mass change percentage at plateau)
+WEBPLOTDIGITIZER_NOTES: Multiple curves with overlapping data points; plateau reached at x > 40-80 h^(1/2) depending on temperature.

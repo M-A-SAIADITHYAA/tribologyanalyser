@@ -1,0 +1,10 @@
+PAPER_ID: SATHEESKUMAR2016b
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5 Variations of the wear rate for PA6 and graphite-reinforced PA6 composites
+X_AXIS: Load (N)
+Y_AXIS: Wear Rate x 10^-3 (mm^3/Nm)
+SERIES: 6
+TEST_CONDITIONS: Dry sliding pin-on-disk test, applied loads 5, 10, 20, 30 N
+WHAT_TO_EXTRACT: Specific wear rate values (10^-3 mm^3/Nm) vs load (N)
+WEBPLOTDIGITIZER_NOTES: Linear scales. Fig. 5 is a line graph on the left; Fig. 6 is a grouped bar chart on the right showing wear loss in grams (extractable directly by LLM).

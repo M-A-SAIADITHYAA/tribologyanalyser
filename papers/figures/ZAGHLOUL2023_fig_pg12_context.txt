@@ -1,0 +1,10 @@
+PAPER_ID: ZAGHLOUL2023
+PAGE: 12
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 11. Specific wear rate against the abrading velocity for PA6 and PA6 composite samples. / Fig. 12. Wear volume against the abrading velocity for PA6 and PA6 composite samples.
+X_AXIS: Abrading Velocity (RPM)
+Y_AXIS: Specific Wear Rate (mm3/N.m) x 10-3 (Fig. 11) / Wear Volume (mm3) (Fig. 12)
+SERIES: PA6, PA625GF
+TEST_CONDITIONS: Constant load = 50 N, variable abrading velocities: 400 RPM, 600 RPM, 800 RPM, 1000 RPM
+WHAT_TO_EXTRACT: Specific wear rate and wear volume values as a function of speed
+WEBPLOTDIGITIZER_NOTES: Linear axes; sharp increase at high velocities shows breakdown due to PV limit.

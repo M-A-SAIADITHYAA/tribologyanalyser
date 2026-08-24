@@ -1,0 +1,14 @@
+{
+  "paper_id": "CHEN2022",
+  "counterface": "304 stainless steel",
+  "test_type": "ball-on-plate",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "Hz",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "extrusion",
+  "pa6_grade": "F136-DH",
+  "source_doi": "10.1016/j.compscitech.2022.109719",
+  "n_conditions": 10
+}

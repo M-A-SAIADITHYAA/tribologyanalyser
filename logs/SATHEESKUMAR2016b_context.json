@@ -1,0 +1,14 @@
+{
+  "paper_id": "SATHEESKUMAR2016b",
+  "counterface": "EN31 Steel",
+  "test_type": "pin-on-disk",
+  "environment": "dry friction",
+  "disc_diameter_mm": 100,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molded",
+  "pa6_grade": null,
+  "source_doi": "10.1007/s13369-016-2126-2",
+  "n_conditions": 72
+}

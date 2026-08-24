@@ -1,0 +1,14 @@
+{
+  "paper_id": "LI2013",
+  "counterface": "chromium steel ball (HRC 62)",
+  "test_type": "ball-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 10.0,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molded",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.matdes.2012.11.011",
+  "n_conditions": 18
+}

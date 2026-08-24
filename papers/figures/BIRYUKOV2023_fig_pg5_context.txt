@@ -1,0 +1,10 @@
+PAPER_ID: BIRYUKOV2023
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1. Dependences of friction coefficients on pressure at constant sliding velocity a, P180, b, P600, c, P1200: 1 - BNR, 2 - 6, 3 - 6+ MoS2, 4- 6 + Gr; Fig. 2. Dependence of the jamming load on the sliding speed a, P180, b, P600, c, P1200: 1 - BNC, 2 - 6, 3 - 6+ MoS2, 4- 6 + Gr
+X_AXIS: Fig. 1c: Pressure P, MPa; Fig. 2a: Velocity V, m/s
+Y_AXIS: Fig. 1c: Coefficient of friction, f; Fig. 2a: Pressure, MPa
+SERIES: 1: BNR / BNC, 2: PA 6, 3: PA 6 + MoS2, 4: PA 6 + Gr
+TEST_CONDITIONS: Hydraulic oil MGE-10 lubricant; Fig. 1c: COF vs pressure for P1200 polished counter-tile; Fig. 2a: Jamming pressure vs sliding velocity for P180 counter-tile roughness
+WHAT_TO_EXTRACT: COF vs pressure (Fig. 1c) and jamming threshold pressure vs sliding speed (Fig. 2a)
+WEBPLOTDIGITIZER_NOTES: Page contains Fig. 1c and Fig. 2a. Linear scale on all axes.

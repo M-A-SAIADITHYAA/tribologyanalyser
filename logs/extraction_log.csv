@@ -46,3 +46,22 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-17 11:14:05,UNAL2023,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
 2026-08-17 11:17:04,UNAL2023,done,17,0,17,0,3,
 2026-08-24 13:22:49,PA6SiC2020,done,13,13,0,0,1,
+2026-08-24 22:35:13,BASAVARAJ2013,done,41,41,0,0,2,
+2026-08-24 22:36:49,BIRYUKOV2023,done,12,0,12,0,3,
+2026-08-24 22:38:50,CHEN2022,done,2,0,2,0,4,
+2026-08-24 22:40:13,JAPIC2022,done,6,6,0,0,0,"Figure scan warning: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'Deadline expired before operation could complete.', 'status': 'UNAVAILABLE'}}"
+2026-08-24 22:41:18,KHAKBAZ2024,failed,0,0,0,0,0,ValueError: Gemini response was not parseable CSV; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/KHAKBAZ2024_raw_response.txt
+2026-08-24 22:43:58,KUMAR2024,done,6,5,1,0,3,
+2026-08-24 23:17:43,KHAKBAZ2024,done,15,15,0,0,4,
+2026-08-24 23:19:13,LI2010,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/LI2010_raw_response.txt
+2026-08-24 23:20:26,LI2013,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/LI2013_raw_response.txt
+2026-08-24 23:23:01,LORBER2025,done,8,8,0,0,1,
+2026-08-24 23:26:44,SATHEESKUMAR2016b,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/SATHEESKUMAR2016b_raw_response.txt
+2026-08-24 23:34:58,SATHEESKUMAR2016b,done,24,24,0,0,2,
+2026-08-24 23:37:26,LI2010,done,14,13,1,0,2,
+2026-08-24 23:50:42,LI2013,done,2,2,0,0,1,
+2026-08-24 23:52:11,VIKRAM2024,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-08-24 23:53:10,YOU2014,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-08-24 23:54:58,ZAGHLOUL2023,done,2,0,2,0,4,
+2026-08-25 00:00:11,ZAGHLOUL2023b,done,6,2,3,1,1,
+2026-08-25 00:01:23,ZAVRAZHIN2025,done,11,11,0,0,2,

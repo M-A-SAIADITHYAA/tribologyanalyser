@@ -1,0 +1,14 @@
+{
+  "paper_id": "VIKRAM2024",
+  "counterface": "EN31 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 100,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molding",
+  "pa6_grade": null,
+  "source_doi": "10.1002/app.56119",
+  "n_conditions": 27
+}

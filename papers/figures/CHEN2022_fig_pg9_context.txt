@@ -1,0 +1,10 @@
+PAPER_ID: CHEN2022
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10. Typical stress− strain curves of (a) pure PA6 and PA6/Gr10 ~ PA6/Gr30, (b)PA6-BOB/Gr10 ~ PA6-BOB/Gr30, (c) PA6-BOB/HOGr10 ~ PA6-BOB/HOGr30; statistical data of mechanical tests: (d) tensile strength and (e) elongation at break.
+X_AXIS: Strain (%) for (a,b,c); Gr content (wt%) for (d,e)
+Y_AXIS: Stress (MPa) for (a,b,c); Tensile strength (MPa) for (d); Elongation at break (%) for (e)
+SERIES: 10(a): PA6, PA6/Gr10, PA6/Gr20, PA6/Gr30, 10(b): PA6-BOB/Gr10, PA6-BOB/Gr20, PA6-BOB/Gr30, 10(c): PA6-BOB/HOGr10, PA6-BOB/HOGr20, PA6-BOB/HOGr30, 10(d,e) Bar Charts: PA6/Gr, PA6-BOB/Gr, PA6-BOB/HOGr at 0, 10, 20, 30 wt% Gr
+TEST_CONDITIONS: Tensile test at 50 mm/min tensile speed at room temperature using universal testing machine
+WHAT_TO_EXTRACT: Tensile stress-strain behavior, tensile strength values from (d), and elongation at break percentages from (e)
+WEBPLOTDIGITIZER_NOTES: Axis breaks present on the X-axis of strain in (a) and (c) between ~50% and 250%; bar charts in (d) and (e) have exact values labeled directly on top of bars

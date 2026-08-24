@@ -1,0 +1,10 @@
+PAPER_ID: KHAKBAZ2024
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Tan δ of PA6 and its PA6-GF composites a) without conditioning and b) conditioned at 60 °C.
+X_AXIS: Temperature (°C)
+Y_AXIS: Tan δ
+SERIES: PA6_Unconditioned, PA6-15GF_Unconditioned, PA6-25GF_Unconditioned, PA6_Conditioned, PA6-15GF_Conditioned, PA6-25GF_Conditioned
+TEST_CONDITIONS: DMA temperature sweep from -50 to 150 °C at 1 Hz, 5 °C/min heating rate, saturated in 60 °C demineralized water
+WHAT_TO_EXTRACT: Glass transition temperature Tg (temperature corresponding to Tan δ peak)
+WEBPLOTDIGITIZER_NOTES: Two side-by-side subplots (a and b) with temperature ranges from -50 °C to 150 °C.

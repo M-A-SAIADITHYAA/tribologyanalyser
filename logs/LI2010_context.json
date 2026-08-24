@@ -1,0 +1,14 @@
+{
+  "paper_id": "LI2010",
+  "counterface": "chromium steel ball",
+  "test_type": "reciprocating ball-on-block",
+  "environment": "ambient",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "r/min",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "monomer casting",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.wear.2010.04.004",
+  "n_conditions": 30
+}

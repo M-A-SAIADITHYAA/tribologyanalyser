@@ -1,0 +1,10 @@
+PAPER_ID: ZAVRAZHIN2025
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 4. Diagrams of tensile strength and relative extension of PA6 samples and composites based on it under uniaxial tension.
+X_AXIS: Moving, mm
+Y_AXIS: Tension, MPa
+SERIES: PA6, 1DT, 3DT, 1MA, 3MA, 5MA, 5DT
+TEST_CONDITIONS: Uniaxial tensile testing in accordance with ISO 527-1:2019/ISO 527-2:2012 on universal testing machine UTS 101-5
+WHAT_TO_EXTRACT: Tensile yield strength (peak stress) and total displacement/elongation at break
+WEBPLOTDIGITIZER_NOTES: Curves are densely grouped around the yield peak (50–70 MPa at 3–8 mm displacement) with trailing drawing curves extending up to 53 mm.

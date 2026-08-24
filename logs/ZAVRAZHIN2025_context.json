@@ -1,0 +1,14 @@
+{
+  "paper_id": "ZAVRAZHIN2025",
+  "counterface": "steel",
+  "test_type": "cylinder-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": null,
+  "speed_unit": null,
+  "wear_unit": null,
+  "fabrication": "injection moulding",
+  "pa6_grade": "Volgamid 27",
+  "source_doi": "10.3390/sci7040178",
+  "n_conditions": 11
+}

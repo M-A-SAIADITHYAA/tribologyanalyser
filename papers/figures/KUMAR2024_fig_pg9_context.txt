@@ -1,0 +1,10 @@
+PAPER_ID: KUMAR2024
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 4 TGA curves for PGM hybrid composite developed using the hybrid fillers GNP:MoS2 (1:1 ratio).
+X_AXIS: Temperature (°C)
+Y_AXIS: Weight Ratio (%)
+SERIES: Pure PA-6,6, PGM-1%, PGM-3%, PGM-5%, PGM-10%
+TEST_CONDITIONS: Thermogravimetric analysis (TGA) from 30 to 600 °C at 10 °C/min under nitrogen atmosphere (50 mL/min).
+WHAT_TO_EXTRACT: Thermal degradation temperatures (T10, T50, T99).
+WEBPLOTDIGITIZER_NOTES: Multiple thermal degradation curves overlapping between 350 °C and 550 °C.
