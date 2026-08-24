@@ -1,0 +1,10 @@
+PAPER_ID: PA6SiC2020
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. TGA of 20 wt. % SiC / N6 specimen
+X_AXIS: Temp Cel (°C)
+Y_AXIS: DTG (ug/min), DTA (uV), TG (mg)
+SERIES: TGA (Thermogravimetric Analysis), DTA (Differential Thermal Analysis), DTG (Derivative Thermogravimetry)
+TEST_CONDITIONS: Thermal degradation measurement up to 700°C under nitrogen atmosphere for 20 wt.% SiC / N6 composite specimen.
+WHAT_TO_EXTRACT: Thermal degradation mass loss steps, onset degradation temperature (~17°C/93°C for volatiles, 500-580°C main degradation), and peak DTG/DTA response.
+WEBPLOTDIGITIZER_NOTES: Multiple curves overlaid sharing the same temperature X-axis with multiple distinct vertical scale axes.

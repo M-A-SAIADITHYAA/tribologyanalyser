@@ -1,18 +1,18 @@
-paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
-UNAL2023,PA6,unfilled,0,,,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.98,0.0011,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,unfilled,0,,,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.65,0.0024,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,unfilled,0,,,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.6,0.0053,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,5,,,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.83,0.0009,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,5,,,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.55,0.0018,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,5,,,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.5,0.003,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,10,,,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.72,0.0008,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,10,,,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.5,0.0016,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,10,,,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.4,0.0024,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,15,,,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.63,0.00015,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,15,,,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.45,0.00045,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,15,,,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.36,0.0008,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
-UNAL2023,PA6,graphite,15,wax,2,,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.18,0.00025,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,graphite,15,wax,2,,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.14,0.00023,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,graphite,15,wax,2,,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.11,0.00021,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,graphite,15,wax,2,,load:50N,50,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00016,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,graphite,1,,,,,,,,,,,,,,,,,,,,,,,
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+UNAL2023,PA6,90,0,0,0,0,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.98,0.0011,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,80,0,0,0,0,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.65,0.0024,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,70,0,0,0,0,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.6,0.0053,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,85,0,5,0,0,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.83,0.0009,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,75,0,5,0,0,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.55,0.0018,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,65,0,5,0,0,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.5,0.003,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,80,0,10,0,0,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.72,0.0008,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,70,0,10,0,0,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.5,0.0016,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,60,0,10,0,0,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.4,0.0024,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,75,0,15,0,0,load:10N,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.63,0.00015,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,65,0,15,0,0,load:20N,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.45,0.00045,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,55,0,15,0,0,load:30N,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.36,0.0008,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm,
+UNAL2023,PA6,83,0,15,0,0,wax,2,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.18,0.00025,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
+UNAL2023,PA6,83,0,15,0,0,wax,2,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.14,0.00023,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
+UNAL2023,PA6,83,0,15,0,0,wax,2,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.11,0.00021,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
+UNAL2023,PA6,83,0,15,0,0,wax,2,50,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00016,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
+UNAL2023,PA6,99,0,1,0,0,,,,,,,,,,,,,,,,,,,,,

@@ -1,23 +1,23 @@
-paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
-SPRINGER2015,PA6,unfilled,,,,,50,0.4,4000,,steel,PoD,dry,50,21,,,1.846,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,50,0.8,4000,,steel,PoD,dry,50,21,,,1.991,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,50,1.6,4000,,steel,PoD,dry,50,21,,,2.235,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,75,0.4,4000,,steel,PoD,dry,50,21,,,1.622,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,75,0.8,4000,,steel,PoD,dry,50,21,,,1.71,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,75,1.6,4000,,steel,PoD,dry,50,21,,,1.828,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,100,0.4,4000,,steel,PoD,dry,50,21,,,1.526,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,100,0.8,4000,,steel,PoD,dry,50,21,,,1.676,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,unfilled,,,,,100,1.6,4000,,steel,PoD,dry,50,21,,,2.023,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,50,0.4,4000,,steel,PoD,dry,50,21,,,1.162,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,50,0.8,4000,,steel,PoD,dry,50,21,,,1.302,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,50,1.6,4000,,steel,PoD,dry,50,21,,,1.442,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,75,0.4,4000,,steel,PoD,dry,50,21,,,1.201,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,75,0.8,4000,,steel,PoD,dry,50,21,,,1.411,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,75,1.6,4000,,steel,PoD,dry,50,21,,,1.602,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,100,0.4,4000,,steel,PoD,dry,50,21,,,1.041,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,100,0.8,4000,,steel,PoD,dry,50,21,,,1.302,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,,,,100,1.6,4000,,steel,PoD,dry,50,21,,,16.53,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,wax,4,,50,0.4,4000,,steel,PoD,dry,50,21,,,10.5,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,wax,4,,50,0.8,4000,,steel,PoD,dry,50,21,,,12.26,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,wax,4,,50,1.6,4000,,steel,PoD,dry,50,21,,,85.66,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14,
-SPRINGER2015,PA6,graphite,15,wax,4,,75,0.4,,,,,,,,,,,,,,,,,,
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+SPRINGER2015,PA6,100,0,0,0,0,,,50,0.4,4000,,steel,PoD,dry,50,21,,,1.846,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,50,0.8,4000,,steel,PoD,dry,50,21,,,1.991,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,50,1.6,4000,,steel,PoD,dry,50,21,,,2.235,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,75,0.4,4000,,steel,PoD,dry,50,21,,,1.622,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,75,0.8,4000,,steel,PoD,dry,50,21,,,1.71,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,75,1.6,4000,,steel,PoD,dry,50,21,,,1.828,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,100,0.4,4000,,steel,PoD,dry,50,21,,,1.526,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,100,0.8,4000,,steel,PoD,dry,50,21,,,1.676,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,100,0,0,0,0,,,100,1.6,4000,,steel,PoD,dry,50,21,,,2.023,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,50,0.4,4000,,steel,PoD,dry,50,21,,,1.162,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,50,0.8,4000,,steel,PoD,dry,50,21,,,1.302,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,50,1.6,4000,,steel,PoD,dry,50,21,,,1.442,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,75,0.4,4000,,steel,PoD,dry,50,21,,,1.201,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,75,0.8,4000,,steel,PoD,dry,50,21,,,1.411,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,75,1.6,4000,,steel,PoD,dry,50,21,,,1.602,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,100,0.4,4000,,steel,PoD,dry,50,21,,,1.041,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,100,0.8,4000,,steel,PoD,dry,50,21,,,1.302,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,85,0,15,0,0,,,100,1.6,4000,,steel,PoD,dry,50,21,,,16.53,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,81,0,15,0,0,wax,4,50,0.4,4000,,steel,PoD,dry,50,21,,,10.5,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,81,0,15,0,0,wax,4,50,0.8,4000,,steel,PoD,dry,50,21,,,12.26,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,81,0,15,0,0,wax,4,50,1.6,4000,,steel,PoD,dry,50,21,,,85.66,,,,10.1007/s40430-015-0398-1,table,high,reported specific wear rate unit is (m2/N) x 10^-14
+SPRINGER2015,PA6,81,0,15,0,0,wax,4,0.4,,,,,,,,,,,,,,,,,,

@@ -9,8 +9,10 @@ from typing import Any
 import pandas as pd
 
 try:  # Works both as `python src/validator.py` and as a package import.
+    from composition import migrate_legacy_dataframe
     from schema import ALLOWED_VALUES, ALL_COLUMNS, NUMERIC_RANGES, REQUIRED_COLUMNS
 except ImportError:  # pragma: no cover
+    from .composition import migrate_legacy_dataframe
     from .schema import ALLOWED_VALUES, ALL_COLUMNS, NUMERIC_RANGES, REQUIRED_COLUMNS
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -36,19 +38,23 @@ def validate_csv(
 ) -> tuple[pd.DataFrame, pd.DataFrame, str]:
     """Validate an extracted CSV and save an annotated validated copy.
 
-    Missing optional schema fields are added as blanks so manually digitized files
-    can be concise.  Missing required headers halt validation because the file
-    cannot represent a valid experimental condition.
+    A usable row must contain the four explicit composition fields and an
+    experimentally reported COF. Test-condition metadata remains in the output
+    but is deliberately non-blocking: malformed optional metadata is reported as
+    a warning rather than rejecting an otherwise usable COF observation.
     """
     filepath = Path(filepath)
     df = pd.read_csv(filepath, dtype=object, keep_default_na=False)
+    df = migrate_legacy_dataframe(df, paper_id)
     missing_required = [column for column in REQUIRED_COLUMNS if column not in df.columns]
     if missing_required:
         raise ValueError(f"Missing required columns in {filepath.name}: {', '.join(missing_required)}")
 
     original_columns = list(df.columns)
     unexpected_columns = [
-        column for column in original_columns if column not in ALL_COLUMNS and column not in {"validation_status", "validation_notes"}
+        column
+        for column in original_columns
+        if column not in ALL_COLUMNS and column not in {"validation_status", "validation_notes", "validation_warnings"}
     ]
     missing_optional = [column for column in ALL_COLUMNS if column not in df.columns]
     for column in missing_optional:
@@ -56,8 +62,10 @@ def validate_csv(
     df = df[[*ALL_COLUMNS, *[c for c in ("validation_status", "validation_notes") if c in df.columns]]].copy()
 
     all_errors: list[list[str]] = []
+    all_warnings: list[list[str]] = []
     for row_number, (_, row) in enumerate(df.iterrows(), start=1):
         errors: list[str] = []
+        warnings: list[str] = []
         for column in REQUIRED_COLUMNS:
             if _is_blank(row[column]):
                 errors.append(f"{column} is required")
@@ -65,12 +73,9 @@ def validate_csv(
         for column, allowed in ALLOWED_VALUES.items():
             value = row[column]
             if _is_blank(value):
-                if "" not in allowed and column in REQUIRED_COLUMNS:
-                    continue  # The missing-value error above is more useful.
-                if "" not in allowed:
-                    continue  # Optional categorical value may be unstated.
+                continue
             elif _normalise_value(value) not in allowed:
-                errors.append(f"{column}={value!r} not in allowed list")
+                warnings.append(f"{column}={value!r} is outside the preferred encoding")
 
         for column, (minimum, maximum) in NUMERIC_RANGES.items():
             value = row[column]
@@ -78,19 +83,26 @@ def validate_csv(
                 continue
             numeric_value = pd.to_numeric(pd.Series([value]), errors="coerce").iloc[0]
             if pd.isna(numeric_value):
-                errors.append(f"{column}={value!r} is not numeric")
+                target = errors if column in REQUIRED_COLUMNS else warnings
+                target.append(f"{column}={value!r} is not numeric")
                 continue
             if minimum is not None and numeric_value < minimum:
-                errors.append(f"{column}={value} is below min {minimum}")
+                target = errors if column in REQUIRED_COLUMNS else warnings
+                target.append(f"{column}={value} is below min {minimum}")
             if maximum is not None and numeric_value > maximum:
-                errors.append(f"{column}={value} exceeds max {maximum}")
+                target = errors if column in REQUIRED_COLUMNS else warnings
+                target.append(f"{column}={value} exceeds max {maximum}")
 
-        if _is_blank(row["COF"]) and _is_blank(row["wear_rate_mm3Nm"]):
-            errors.append("COF and wear_rate_mm3Nm are both blank")
+        composition_columns = ["pa6_pct", "pa66_pct", "glass_fiber_pct", "graphite_pct", "mos2_pct"]
+        composition_values = pd.to_numeric(row[composition_columns], errors="coerce")
+        if composition_values.notna().all() and composition_values.sum() > 100.000001:
+            errors.append("formulation percentages exceed 100")
         all_errors.append(errors)
+        all_warnings.append(warnings)
 
     df["validation_status"] = ["pass" if not errors else "fail" for errors in all_errors]
     df["validation_notes"] = ["; ".join(errors) for errors in all_errors]
+    df["validation_warnings"] = ["; ".join(warnings) for warnings in all_warnings]
     passing_df = df.loc[df["validation_status"] == "pass"].copy()
     failing_df = df.loc[df["validation_status"] == "fail"].copy()
 
@@ -114,6 +126,9 @@ def validate_csv(
     for row_number, errors in enumerate(all_errors, start=1):
         if errors:
             report_lines.append(f"  Row {row_number}: {'; '.join(errors)}")
+    warning_count = sum(len(warnings) for warnings in all_warnings)
+    if warning_count:
+        report_lines.append(f"Optional metadata warnings: {warning_count} (see validation_warnings column)")
     report_lines.append("Missing value summary:")
     report_lines.extend(missing_lines or ["  No blank fields."])
     report = "\n".join(report_lines)

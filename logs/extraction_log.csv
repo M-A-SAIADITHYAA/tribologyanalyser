@@ -45,3 +45,4 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-17 11:13:03,PA6TPU2015,done,12,0,12,0,2,
 2026-08-17 11:14:05,UNAL2023,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
 2026-08-17 11:17:04,UNAL2023,done,17,0,17,0,3,
+2026-08-24 13:22:49,PA6SiC2020,done,13,13,0,0,1,

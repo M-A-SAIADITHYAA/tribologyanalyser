@@ -1,6 +1,6 @@
 # PA6 Tribology Data Extraction System
 
-This project builds a machine-learning-ready dataset of PA6, PA66, and PA6–PA66 composite tribology tests reported in research papers. One row represents one experimental condition and captures friction (COF), wear, filler chemistry, material processing, and test conditions. The pipeline sends full PDFs directly to Gemini 3.6 Flash through Google's current `google-genai` Python SDK, validates every extracted row, and routes complex line graphs to WebPlotDigitizer for manual digitization.
+This project builds a machine-learning-ready dataset of PA6, PA66, and PA6–PA66 composite tribology tests reported in research papers. One row represents one experimental condition and captures its complete reported formulation, friction (COF), wear, processing, and test conditions. The pipeline sends full PDFs directly to Gemini 3.6 Flash through Google's current `google-genai` Python SDK, validates every extracted row, and routes complex line graphs to WebPlotDigitizer for manual digitization.
 
 ## Setup
 
@@ -75,10 +75,13 @@ Gemini's free tier is commonly limited to 15 requests/minute; the pipeline waits
 | --- | --- |
 | `paper_id` | `FIRSTAUTHORYEAR` identifier, e.g. `UNAL2012` |
 | `material_base` | `PA6`, `PA66`, or `PA6-PA66` |
-| `filler_1_type` | Primary filler: `unfilled`, `GF`, `CF`, `graphite`, `MoS2`, `PTFE`, `wax`, `SiC`, `SiO2`, `nano-zeolite`, `GO`, `TPU`, `PPS`, `wollastonite`, `B2O3`, `GnP`, `MWCNT`, `Al2O3`, or `other` |
-| `filler_1_wt_pct` | Primary filler weight percent (`0` for unfilled) |
-| `filler_2_type`, `filler_2_wt_pct` | Optional second filler and weight percent |
-| `filler_3_type`, `filler_3_wt_pct` | Optional third filler and weight percent |
+| `pa6_pct` | PA6 mass percentage in the reported formulation; required |
+| `glass_fiber_pct` | Glass-fiber mass percentage; required and `0` when absent |
+| `graphite_pct` | Graphite mass percentage; required and `0` when absent |
+| `mos2_pct` | MoS₂ mass percentage; required and `0` when absent |
+| `pa66_pct` | PA66 mass percentage, retained to represent PA66 formulations accurately |
+| `other_ingredients` | Other stated ingredients, such as PTFE, carbon fiber, wax, or GO |
+| `other_ingredients_wt_pct` | Matching stated percentages for `other_ingredients`, separated with semicolons if needed |
 | `load_N` | Applied normal load, standardized to N |
 | `speed_ms` | Sliding speed, standardized to m/s |
 | `distance_m` | Sliding distance in m; blank if unstated |
@@ -89,7 +92,7 @@ Gemini's free tier is commonly limited to 15 requests/minute; the pipeline waits
 | `humidity_pct` | Relative humidity if reported |
 | `temperature_C` | Ambient test temperature if reported |
 | `fabrication` | `injection`, `extrusion`, `AM`, `cast`, or blank |
-| `COF` | Steady-state coefficient of friction |
+| `COF` | Experimentally reported steady-state coefficient of friction; required for a usable row |
 | `wear_rate_mm3Nm` | Specific wear rate in mm³/(N·m) |
 | `wear_volume_mm3` | Worn volume where directly reported |
 | `mass_loss_mg` | Mass loss where directly reported |
@@ -107,7 +110,16 @@ Run a standalone validation with:
 python src/validator.py data/raw_llm/UNAL2012_llm.csv UNAL2012
 ```
 
-Validation checks categorical encodings, plausible numeric ranges, required condition fields, and requires at least COF or specific wear rate per row. Passing and failing rows are retained with `validation_status` and `validation_notes`; failures are never silently discarded.
+Validation requires `paper_id`, `pa6_pct`, `glass_fiber_pct`, `graphite_pct`, `mos2_pct`, and a reported numeric `COF`. A reinforcement percentage of `0` is valid and expected when that ingredient is absent. Test-condition metadata and wear data are retained but generate warnings rather than rejecting an otherwise usable COF row. Passing and failing rows are retained with `validation_status`, `validation_notes`, and `validation_warnings`; failures are never silently discarded.
+
+The project no longer uses `filler_1_*`, `filler_2_*`, or `filler_3_*` fields. To migrate an older extraction set and revalidate it, run:
+
+```bash
+python src/migrate_composition.py
+python src/merger.py
+```
+
+The migration writes `0` for tracked ingredients that were absent in the legacy formulation. It does not invent a percentage for a reported ingredient whose amount is unknown; those rows remain in the validated review file with a failure note instead of entering the usable COF dataset.
 
 - **High** — an explicit table entry or sentence.
 - **Medium** — a clearly readable bar chart.

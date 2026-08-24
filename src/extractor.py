@@ -179,6 +179,7 @@ DOMAIN KNOWLEDGE:
   linear wear (μm), or wear per distance (mg/km) — extract whichever is present
 - Merged table cells: repeat the value for every sub-row it applies to
 - Fixed conditions (same load/speed/counterface for all rows): apply to every extracted row
+- Every usable row requires a reported COF and a source-backed material formulation
 
 PAPER CONTEXT:
 {context}
@@ -191,23 +192,33 @@ EXTRACTION RULES:
 2. Apply fixed conditions from context to every row.
 3. For Taguchi/DOE arrays: each experimental run = one row — extract every run.
 4. For bar charts: read each bar value from y-axis gridlines as precisely as possible.
-5. For COF-versus-sliding-distance graphs: extract a steady-state plateau only if
-   clearly readable; otherwise write SAVE_FOR_MANUAL in notes.
-6. Set extraction_method: table / prose / bar_chart / line_graph / mixed.
-7. Set confidence: high (table or explicit prose) / medium (bar chart) / low (line graph estimate).
-8. Leave columns blank if value is not stated — never fill from assumptions.
-9. If wear is only mass loss: fill mass_loss_mg and leave wear_rate_mm3Nm blank.
-10. Do not convert units — preserve reported numeric values and state source units in notes.
+5. Use explicit formulation columns, never generic filler slots:
+   - pa6_pct, glass_fiber_pct, graphite_pct, and mos2_pct are mandatory.
+   - Write 0 for each ingredient that is absent from the formulation.
+   - Derive pa6_pct as 100 minus every explicitly stated ingredient only when the
+     complete formulation is stated. Never invent an unknown percentage.
+   - Put other reported ingredients and their percentages in other_ingredients and
+     other_ingredients_wt_pct (semicolon-separated when needed).
+6. COF is mandatory for usable rows. Extract only explicitly reported COF values.
+   Do not generate or infer COF. For an unreadable line graph that needs manual
+   digitization, use blank COF and SAVE_FOR_MANUAL in notes; that placeholder will
+   be logged and excluded from the usable dataset.
+7. Set extraction_method: table / prose / bar_chart / line_graph / mixed.
+8. Set confidence: high (table or explicit prose) / medium (bar chart) / low (line graph estimate).
+9. Leave optional columns blank if value is not stated — never fill from assumptions.
+10. If wear is only mass loss: fill mass_loss_mg and leave wear_rate_mm3Nm blank.
+11. Do not convert units — preserve reported numeric values and state source units in notes.
    converter.py performs auditable conversion later.
 
 OUTPUT: Return ONLY valid CSV. The first row must be the exact header below;
 no markdown, code fences, explanation, or extra rows.
 
 COLUMNS (in this exact order):
-paper_id,material_base,filler_1_type,filler_1_wt_pct,filler_2_type,filler_2_wt_pct,
-filler_3_type,filler_3_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,
-test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,
-wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,
+other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,
+counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,
+wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,
+extraction_method,confidence,notes
 """
 
 
@@ -222,73 +233,6 @@ def _save_raw_response(paper_id: str, response_text: str, suffix: str = "raw_res
     path = LOGS_DIR / f"{paper_id}_{suffix}.txt"
     path.write_text(response_text, encoding="utf-8")
     return path
-
-
-def _repair_detectable_column_shift(df: pd.DataFrame, paper_id: str) -> pd.DataFrame:
-    """Repair one common CSV positional error without guessing scientific values.
-
-    Some model CSV responses emit an extra blank filler field and omit an optional
-    contact-temperature field.  The condition block is then visibly shifted right:
-    ``load_N`` and ``counterface`` are blank, while the next cells contain a
-    plausible load, speed, distance, counterface, test type, and environment.
-    This exact signature is safe to correct because every moved value is validated
-    against its expected type/category afterwards.  The unmodified CSV response is
-    retained in logs for auditability.
-    """
-    repaired = df.copy()
-    repairs: list[int] = []
-    counterfaces = {"steel", "PA6", "alumina", "cast-iron", "other"}
-    test_types = {"PoD", "BoR", "BoP"}
-    environments = {"dry", "humid", "water", "lubricated"}
-
-    def as_float(value: Any) -> float | None:
-        try:
-            return float(value)
-        except (TypeError, ValueError):
-            return None
-
-    for index, row in repaired.iterrows():
-        # Expected shifted positions: speed_ms contains load, distance_m contains
-        # speed, PV_factor contains distance, test_type contains counterface, etc.
-        shifted_load = as_float(row["speed_ms"])
-        shifted_speed = as_float(row["distance_m"])
-        if not (
-            not str(row["load_N"]).strip()
-            and not str(row["counterface"]).strip()
-            and shifted_load is not None
-            and 1 <= shifted_load <= 500
-            and shifted_speed is not None
-            and 0.01 <= shifted_speed <= 5
-            and str(row["test_type"]).strip() in counterfaces
-            and str(row["environment"]).strip() in test_types
-            and str(row["humidity_pct"]).strip() in environments
-        ):
-            continue
-
-        # Shift the exact condition/measurement span left one field and restore
-        # the omitted optional contact_temp_C blank at the end of the span.
-        fields = [
-            "load_N", "speed_ms", "distance_m", "PV_factor", "counterface",
-            "test_type", "environment", "humidity_pct", "temperature_C",
-            "fabrication", "COF", "wear_rate_mm3Nm", "wear_volume_mm3",
-            "mass_loss_mg", "contact_temp_C",
-        ]
-        values = [row[field] for field in fields]
-        repaired.loc[index, fields] = [*values[1:], ""]
-        repairs.append(index + 1)
-
-    if repairs:
-        LOGS_DIR.mkdir(parents=True, exist_ok=True)
-        report_path = LOGS_DIR / f"{paper_id}_column_repair_report.txt"
-        report_path.write_text(
-            "Corrected a detectable one-cell right shift in the experimental "
-            f"condition block for CSV row(s): {', '.join(map(str, repairs))}.\n"
-            "The original Gemini response is retained in logs/PAPERID_raw_response.txt; "
-            "corrected values still undergo full validation.\n",
-            encoding="utf-8",
-        )
-        print(f"Corrected a detectable Gemini column shift in row(s): {', '.join(map(str, repairs))}")
-    return repaired
 
 
 def _parse_json_response(response_text: str, paper_id: str) -> dict[str, Any]:
@@ -350,9 +294,8 @@ def extract_all_data(gemini_file: Any, paper_id: str, context: dict[str, Any]) -
     if list(df.columns) != ALL_COLUMNS or df.empty:
         raw_path = _save_raw_response(paper_id, raw_response)
         raise ValueError(f"Gemini CSV is missing schema columns or rows; saved to {raw_path}")
-    # Preserve unmodified output before any strictly signature-based correction.
+    # Preserve unmodified Gemini output for auditability.
     _save_raw_response(paper_id, raw_response, "raw_response")
-    df = _repair_detectable_column_shift(df, paper_id)
     print(f"Parsed {len(df)} experimental row(s) from Gemini response.")
     return df
 

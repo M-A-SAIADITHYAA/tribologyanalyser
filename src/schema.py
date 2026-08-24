@@ -1,16 +1,26 @@
-"""Canonical schema for the PA6 / PA66 tribology dataset."""
+"""Canonical schema for the PA6 / PA66 tribology dataset.
+
+The dataset records a formulation directly rather than using generic filler slots.
+The four requested formulation fields are always present in the CSV header:
+``pa6_pct``, ``glass_fiber_pct``, ``graphite_pct``, and ``mos2_pct``.
+"""
 
 from __future__ import annotations
+
+COMPOSITION_COLUMNS = [
+    "pa6_pct",
+    "glass_fiber_pct",
+    "graphite_pct",
+    "mos2_pct",
+]
 
 ALL_COLUMNS = [
     "paper_id",
     "material_base",
-    "filler_1_type",
-    "filler_1_wt_pct",
-    "filler_2_type",
-    "filler_2_wt_pct",
-    "filler_3_type",
-    "filler_3_wt_pct",
+    *COMPOSITION_COLUMNS,
+    "pa66_pct",
+    "other_ingredients",
+    "other_ingredients_wt_pct",
     "load_N",
     "speed_ms",
     "distance_m",
@@ -32,48 +42,13 @@ ALL_COLUMNS = [
     "notes",
 ]
 
-REQUIRED_COLUMNS = [
-    "paper_id",
-    "material_base",
-    "filler_1_type",
-    "load_N",
-    "speed_ms",
-    "counterface",
-    "test_type",
-    "environment",
-    "extraction_method",
-    "confidence",
-]
+# A row is usable for the COF dataset only when its source-backed formulation and
+# measured COF are available. Test settings remain valuable metadata but are not
+# required for acceptance, which keeps validation intentionally lightweight.
+REQUIRED_COLUMNS = ["paper_id", *COMPOSITION_COLUMNS, "COF"]
 
-FILLER_TYPES = [
-    "unfilled",
-    "GF",
-    "CF",
-    "graphite",
-    "MoS2",
-    "PTFE",
-    "wax",
-    "SiC",
-    "SiO2",
-    "nano-zeolite",
-    "GO",
-    "TPU",
-    "PPS",
-    "wollastonite",
-    "B2O3",
-    "GnP",
-    "MWCNT",
-    "Al2O3",
-    "other",
-]
-
-# Blank is intentionally permitted only for optional categorical fields.  Values
-# such as paper_id, source_doi, and notes are free text rather than categories.
 ALLOWED_VALUES = {
     "material_base": ["PA6", "PA66", "PA6-PA66"],
-    "filler_1_type": FILLER_TYPES,
-    "filler_2_type": ["", *FILLER_TYPES],
-    "filler_3_type": ["", *FILLER_TYPES],
     "counterface": ["steel", "PA6", "alumina", "cast-iron", "other"],
     "test_type": ["PoD", "BoR", "BoP"],
     "environment": ["dry", "humid", "water", "lubricated"],
@@ -82,45 +57,58 @@ ALLOWED_VALUES = {
     "confidence": ["high", "medium", "low"],
 }
 
-# Ranges are broad enough to retain unusual but plausible reported conditions;
-# blank optional values are allowed by the validator.
+# Composition and COF are validation gates. The other ranges produce warnings,
+# so incomplete or unusual test metadata does not discard a valid COF row.
 NUMERIC_RANGES = {
-    "filler_1_wt_pct": (0, 60),
-    "filler_2_wt_pct": (0, 60),
-    "filler_3_wt_pct": (0, 60),
-    "load_N": (1, 500),
-    "speed_ms": (0.01, 5),
+    "pa6_pct": (0, 100),
+    "pa66_pct": (0, 100),
+    "glass_fiber_pct": (0, 100),
+    "graphite_pct": (0, 100),
+    "mos2_pct": (0, 100),
+    "load_N": (0, None),
+    "speed_ms": (0, None),
     "distance_m": (0, 100000),
     "PV_factor": (0, None),
     "humidity_pct": (0, 100),
-    "temperature_C": (-20, 300),
-    "COF": (0.01, 0.9),
-    "wear_rate_mm3Nm": (1e-8, 1e-2),
+    "temperature_C": (-100, 500),
+    # A coefficient is dimensionless and non-negative; values outside this broad
+    # physical envelope usually indicate a shifted CSV field (for example a wear
+    # rate or load copied into COF), not an experimental friction coefficient.
+    "COF": (0.01, 3),
+    "wear_rate_mm3Nm": (0, None),
     "wear_volume_mm3": (0, None),
     "mass_loss_mg": (0, None),
-    "contact_temp_C": (-20, 1000),
+    "contact_temp_C": (-100, 1500),
 }
 
 
 def get_schema_description() -> str:
-    """Return an unambiguous, prompt-ready description of the dataset schema."""
+    """Return a prompt-ready description of the formulation-first schema."""
     column_lines = []
     for column in ALL_COLUMNS:
         if column in ALLOWED_VALUES:
-            column_lines.append(f"- {column}: one of {', '.join(repr(v) for v in ALLOWED_VALUES[column])}")
+            column_lines.append(f"- {column}: one of {', '.join(repr(v) for v in ALLOWED_VALUES[column])}; blank if unstated")
         elif column in NUMERIC_RANGES:
             low, high = NUMERIC_RANGES[column]
             maximum = "unbounded" if high is None else str(high)
-            column_lines.append(f"- {column}: numeric; permitted range {low} to {maximum}; blank if not stated")
+            requirement = "required" if column in REQUIRED_COLUMNS else "blank if unstated"
+            column_lines.append(f"- {column}: numeric; permitted range {low} to {maximum}; {requirement}")
         else:
-            column_lines.append(f"- {column}: free-text string; blank if not stated")
+            column_lines.append(f"- {column}: free-text string; blank if unstated")
 
     return (
         "Return CSV using exactly this ordered header:\n"
         + ",".join(ALL_COLUMNS)
-        + "\n\nColumn rules:\n"
+        + "\n\nFormulation rules:\n"
+        "- pa6_pct, glass_fiber_pct, graphite_pct, and mos2_pct are the required formulation fields.\n"
+        "- Write 0 for each of those ingredients when it is absent from a formulation.\n"
+        "- Use explicit reported mass percentages only. Derive pa6_pct as 100 minus all explicitly stated ingredients only when the full formulation is stated.\n"
+        "- Never invent a composition percentage. If a present ingredient has no reported amount, leave that field blank and explain in notes; the row will be retained for review but is not usable.\n"
+        "- Keep any non-GF/non-graphite/non-MoS2 ingredient in other_ingredients and its stated percentage(s) in other_ingredients_wt_pct.\n"
+        "- COF is required. Omit rows with no explicitly reported COF; never infer or fabricate it.\n\n"
+        "Column rules:\n"
         + "\n".join(column_lines)
         + "\n\nRequired non-empty columns: "
         + ", ".join(REQUIRED_COLUMNS)
-        + ". Values must be explicitly reported; leave unknown optional fields blank."
+        + "."
     )

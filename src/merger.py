@@ -82,7 +82,16 @@ def merge_all() -> pd.DataFrame:
     master = master[ALL_COLUMNS].copy()
     master["date_added"] = date.today().isoformat()
     before_deduplication = len(master)
-    dedupe_columns = ["paper_id", "load_N", "speed_ms", "filler_1_type", "filler_1_wt_pct", "COF"]
+    dedupe_columns = [
+        "paper_id",
+        "load_N",
+        "speed_ms",
+        "pa6_pct",
+        "glass_fiber_pct",
+        "graphite_pct",
+        "mos2_pct",
+        "COF",
+    ]
     master = master.drop_duplicates(subset=dedupe_columns, keep="first").reset_index(drop=True)
     duplicates_removed = before_deduplication - len(master)
 
@@ -100,8 +109,10 @@ def merge_all() -> pd.DataFrame:
         "Rows by material_base:"
     )
     _print_counts(master, "material_base")
-    print("\nRows by filler_1_type:")
-    _print_counts(master, "filler_1_type")
+    print("\nFormulation coverage:")
+    for column in ("pa6_pct", "glass_fiber_pct", "graphite_pct", "mos2_pct"):
+        nonzero = pd.to_numeric(master[column], errors="coerce").fillna(0).ne(0).sum()
+        print(f"  {column}: {nonzero} row(s) with a non-zero value")
     print("\nRows by environment:")
     _print_counts(master, "environment")
     print("\nMissing value rates:")
