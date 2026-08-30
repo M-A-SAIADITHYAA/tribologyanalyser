@@ -1,0 +1,10 @@
+PAPER_ID: KUMAR2025
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 5 | TGA curve of PA-6,6 and its PM composites under N2 environment. [Color figure can be viewed at wileyonlinelibrary.com]
+X_AXIS: Temperature (°C)
+Y_AXIS: Weight Loss (%)
+SERIES: Pure PA-6,6, PA-6,6/MoS2_1%, PA-6,6/MoS2_3%, PA-6,6/MoS2_5%, PA-6,6/MoS2_10%
+TEST_CONDITIONS: Heating rate 10 °C/min under N2 atmosphere from RT to 800 °C
+WHAT_TO_EXTRACT: Thermal degradation curves, T10%, T50%, and Tmax values
+WEBPLOTDIGITIZER_NOTES: Main plot ranges from 50 to 550 °C; inset plot magnifies the 360–460 °C region where initial thermal breakdown occurs.

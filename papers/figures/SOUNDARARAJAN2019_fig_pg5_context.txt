@@ -1,0 +1,10 @@
+PAPER_ID: SOUNDARARAJAN2019
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Tensile strength
+X_AXIS: Sample (Virgin PA6, PA6 10%TiO2, PA6 20%TiO2, PA6 30%TiO2)
+Y_AXIS: Tensile Strength (MPa)
+SERIES: Tensile Strength
+TEST_CONDITIONS: ASTM D638 standard tensile test at 5 mm/min loading speed
+WHAT_TO_EXTRACT: Tensile strength values across different TiO2 weight percentage compositions
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis with 4 discrete samples; exact numerical values are also provided in Table 1 on page 3

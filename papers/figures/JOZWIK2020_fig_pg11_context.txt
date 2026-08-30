@@ -1,0 +1,10 @@
+PAPER_ID: JOZWIK2020
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Figure 12. Variation in the friction coefficient as a function of time t, obtained at load P = 30 N (green) and P = 20 N (red).
+X_AXIS: Time, t [s]
+Y_AXIS: Friction coefficient µ
+SERIES: P4.1 (PET with PTFE, Load P = 20 N, red), P4.2 (PET with PTFE, Load P = 30 N, green)
+TEST_CONDITIONS: PET with PTFE composite under dry sliding at 20 N and 30 N load, speed 450 rpm
+WHAT_TO_EXTRACT: Coefficient of friction over time
+WEBPLOTDIGITIZER_NOTES: P4.2 line is fairly flat near ~0.17-0.18; P4.1 line fluctuates between 0.12 and 0.15.

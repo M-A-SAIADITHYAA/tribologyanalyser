@@ -1,0 +1,14 @@
+{
+  "paper_id": "MYALSKI2020",
+  "counterface": "cast iron (GJL-250)",
+  "test_type": "pin-on-block",
+  "environment": "dry",
+  "disc_diameter_mm": 3.0,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mg",
+  "fabrication": "injection molding",
+  "pa6_grade": "Tarnamid T-30",
+  "source_doi": "10.3390/polym12102264",
+  "n_conditions": 8
+}

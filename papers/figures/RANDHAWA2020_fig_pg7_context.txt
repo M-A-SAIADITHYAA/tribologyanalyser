@@ -1,0 +1,10 @@
+PAPER_ID: RANDHAWA2020
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Figure 2.COF vs (a) sliding distance (b) Load (c) sliding velocity; Figure 3. COF at (a) constant velocity and varying load & sliding distance (b) constant sliding distance and varying load & sliding velocity (c) constant load and varying sliding distance & velocity (d) varying all parameters i.e. load, sliding distance & velocity
+X_AXIS: Fig 2(c): Sliding Velocity in m/s; Fig 3(a,b): Wt% of diboron trioxide in PA6
+Y_AXIS: Coefficient of Friction
+SERIES: Fig 2(c): Pure PA6, PA6 with 2wt%, 4wt%, 8wt% diboron trioxide; Fig 3(a,b): Mean COF with error bars
+TEST_CONDITIONS: Fig 2(c): Load 4.9 N, Distance 1000 m; Fig 3(a): Constant velocity 1.05 m/s; Fig 3(b): Constant distance 1000 m
+WHAT_TO_EXTRACT: COF vs sliding velocity and mean COF vs filler percentage under varying conditions
+WEBPLOTDIGITIZER_NOTES: Fig 2(c) has 4 line series; Fig 3(a,b) present single mean curves with error bars.

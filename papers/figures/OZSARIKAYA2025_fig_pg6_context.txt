@@ -1,0 +1,10 @@
+PAPER_ID: OZSARIKAYA2025
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Curves of DSC melting for PA66 and the PA66 nanocomposites. / Fig. 4. Curves of DSC cooling for PA66 and PA66 nanocomposites.
+X_AXIS: Temperature (°C)
+Y_AXIS: Heat flow endo. (down) / Heat flow exo. (up)
+SERIES: PA66, PA66/10CF, PA66/20CF, PA66/30CF, PA66/30CF/0.5MWCNT, PA66/30CF/0.5MWCNT/3MoS2, PA66/30CF/0.5MWCNT/3Silicone
+TEST_CONDITIONS: Heating and cooling rate of 10 °C/min under nitrogen flow
+WHAT_TO_EXTRACT: Melting temperature (Tm) and crystallization temperature (Tc)
+WEBPLOTDIGITIZER_NOTES: Contains DSC line graphs alongside Table 3 and Table 4.

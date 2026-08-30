@@ -1,0 +1,14 @@
+{
+  "paper_id": "GRAF2026",
+  "counterface": "100Cr6 bearing steel",
+  "test_type": "ball-on-disk",
+  "environment": "dry, humid, lab air",
+  "disc_diameter_mm": 23,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": null,
+  "fabrication": "molded",
+  "pa6_grade": "PA66",
+  "source_doi": "10.1016/j.triboint.2026.112221",
+  "n_conditions": 20
+}

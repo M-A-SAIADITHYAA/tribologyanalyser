@@ -1,0 +1,14 @@
+{
+  "paper_id": "WANG2018",
+  "counterface": "stainless steel ball",
+  "test_type": "ball-on-plate",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection moulding",
+  "pa6_grade": "1013B",
+  "source_doi": "10.1039/c8ra00106e",
+  "n_conditions": 7
+}

@@ -1,0 +1,14 @@
+{
+  "paper_id": "LI2024",
+  "counterface": "self-mated PA66 and PA66 composites",
+  "test_type": "pin-on-disc",
+  "environment": "dry, grease lubricated",
+  "disc_diameter_mm": 30.0,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "twin-screw extruded and injection molded",
+  "pa6_grade": null,
+  "source_doi": "10.1007/s11249-024-01941-6",
+  "n_conditions": 24
+}

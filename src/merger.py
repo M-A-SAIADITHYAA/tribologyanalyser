@@ -58,21 +58,44 @@ def _print_counts(df: pd.DataFrame, column: str) -> None:
 
 
 def merge_all() -> pd.DataFrame:
-    """Validate manual files, merge passing rows, de-duplicate, and save master CSV."""
+    """Validate manual files, merge passing rows to master, and save all rows to a separate CSV."""
     VALIDATED_DIR.mkdir(parents=True, exist_ok=True)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     _validate_manual_files()
 
-    frames: list[pd.DataFrame] = []
+    passing_frames: list[pd.DataFrame] = []
+    all_frames: list[pd.DataFrame] = []
     rejected_rows = 0
+    validation_cols = ["validation_status", "validation_notes", "validation_warnings"]
+
     for path in sorted(VALIDATED_DIR.glob("*_validated.csv")):
         annotated = pd.read_csv(path, dtype=object, keep_default_na=False)
         if "validation_status" in annotated.columns:
             rejected_rows += int((annotated["validation_status"].astype(str).str.lower() != "pass").sum())
-        frames.append(_read_validated(path))
+        passing_frames.append(_read_validated(path))
+        all_frames.append(annotated)
 
-    if frames:
-        master = pd.concat(frames, ignore_index=True)
+    today_str = date.today().isoformat()
+
+    # 1. Process and save the separate ALL ROWS CSV (both passing and failing rows)
+    if all_frames:
+        all_rows_df = pd.concat(all_frames, ignore_index=True)
+    else:
+        all_rows_df = pd.DataFrame(columns=ALL_COLUMNS + validation_cols)
+
+    all_expected_cols = ALL_COLUMNS + [c for c in validation_cols if c not in ALL_COLUMNS]
+    for column in all_expected_cols:
+        if column not in all_rows_df.columns:
+            all_rows_df[column] = ""
+    all_rows_df["date_added"] = today_str
+    all_rows_output_cols = all_expected_cols + ["date_added"]
+    all_rows_df = all_rows_df[all_rows_output_cols].copy()
+    all_rows_path = PROCESSED_DIR / "all_validated_rows.csv"
+    all_rows_df.to_csv(all_rows_path, index=False)
+
+    # 2. Process and save the MASTER CSV (only passing, deduplicated rows)
+    if passing_frames:
+        master = pd.concat(passing_frames, ignore_index=True)
     else:
         master = pd.DataFrame(columns=ALL_COLUMNS)
 
@@ -80,7 +103,7 @@ def merge_all() -> pd.DataFrame:
         if column not in master.columns:
             master[column] = ""
     master = master[ALL_COLUMNS].copy()
-    master["date_added"] = date.today().isoformat()
+    master["date_added"] = today_str
     before_deduplication = len(master)
     dedupe_columns = [
         "paper_id",
@@ -101,7 +124,8 @@ def merge_all() -> pd.DataFrame:
     print(
         "=== Master Dataset Summary ===\n"
         f"Papers included: {master['paper_id'].replace('', pd.NA).nunique()}\n"
-        f"Total rows: {len(master)}\n"
+        f"Passing master rows: {len(master)}\n"
+        f"Total all rows (pass + fail): {len(all_rows_df)}\n"
         f"Rows rejected by validation: {rejected_rows}\n"
         f"Duplicate rows removed: {duplicates_removed}\n\n"
         f"COF range: {_format_range(master['COF'])}\n"
@@ -127,6 +151,7 @@ def merge_all() -> pd.DataFrame:
         "→ Read context from papers/figures/*_context.txt\n"
         "→ Save results to data/raw_manual/PAPERID_manual.csv\n"
         "→ Re-run merger to include manual data\n"
+        f"All rows dataset saved: {all_rows_path}\n"
         f"Master dataset saved: {output_path}"
     )
     return master

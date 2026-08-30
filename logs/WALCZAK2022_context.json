@@ -1,0 +1,14 @@
+{
+  "paper_id": "WALCZAK2022",
+  "counterface": "100Cr6 bearing steel",
+  "test_type": "ball-on-disc",
+  "environment": "dry and water-immersed",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3 N-1 m-1",
+  "fabrication": "injection moulding",
+  "pa6_grade": "Tarnamid, Ultramid A3XZG5",
+  "source_doi": "10.12913/22998624/147515",
+  "n_conditions": 8
+}

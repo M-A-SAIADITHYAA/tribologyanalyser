@@ -1,0 +1,10 @@
+PAPER_ID: RANDHAWA2020
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. Wear at (a) constant velocity and varying load & sliding distance (b) constant sliding distance and varying load & sliding velocity (c) constant load and varying sliding distance & velocity (d) varying all parameters i.e. load, sliding distance & velocity; Figure 6. Transfer layer generation on the steel disc of pin-on-disc apparatus
+X_AXIS: Wt% of diboron trioxide in PA6
+Y_AXIS: Wear (µm)
+SERIES: Mean Wear with error bars for Fig 5(c) and 5(d)
+TEST_CONDITIONS: Fig 5(c): Constant load 4.9 N, varying sliding distance & velocity; Fig 5(d): Varying all parameters
+WHAT_TO_EXTRACT: Wear (µm) vs filler percentage under complex parameter variations
+WEBPLOTDIGITIZER_NOTES: Page includes line graphs 5(c,d) and Figure 6 photograph of steel disc surface transfer film.

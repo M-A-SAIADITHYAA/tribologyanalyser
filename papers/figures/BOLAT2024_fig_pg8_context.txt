@@ -1,0 +1,10 @@
+PAPER_ID: BOLAT2024
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 6 Differential scanning calorimeter (DSC) heating curves (A) and dynamic mechanic analyses (DMA)-based tanδ graph (B) of the samples.
+X_AXIS: Temperature (°C)
+Y_AXIS: DSC (μV/mg) for (A); Tanδ for (B)
+SERIES: PA6, PA6 GF, PA6 CF
+TEST_CONDITIONS: Thermal analysis (DSC heating curves up to 400°C) and dynamic mechanical analysis (DMA tanδ peak measurements up to 100°C)
+WHAT_TO_EXTRACT: Melting point temperatures and glass transition temperatures (tanδ peak values)
+WEBPLOTDIGITIZER_NOTES: Non-tribological curves showing thermal transitions. Linear scales on X and Y axes.

@@ -1,0 +1,10 @@
+PAPER_ID: LI2024
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 6 The tribological properties of PA66 composites under grease lubricated conditions: a Coefficient of friction; b Specific wear rate of pin specimen
+X_AXIS: Content (PA66, PA66+13%GF, PA66+33%GF)
+Y_AXIS: (a) COF, (b) Specific wear rate (mm³/Nm)
+SERIES: PV=4 MPa·m/s, PV=6 MPa·m/s, PV=20 MPa·m/s, PV=30 MPa·m/s
+TEST_CONDITIONS: Grease lubricated conditions (MOLYKOTE EM-50L), self-mated PA66 composites pin-on-disc contact, room temperature
+WHAT_TO_EXTRACT: Coefficient of friction and specific wear rate vs glass fiber content under grease lubrication
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis; error bars present; wear rates for low PV values near 1E-8 mm³/Nm

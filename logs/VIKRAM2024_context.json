@@ -3,7 +3,7 @@
   "counterface": "EN31 steel",
   "test_type": "pin-on-disc",
   "environment": "dry",
-  "disc_diameter_mm": 100,
+  "disc_diameter_mm": 80,
   "load_unit": "N",
   "speed_unit": "rpm",
   "wear_unit": "mm3/Nm",

@@ -1,0 +1,10 @@
+PAPER_ID: MYALSKI2020
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Figure 5. DSC curves for heating (a) and cooling (b).
+X_AXIS: Temperature [°C]
+Y_AXIS: DSC [mW/mg]
+SERIES: 4 materials tested in two conditions (as injected and heat-treated): PA6, PA6 + BC, PA6 + GO, PA6 + GC
+TEST_CONDITIONS: Differential scanning calorimetry under argon gas flow (20 mL/min) at a heating/cooling rate of 5 K/min
+WHAT_TO_EXTRACT: Melting peak temperature (Tm) and crystallization peak temperature (Tc)
+WEBPLOTDIGITIZER_NOTES: Stacked endothermic/exothermic heat flow curves with vertical offsets for clarity; thermal phase transition analysis

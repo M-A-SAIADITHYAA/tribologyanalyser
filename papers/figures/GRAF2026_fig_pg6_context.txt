@@ -1,0 +1,10 @@
+PAPER_ID: GRAF2026
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Coefficient of friction in the run-in-state (600–800 m) for different materials and condition states. | Fig. 8. Coefficient of friction over sliding distance for four samples of GF30-G-S-F50T. | Fig. 9. Coefficient of friction with spikes and microscopic images of the sliding path for different sliding distances with graphite lubrication and tempering (GF30-G-S-F50T), sample 'rot_Pr1' out of four.
+X_AXIS: Sliding distance [m] (for Fig. 8 and Fig. 9)
+Y_AXIS: Coefficient of friction μ
+SERIES: Fig. 7: Bar chart comparing 5 material compounds across 4 conditioning states (F10, F50, F75, F50T) - extractable directly, Fig. 8: 4 individual samples (rot_Pr1 to rot_Pr4) of graphite-lubricated tempered GF-PA66, Fig. 9: Zoom-in profile of sample rot_Pr1 between 215 m and 250 m showing friction spikes
+TEST_CONDITIONS: Normal load Fn = 20.0 N, Sliding velocity V = 0.07 m/s, Material: GF30-G-S-F50T (graphite lubricated, tempered)
+WHAT_TO_EXTRACT: Steady-state COF run-in values from Fig. 7 bar chart; friction spike amplitude (Δμ ≈ 0.05) and baseline friction from Fig. 8 and Fig. 9
+WEBPLOTDIGITIZER_NOTES: Fig. 7 is a bar chart (extractable by LLM). Fig. 8 shows multiple highly noisy overlapping line plots with periodic sharp vertical spikes.

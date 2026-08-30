@@ -1,0 +1,14 @@
+{
+  "paper_id": "RANDHAWA2020",
+  "counterface": "hardened EN31 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 165,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "µm",
+  "fabrication": "twin-screw extrusion and injection molding",
+  "pa6_grade": null,
+  "source_doi": "10.1088/1742-6596/1706/1/012124",
+  "n_conditions": 108
+}

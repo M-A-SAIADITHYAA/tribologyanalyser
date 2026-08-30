@@ -1,0 +1,14 @@
+{
+  "paper_id": "KUMAR2025",
+  "counterface": "steel",
+  "test_type": "ball-on-plate",
+  "environment": "dry",
+  "disc_diameter_mm": 6.0,
+  "load_unit": "N",
+  "speed_unit": "Hz",
+  "wear_unit": "mm3/N-m",
+  "fabrication": "injection moulded",
+  "pa6_grade": "PA-6,6 (PXR-01 NC)",
+  "source_doi": "10.1002/app.57081",
+  "n_conditions": 30
+}

@@ -65,3 +65,28 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-24 23:54:58,ZAGHLOUL2023,done,2,0,2,0,4,
 2026-08-25 00:00:11,ZAGHLOUL2023b,done,6,2,3,1,1,
 2026-08-25 00:01:23,ZAVRAZHIN2025,done,11,11,0,0,2,
+2026-08-30 15:16:11,AVALLE2018,done,12,12,0,0,5,
+2026-08-30 15:18:06,BOLAT2024,done,21,0,21,0,2,
+2026-08-30 15:19:38,CARTLEDGE1996,done,9,0,9,0,0,
+2026-08-30 15:21:45,GRAF2026,done,20,0,20,0,4,
+2026-08-30 15:23:55,JOZWIK2020,done,2,2,0,0,2,
+2026-08-30 15:25:37,KARATAS2019,done,11,11,0,0,4,
+2026-08-30 15:27:16,KULKARNI2014,done,27,0,27,0,1,
+2026-08-30 15:31:30,KUMAR2025,done,30,30,0,0,2,
+2026-08-30 15:34:08,LI2024,done,24,24,0,0,4,
+2026-08-30 15:36:03,MAN2021,done,5,4,1,0,4,
+2026-08-30 15:37:33,MYALSKI2020,done,8,6,2,0,2,
+2026-08-30 15:41:20,OZSARIKAYA2025,done,3,2,1,0,3,
+2026-08-30 15:43:12,PALABIYIK2002,done,12,12,0,0,0,"Figure scan warning: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+2026-08-30 15:44:20,RANDHAWA2020,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/RANDHAWA2020_raw_response.txt
+2026-08-30 15:56:08,RANDHAWA2020,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-08-30 15:57:55,SOUNDARARAJAN2019,done,32,0,24,8,3,
+2026-08-30 15:58:38,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-08-30 16:00:38,VIKRAM2024,done,4,4,0,0,0,Figure scan warning: Gemini did not return a parseable page-classification JSON array
+2026-08-30 16:01:50,WALCZAK2022,done,8,8,0,0,0,
+2026-08-30 16:03:33,WANG2018,done,21,0,21,0,2,
+2026-08-30 16:05:13,YOU2014,done,2,2,0,0,1,
+2026-08-30 16:28:00,RANDHAWA2020,done,28,21,7,0,5,
+2026-08-30 16:29:06,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-08-30 16:31:20,ZHOU2018,done,6,6,0,0,2,
+2026-08-30 16:34:53,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt

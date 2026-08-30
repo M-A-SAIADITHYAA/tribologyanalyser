@@ -1,0 +1,10 @@
+PAPER_ID: AVALLE2018
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5. Friction coefficient measured during the tests on TPU compounds as a function of the distance travelled by the pin: (a) GR; (b) PTFE; (c) Silicone; (d) MoS₂; (e) CNT.
+X_AXIS: Distance (m)
+Y_AXIS: Friction coefficient
+SERIES: Subplot (a) GR: TPU Natural, TPU 4% Graphite, TPU 8% Graphite, Subplot (b) PTFE: TPU Natural, TPU 10% PTFE, TPU 20% PTFE, Subplot (c) Silicone: TPU Natural, TPU 1% Silicone, TPU 2% Silicone, Subplot (d) MoS2: TPU Natural, TPU 4% MoS2, TPU 8% MoS2, Subplot (e) CNT: TPU Natural, TPU 1.5% CNT, TPU 3% CNT
+TEST_CONDITIONS: TPU base material, Normal pin load = 20 N, Rotation speed = 300 rpm, Tangential speed = 550 mm/s, Pin = tungsten carbide (3 mm dia), Normal pressure = 2.83 MPa
+WHAT_TO_EXTRACT: Steady-state coefficient of friction vs distance
+WEBPLOTDIGITIZER_NOTES: 5 subplots (a-e). Read steady-state values at x > 500 m except for CNT which stopped around 300 m.

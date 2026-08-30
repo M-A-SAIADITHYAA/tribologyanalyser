@@ -1,0 +1,10 @@
+PAPER_ID: JOZWIK2020
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 10. Temperature T of the friction pair as a function of time t, obtained at load P = 30 N for selected friction pairs Pij.
+X_AXIS: Time, t [s]
+Y_AXIS: Temperature [°C]
+SERIES: P1.2 (PA6 G with oil), P2.2 (PA6 G with MoS2), P3.2 (POM with aluminium), P4.2 (PET with PTFE), P5.2 (PTFE with bronze), P6.2 (PTFE with graphite)
+TEST_CONDITIONS: Load P = 30 N, sliding speed = 450 rpm, ambient temperature, dry sliding
+WHAT_TO_EXTRACT: Friction pair temperature over time and steady-state/maximum temperature at 1250 s
+WEBPLOTDIGITIZER_NOTES: Multiple curves cluster between 31 °C and 33 °C near 1250 s; P4.2 remains lower at ~29 °C.

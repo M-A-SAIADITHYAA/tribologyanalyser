@@ -1,0 +1,10 @@
+PAPER_ID: WANG2018
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8 Friction coefficient (a) and wear rate (b) of BF/PA6, PDA–BF/PA6 and GO–PDA–BF/PA6 composites (70 N, 0.167 m s−1, 30 min). Fig. 9 Friction coefficient (a) and wear rate (b) of BF/PA6, PDA–BF/PA6, and GO–PDA–BF/PA6 composites as a function of applied load (0.167 m s−1, 30 min).
+X_AXIS: Time (min) for Fig. 8a; Applied Load (N) for Fig. 9
+Y_AXIS: Coefficient of friction (μ) for Fig. 8a and 9a; Wear rate (x10^-4 mm3 N^-1 m^-1) for Fig. 8b and 9b
+SERIES: BF/PA6, PDA-BF/PA6, GO-PDA-BF/PA6
+TEST_CONDITIONS: Load = 70 N (Fig. 8) or 70, 80, 90, 100 N (Fig. 9); Speed = 0.167 m/s; Duration = 30 min
+WHAT_TO_EXTRACT: Steady-state friction coefficient plateau over time (Fig. 8a); friction coefficient and wear rate vs load (Fig. 9 bar charts)
+WEBPLOTDIGITIZER_NOTES: Fig. 8a is a continuous line graph over 0-30 min showing signal noise/fluctuations. Figs. 8b, 9a, and 9b are bar charts extractable by LLM.

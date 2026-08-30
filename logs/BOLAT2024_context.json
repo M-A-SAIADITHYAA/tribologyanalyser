@@ -1,0 +1,14 @@
+{
+  "paper_id": "BOLAT2024",
+  "counterface": "SiC paper (320 grit)",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 10.0,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3",
+  "fabrication": "fused filament fabrication",
+  "pa6_grade": null,
+  "source_doi": "10.1002/pc.28236",
+  "n_conditions": 24
+}

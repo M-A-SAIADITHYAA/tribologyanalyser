@@ -1,0 +1,9 @@
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+MYALSKI2020,PA6,100,0,0,0,,,40,0.1,250,,,cast-iron,,dry,,23,injection,0.15,,1.46,,,10.3390/polym12102264,table,high,As injected
+MYALSKI2020,PA6,99,0,0,0,,graphene oxide,1,40,0.1,250,,cast-iron,,dry,,,injection,0.07,,,1.20,,10.3390/polym12102264,table,high,As injected
+MYALSKI2020,PA6,90,0,0,0,,glassy carbon,10,40,0.1,250,,cast-iron,,dry,,,injection,0.13,,,1.68,,10.3390/polym12102264,table,high,As injected
+MYALSKI2020,PA6,90,0,0,0,,biocarbon,10,40,0.1,250,,cast-iron,,dry,,,injection,0.14,,,1.06,,10.3390/polym12102264,table,high,As injected
+MYALSKI2020,PA6,100,0,0,0,,,40,0.1,250,,,cast-iron,,dry,,23,injection,0.10,,3.40,,,10.3390/polym12102264,table,high,After heat treatment (250 C 10 min furnace cooled)
+MYALSKI2020,PA6,99,0,0,0,,graphene oxide,1,40,0.1,250,,cast-iron,,dry,,,injection,0.06,,,3.46,,10.3390/polym12102264,table,high,After heat treatment (250 C 10 min furnace cooled)
+MYALSKI2020,PA6,90,0,0,0,,glassy carbon,10,40,0.1,250,,cast-iron,,dry,,,injection,0.09,,,3.66,,10.3390/polym12102264,table,high,After heat treatment (250 C 10 min furnace cooled)
+MYALSKI2020,PA6,90,0,0,0,,biocarbon,10,40,0.1,250,,cast-iron,,dry,,,injection,0.13,,,3.19,,10.3390/polym12102264,table,high,After heat treatment (250 C 10 min furnace cooled)

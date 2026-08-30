@@ -1,0 +1,10 @@
+PAPER_ID: KARATAS2019
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 2. Comparison the COF values of only CF and only GNP filled PA6,6. / Fig. 3. COF curves of CF and GNP hybrid reinforced PA6,6 composites. / Fig. 4. COF curves of PBO included GNP and CF hybrid reinforced PA6,6 composites.
+X_AXIS: Distance (m)
+Y_AXIS: Coefficient of Friction
+SERIES: Fig 2: PA6,6_CF, -0.1GNP, -0.3GNP, -0.5GNP, Fig 3: PA6,6_CF, -0.1GNP, -0.3GNP, -0.5GNP, -CF_0.1GNP, -CF_0.3GNP, -CF_0.5GNP, Fig 4: -PA6,6_CF, -CF_0.1GNP, -CF_0.3GNP, -CF_0.5GNP, -CF_0.1GNP_PBO, -CF_0.3GNP_PBO, -CF_0.5GNP_PBO
+TEST_CONDITIONS: Pin-on-disc test, ceramic ball radius 3 mm, friction radius 4 mm, load 35 N, sliding distance 70 m, disc speed 100 rpm
+WHAT_TO_EXTRACT: Steady-state COF plateau values between 40 m and 70 m
+WEBPLOTDIGITIZER_NOTES: Multiple curves closely grouped together below 0.10 COF; digitize steady-state values past 40 m distance

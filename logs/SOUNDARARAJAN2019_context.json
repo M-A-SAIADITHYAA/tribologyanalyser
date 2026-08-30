@@ -1,0 +1,14 @@
+{
+  "paper_id": "SOUNDARARAJAN2019",
+  "counterface": null,
+  "test_type": "pin-on-disc",
+  "environment": null,
+  "disc_diameter_mm": 240,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm³/Nm",
+  "fabrication": "additive manufactured",
+  "pa6_grade": "PA6 (Heraeus Instruments)",
+  "source_doi": null,
+  "n_conditions": 32
+}

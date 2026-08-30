@@ -1,0 +1,14 @@
+{
+  "paper_id": "OZSARIKAYA2025",
+  "counterface": "AISI 1040 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 60,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "extrusion and injection moulding",
+  "pa6_grade": "Zytel 101 NC010",
+  "source_doi": "10.1016/j.mseb.2025.118016",
+  "n_conditions": 63
+}

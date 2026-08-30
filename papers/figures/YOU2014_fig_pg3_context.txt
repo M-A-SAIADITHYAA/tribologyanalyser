@@ -1,0 +1,10 @@
+PAPER_ID: YOU2014
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. Effect of solid lubricant contents on (a) the friction coefficient and (b) wear of TiO2/PA 6 nanocomposite and its composites at 40 N and 200 rpm.
+X_AXIS: Solid lubricant content (wt%)
+Y_AXIS: (a) Friction Coefficient; (b) Wear Rate (10^-5 mm3/Nm)
+SERIES: UHMWPE, PTFE, MoS2
+TEST_CONDITIONS: Load = 40 N, Velocity = 200 rpm, Matrix = TiO2/PA 6 nanocomposite (5/95 by weight)
+WHAT_TO_EXTRACT: Friction coefficient and wear rate values as a function of filler content (0 to 15 wt%)
+WEBPLOTDIGITIZER_NOTES: Linear axes for both subplots (a) and (b). Three series per plot with error bars. Also contains Fig. 5 (bar chart), which is directly extractable by LLM.

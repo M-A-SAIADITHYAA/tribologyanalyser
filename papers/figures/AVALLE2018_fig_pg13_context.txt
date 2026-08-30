@@ -1,0 +1,10 @@
+PAPER_ID: AVALLE2018
+PAGE: 13
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 9. Effect of additives content on TPU compounds, coefficient of friction; Fig. 10. Effect on wear of additives content on TPU compounds (CNT case not indicated as not measurable)
+X_AXIS: Additive content (%)
+Y_AXIS: Fig. 9: Friction coefficient; Fig. 10: Volume loss (mm³) @ 2000 m
+SERIES: Fig. 9: GR, PTFE, SIL, MoS2, CNT, Fig. 10: GR, PTFE, SIL, MoS2
+TEST_CONDITIONS: TPU compounds, Pin load = 20 N, Speed = 300 rpm
+WHAT_TO_EXTRACT: COF vs wt% additive (Fig 9) and Volume loss at 2000 m vs wt% additive (Fig 10)
+WEBPLOTDIGITIZER_NOTES: Linear axes for both plots.

@@ -1,0 +1,10 @@
+PAPER_ID: RANDHAWA2020
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Figure 4. Wear vs (a) Load (b) sliding distance (c) sliding velocity; Figure 5. Wear at (a) constant velocity and varying load & sliding distance (b) constant sliding distance and varying load & sliding velocity (c) constant load and varying sliding distance & velocity (d) varying all parameters i.e. load, sliding distance & velocity
+X_AXIS: Fig 4(c): Sliding Velocity in m/s; Fig 5(a,b): Wt% of diboron trioxide in PA6
+Y_AXIS: Wear (µm)
+SERIES: Fig 4(c): Pure PA6, PA6 with 2wt%, 4wt%, 8wt% diboron trioxide; Fig 5(a,b): Mean Wear with error bars
+TEST_CONDITIONS: Fig 4(c): Load 4.9 N, Distance 1000 m; Fig 5(a): Constant velocity 1.05 m/s; Fig 5(b): Constant distance 1000 m
+WHAT_TO_EXTRACT: Wear (µm) as a function of sliding velocity and filler weight percentage
+WEBPLOTDIGITIZER_NOTES: Fig 4(c) contains 4 line series; Fig 5(a,b) show mean wear points with error bars.

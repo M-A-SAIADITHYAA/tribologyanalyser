@@ -1,0 +1,10 @@
+PAPER_ID: KULKARNI2014
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 1. Main effects plot for S/N ratio (a) COF (b) Specific wear rate
+X_AXIS: Factor levels (1, 2, 3 for parameters A, B, C)
+Y_AXIS: Mean of S/N ratios (dB)
+SERIES: Factor A: % of filler (5, 10, 15 wt%), Factor B: Load (15, 25, 35 N), Factor C: Speed (80, 100, 120 rpm)
+TEST_CONDITIONS: Dry sliding block-on-roller tribotest, ABS/ZnO composite, 300 s duration at room temperature
+WHAT_TO_EXTRACT: Mean S/N ratio values across parameter levels to determine optimal levels for COF (A1B3C3) and wear rate (A3B3C3)
+WEBPLOTDIGITIZER_NOTES: Taguchi main effects plots showing discrete factor level response; exact values are also tabulated in Table 4 and Table 5 on Page 7.

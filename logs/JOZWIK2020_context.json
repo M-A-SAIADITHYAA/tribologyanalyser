@@ -1,0 +1,14 @@
+{
+  "paper_id": "JOZWIK2020",
+  "counterface": "aluminium oxide (Al2O3)",
+  "test_type": "ball-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 45,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3",
+  "fabrication": "cast",
+  "pa6_grade": "PA6 G",
+  "source_doi": "10.3390/ma13010075",
+  "n_conditions": 18
+}

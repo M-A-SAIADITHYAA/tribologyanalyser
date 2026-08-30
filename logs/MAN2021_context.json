@@ -1,0 +1,14 @@
+{
+  "paper_id": "MAN2021",
+  "counterface": "steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "additive manufactured",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.compositesb.2021.109332",
+  "n_conditions": 24
+}

@@ -1,0 +1,14 @@
+{
+  "paper_id": "KARATAS2019",
+  "counterface": "ceramic ball",
+  "test_type": "pin-on-disc",
+  "environment": null,
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.compositesb.2019.01.014",
+  "n_conditions": 11
+}

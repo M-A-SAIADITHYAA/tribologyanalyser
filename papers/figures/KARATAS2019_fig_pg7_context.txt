@@ -1,0 +1,10 @@
+PAPER_ID: KARATAS2019
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 11. Tan delta curves of PBO included GNP and CF hybrid reinforced PA6,6 composites.
+X_AXIS: Temperature (°C)
+Y_AXIS: Tan Delta
+SERIES: -PA6,6_CF, -CF_0.1GNP, -CF_0.1GNP_PBO, -CF_0.3GNP_PBO, CF_0.5GNP_PBO
+TEST_CONDITIONS: DMA 3-point bending, 25-150 °C, 5 °C/min heating rate, 1 Hz frequency
+WHAT_TO_EXTRACT: Tan delta peak height and peak temperature (Tg)
+WEBPLOTDIGITIZER_NOTES: Curves overlap near peak at 40-60 °C

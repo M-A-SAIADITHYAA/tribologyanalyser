@@ -1,0 +1,10 @@
+PAPER_ID: LI2024
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8 The coefficient of friction and specific wear rate as a function of PV values under dry sliding conditions: a Coefficient of friction; b Specific wear rate of pin specimen
+X_AXIS: PV (MPa·m/s)
+Y_AXIS: (a) COF, (b) Specific wear rate (mm³/Nm)
+SERIES: PA66, PA66+13%GF, PA66+33%GF
+TEST_CONDITIONS: Dry sliding conditions, self-mated contact, PV values of 4, 6, 20, 30 MPa·m/s
+WHAT_TO_EXTRACT: COF and specific wear rate as a function of PV values
+WEBPLOTDIGITIZER_NOTES: X-axis measured at discrete PV values (4, 6, 20, 30 MPa·m/s); error bars present

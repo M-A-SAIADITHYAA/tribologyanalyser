@@ -1,0 +1,10 @@
+PAPER_ID: AVALLE2018
+PAGE: 14
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 11. Comparison of tensile tests performed on the TPU compounds: (a) GR; (b) PTFE; (c) Silicone; (d) MoS₂; (e) CNT.
+X_AXIS: Elongation (mm)
+Y_AXIS: Force (N)
+SERIES: Subplots (a-e) showing Force vs Elongation curves for natural TPU vs different weight fractions of additives (GR, PTFE, Silicone, MoS2, CNT)
+TEST_CONDITIONS: Tensile tests according to ISO 527-1 method on TPU specimens
+WHAT_TO_EXTRACT: Force vs Elongation tensile behavior
+WEBPLOTDIGITIZER_NOTES: 5 subplots (a-e) showing tensile force curves.

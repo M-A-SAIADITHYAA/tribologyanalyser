@@ -1,0 +1,22 @@
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+BOLAT2024,PA6,100,0,0,0,,,5,2.0,240,,other,PoD,dry,,,AM,0.53,,9.8,,,10.002/pc.28236,mixed,medium,untreated; volume loss 9.8 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,10,2.0,240,,other,PoD,dry,,,AM,0.61,,25.5,,,10.002/pc.28236,bar_chart,medium,untreated; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,20,2.0,240,,other,PoD,dry,,,AM,0.704,,56.4,,,10.002/pc.28236,mixed,high,untreated; COF 0.704 and volume loss 56.4 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,40,2.0,240,,other,PoD,dry,,,AM,0.60,,65.4,,,10.002/pc.28236,mixed,medium,untreated; volume loss 65.4 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,5,2.0,240,,other,PoD,dry,,,AM,0.52,,5.2,,,10.002/pc.28236,bar_chart,medium,secondary annealing at 138 C for 40 min; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,10,2.0,240,,other,PoD,dry,,,AM,0.74,,15.8,,,10.002/pc.28236,mixed,high,secondary annealing at 138 C for 40 min; COF 0.74 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,20,2.0,240,,other,PoD,dry,,,AM,0.66,,30.3,,,10.002/pc.28236,mixed,medium,secondary annealing at 138 C for 40 min; volume loss 30.3 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,100,0,0,0,,,40,2.0,240,,other,PoD,dry,,,AM,0.59,,45.2,,,10.002/pc.28236,bar_chart,medium,secondary annealing at 138 C for 40 min; SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,5,2.0,240,,other,PoD,dry,,,AM,0.48,,2.4,,,10.002/pc.28236,mixed,medium,untreated; Dynamide CF filament (wt% unstated); volume loss 2.4 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,10,2.0,240,,other,PoD,dry,,,AM,0.55,,14.5,,,10.002/pc.28236,bar_chart,medium,untreated; Dynamide CF filament (wt% unstated); SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,20,2.0,240,,other,PoD,dry,,,AM,0.57,,50.2,,,10.002/pc.28236,mixed,medium,untreated; Dynamide CF filament (wt% unstated); volume loss 50.2 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,40,2.0,240,,other,PoD,dry,,,AM,0.54,,84.1,,,10.002/pc.28236,mixed,medium,untreated; Dynamide CF filament (wt% unstated); volume loss 84.1 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,5,2.0,240,,other,PoD,dry,,,AM,0.45,,1.8,,,10.002/pc.28236,bar_chart,medium,secondary annealing at 125 C for 40 min; Dynamide CF filament (wt% unstated); SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,10,2.0,240,,other,PoD,dry,,,AM,0.57,,11.2,,,10.002/pc.28236,bar_chart,medium,secondary annealing at 125 C for 40 min; Dynamide CF filament (wt% unstated); SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,20,2.0,240,,other,PoD,dry,,,AM,0.54,,37.0,,,10.002/pc.28236,mixed,medium,secondary annealing at 125 C for 40 min; Dynamide CF filament (wt% unstated); volume loss 37 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,0,0,0,,carbon fiber,,40,2.0,240,,other,PoD,dry,,,AM,0.52,,85.0,,,10.002/pc.28236,bar_chart,medium,secondary annealing at 125 C for 40 min; Dynamide CF filament (wt% unstated); SiC paper 320 grit counterface
+BOLAT2024,PA6,,,0,0,,,,5,2.0,240,,other,PoD,dry,,,AM,0.46,,4.49,,,10.002/pc.28236,mixed,medium,untreated; Dynamide GF filament (wt% unstated); volume loss 4.49 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,,0,0,,,,10,2.0,240,,other,PoD,dry,,,AM,0.44,,16.5,,,10.002/pc.28236,bar_chart,medium,untreated; Dynamide GF filament (wt% unstated); SiC paper 320 grit counterface
+BOLAT2024,PA6,,,0,0,,,,20,2.0,240,,other,PoD,dry,,,AM,0.53,,50.8,,,10.002/pc.28236,mixed,medium,untreated; Dynamide GF filament (wt% unstated); volume loss 50.8 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024,PA6,,,0,0,,,,40,2.0,240,,other,PoD,dry,,,AM,0.389,,83.3,,,10.002/pc.28236,mixed,high,untreated; Dynamide GF filament (wt% unstated); COF 0.389 and volume loss 83.3 mm3 reported in text; SiC paper 320 grit counterface
+BOLAT2024

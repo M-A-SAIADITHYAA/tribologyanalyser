@@ -1,0 +1,10 @@
+PAPER_ID: RANDHAWA2020
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Figure 2.COF vs (a) sliding distance (b) Load (c) sliding velocity
+X_AXIS: (a) Sliding Distance (metres); (b) Load in N
+Y_AXIS: Coefficient of Friction
+SERIES: Pure PA6, PA6 with 2wt% diboron trioxide, PA6 with 4wt% diboron trioxide, PA6 with 8wt% diboron trioxide
+TEST_CONDITIONS: (a) Load: 4.9 N, Sliding velocity: 1.05 m/s; (b) Sliding velocity: 1.05 m/s, Sliding distance: 1000 m
+WHAT_TO_EXTRACT: Coefficient of Friction vs sliding distance and load for PA6 and composite materials
+WEBPLOTDIGITIZER_NOTES: Page contains Table 4 and subfigures 2(a) and 2(b) with 4 material line series each.

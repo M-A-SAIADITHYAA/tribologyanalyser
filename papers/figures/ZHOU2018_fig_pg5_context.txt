@@ -1,0 +1,10 @@
+PAPER_ID: ZHOU2018
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4. (a) Tensile stress-strain curve, (b) Tensile strength and tensile modulus of the BF/PA6 composites. Fig. 5. (a) Flexural stress-strain curve, (b) Flexural strength and flexural modulus of the BF/PA6 composites. Fig. 6. (a) Storage modulus (E′) and (b) tan δ vs temperature curves of BF/PA6, PU-BF/PA6, and 0.5 GR-BF/PA6 composites.
+X_AXIS: Fig 4a & 5a: Displacement (mm); Fig 6a & 6b: Temperature (°C)
+Y_AXIS: Fig 4a & 5a: Force (N); Fig 6a: Storage modulus, E′ (MPa); Fig 6b: tan δ
+SERIES: BF/PA6, PU-BF/PA6, 0.1 GR-BF/PA6, 0.3 GR-BF/PA6, 0.5 GR-BF/PA6, 1.0 GR-BF/PA6
+TEST_CONDITIONS: Tensile testing (ISO 527-2012), Flexural testing (ISO 178-2010), Dynamic mechanical analysis (DMA, 1 Hz, 3 °C/min, 30–160 °C)
+WHAT_TO_EXTRACT: Force vs displacement curves, storage modulus vs temperature, and peak tan δ (Tg)
+WEBPLOTDIGITIZER_NOTES: Contains both line graphs (Fig 4a, 5a, 6a, 6b), bar charts (Fig 4b, 5b), and Table 1 (Specific surface area).

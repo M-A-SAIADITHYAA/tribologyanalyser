@@ -1,0 +1,10 @@
+PAPER_ID: LI2024
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 4 The tribological properties of PA66 composites under dry sliding conditions: a Coefficient of friction; b Specific wear rate of pin specimen
+X_AXIS: Content (PA66, PA66+13%GF, PA66+33%GF)
+Y_AXIS: (a) COF, (b) Specific wear rate (mm³/Nm)
+SERIES: PV=4 MPa·m/s, PV=6 MPa·m/s, PV=20 MPa·m/s, PV=30 MPa·m/s
+TEST_CONDITIONS: Dry sliding conditions, self-mated PA66 composites pin-on-disc contact, room temperature, test duration 20 h
+WHAT_TO_EXTRACT: Coefficient of friction and specific wear rate as a function of glass fiber content across different PV values
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis (polymer matrix composition); error bars present; 4 line series per graph

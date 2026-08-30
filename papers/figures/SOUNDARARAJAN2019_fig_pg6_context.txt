@@ -1,0 +1,10 @@
+PAPER_ID: SOUNDARARAJAN2019
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. Young’s modulus
+X_AXIS: Sample (Virgin PA6, PA6 10%TiO2, PA6 20%TiO2, PA6 30%TiO2)
+Y_AXIS: Young's modulus (MPa)
+SERIES: Young's modulus
+TEST_CONDITIONS: ASTM D638 standard tensile test at 5 mm/min loading speed
+WHAT_TO_EXTRACT: Young's modulus values across different TiO2 weight percentage compositions
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis with 4 discrete samples; exact numerical values are also listed in Table 1

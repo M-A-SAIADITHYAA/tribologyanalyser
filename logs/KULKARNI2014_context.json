@@ -1,0 +1,14 @@
+{
+  "paper_id": "KULKARNI2014",
+  "counterface": "EN8 steel",
+  "test_type": "block-on-roller",
+  "environment": "dry",
+  "disc_diameter_mm": 50,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "extrusion and compression molding",
+  "pa6_grade": null,
+  "source_doi": "10.1016/j.mspro.2014.07.050",
+  "n_conditions": 27
+}

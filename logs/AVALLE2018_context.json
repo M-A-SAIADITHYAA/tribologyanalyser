@@ -1,0 +1,14 @@
+{
+  "paper_id": "AVALLE2018",
+  "counterface": "tungsten carbide",
+  "test_type": "pin-on-disk",
+  "environment": "dry",
+  "disc_diameter_mm": 40,
+  "load_unit": "N",
+  "speed_unit": "mm/s",
+  "wear_unit": "mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": "Radipol A 45 D (PA6.6)",
+  "source_doi": "10.1016/j.prostr.2017.12.026",
+  "n_conditions": 12
+}

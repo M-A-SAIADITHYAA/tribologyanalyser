@@ -1,0 +1,10 @@
+PAPER_ID: KARATAS2019
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. Load-extension curves of the best-resulted samples in each group of the composites. / Fig. 9. Tan delta curves of different GNP content filled PA6,6 composites. / Fig. 10. Tan delta curves of CF and GNP hybrid reinforced PA6,6 composites.
+X_AXIS: Extension (mm) / Temperature (°C)
+Y_AXIS: Load (N) / Tan Delta
+SERIES: Fig 8: -0.5GNP, -CF_0.1GNP, CF_0.5GNP_PBO, Fig 9: -PA6,6, -0.1GNP, -0.3GNP, -0.5GNP, Fig 10: -PA6,6, -PA6,6_CF, -CF_0.1GNP, -CF_0.3GNP, -CF_0.5GNP
+TEST_CONDITIONS: Tensile load-extension (Fig 8) / DMA 3-point bending, 25-150 °C, 5 °C/min, 1 Hz (Figs 9-10)
+WHAT_TO_EXTRACT: Peak load and extension at break (Fig 8) / Tan delta peak magnitude and peak temperature (Tg) (Figs 9-10)
+WEBPLOTDIGITIZER_NOTES: Linear scales. Figs 9-10 show slight temperature shifts in alpha-transition peaks.

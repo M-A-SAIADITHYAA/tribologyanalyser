@@ -1,0 +1,10 @@
+PAPER_ID: GRAF2026
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Tempering temperature profile for F50T.
+X_AXIS: time [h]
+Y_AXIS: temperature [°C]
+SERIES: temperature profile, melting temperature, glass transition temperature
+TEST_CONDITIONS: Thermal tempering process profile at 150 °C for 2 h
+WHAT_TO_EXTRACT: Tempering temperature curve over time
+WEBPLOTDIGITIZER_NOTES: Linear axes; process temperature parameters; Table 2 on same page lists load parameters (20 N normal load, 10 mm 100Cr6 steel ball, 193 MPa max Hertzian pressure)

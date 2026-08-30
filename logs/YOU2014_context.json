@@ -1,14 +1,14 @@
 {
   "paper_id": "YOU2014",
-  "counterface": "440-C stainless steel",
+  "counterface": "440-C stainless steel ball",
   "test_type": "ball-on-flat",
   "environment": "dry",
-  "disc_diameter_mm": null,
+  "disc_diameter_mm": 9.5,
   "load_unit": "N",
   "speed_unit": "rpm",
   "wear_unit": "mm3/Nm",
-  "fabrication": "twin-screw extrusion and injection molding",
+  "fabrication": "injection molded",
   "pa6_grade": "PB1006 LM BN 70745",
   "source_doi": "10.1016/j.wear.2013.12.018",
-  "n_conditions": 38
+  "n_conditions": 35
 }

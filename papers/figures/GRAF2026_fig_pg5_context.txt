@@ -1,0 +1,10 @@
+PAPER_ID: GRAF2026
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 5. Coefficients of friction for four samples over sliding distance for GF30-A-F50 (no solid lubricant, no humidity or thermal conditioning). | Fig. 6. Averaged coefficients of friction and standard deviation (envelope) over sliding distance for GF30-A-F50 (no solid lubricant, no humidity or thermal conditioning).
+X_AXIS: Sliding distance [m]
+Y_AXIS: Coefficient of friction μ
+SERIES: Fig. 5: 4 individual samples (rot_Pr1, rot_Pr2, rot_Pr3, rot_Pr4), Fig. 6: Averaged curve with standard deviation envelope
+TEST_CONDITIONS: Normal load Fn = 20.0 N, Sliding velocity V = 0.07 m/s, Material: GF30-A-F50 (unlubricated PA66 with 30% glass fiber, lab humidity F50)
+WHAT_TO_EXTRACT: Initial friction level (~0.05), peak during running-in (~0.18), and steady-state plateau at 600-800 m (~0.17)
+WEBPLOTDIGITIZER_NOTES: Linear axes (x: 0 to 800 m, y: 0.00 to 0.30). Read steady-state values after 600 m.

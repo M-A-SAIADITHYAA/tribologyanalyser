@@ -1,0 +1,14 @@
+{
+  "paper_id": "CARTLEDGE1996",
+  "counterface": "pyramidal diamond indenter",
+  "test_type": "scratch test",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "mm/s",
+  "wear_unit": null,
+  "fabrication": "hot press",
+  "pa6_grade": null,
+  "source_doi": null,
+  "n_conditions": 9
+}

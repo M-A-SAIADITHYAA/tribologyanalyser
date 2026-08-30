@@ -1,0 +1,10 @@
+PAPER_ID: GRAF2026
+PAGE: 7
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10. Coefficient of friction over sliding distance for four samples of GF30-Mo2-S-F50T. | Fig. 11. Coefficient of friction with spikes and microscopic images of the sliding path for different sliding distances with MoS2 lubrication and tempering (GF30-Mo-A-F50T), sample 'rot_Pr3' out of four.
+X_AXIS: Sliding distance [m]
+Y_AXIS: Coefficient of friction μ
+SERIES: Fig. 10: 4 individual samples (rot_Pr1, rot_Pr2, rot_Pr3, rot_Pr4) of MoS2-lubricated tempered GF-PA66, Fig. 11: Zoom-in profile of sample rot_Pr3 between 602 m and 628 m showing dynamic spike event
+TEST_CONDITIONS: Normal load Fn = 20.0 N, Sliding velocity V = 0.07 m/s, Material: GF30-Mo2-S-F50T (MoS2 lubricated, tempered)
+WHAT_TO_EXTRACT: Steady-state COF level (~0.16-0.17) and friction spike drop/recovery dynamics
+WEBPLOTDIGITIZER_NOTES: Fig. 10 has overlapping curves where rot_Pr4 shows longer running-in transition than rot_Pr1-Pr3; Fig. 11 shows detailed localized spike trace alongside micrographs.

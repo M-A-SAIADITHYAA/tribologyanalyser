@@ -189,7 +189,7 @@ def migrate_legacy_dataframe(df: pd.DataFrame, paper_id: str | None = None) -> p
     are converted into the explicit columns and removed.
     """
     if not set(LEGACY_FILLER_COLUMNS).intersection(df.columns):
-        return df.copy()
+        return realign_dataframe(df, paper_id)
 
     if paper_id is None:
         paper_id = ""
@@ -285,4 +285,106 @@ def migrate_legacy_dataframe(df: pd.DataFrame, paper_id: str | None = None) -> p
         "filler_cell_rows_repaired": filler_cell_repaired_rows,
         "rows_with_incomplete_composition": conversion_notes,
     }
-    return output
+    return realign_dataframe(output, paper_id)
+
+
+def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
+    """Deterministically realign a single row if column shifts are detected."""
+    r = {col: str(row_dict.get(col, "")).strip() for col in ALL_COLUMNS}
+
+    # Head shift (missing paper_id column in LLM output)
+    pid = r.get("paper_id", "")
+    mat_b = r.get("material_base", "")
+    if pid in MATERIAL_BASES and (mat_b.replace(".", "", 1).isdigit() or mat_b in {"0", "15", "20", "25", "30", "40", "50", "60", "70", "75", "80", "90", "100"}):
+        correct_base = pid
+        raw_vals = [r[c] for c in ALL_COLUMNS]
+        new_vals = [paper_id, correct_base] + raw_vals[1:-1]
+        for col_name, val in zip(ALL_COLUMNS, new_vals):
+            r[col_name] = val
+
+    # Middle shift into PV_factor
+    pv_val = r.get("PV_factor", "").lower()
+    cf_val = r.get("counterface", "").lower()
+    tt_val = r.get("test_type", "").lower()
+    known_cfaces = {"steel", "bearing steel", "c45", "100cr6", "en31", "stainless steel", "sic", "sic paper", "sandpaper", "alumina", "al2o3", "cast-iron", "cast iron", "polymer", "pa6", "pa66", "other"}
+    known_tests = {"pod", "bor", "bop", "reciprocating", "thrust_washer", "pin-on-disc", "pin-on-disk", "block-on-ring", "block-on-plate"}
+    known_envs = {"dry", "water", "humid", "lubricated", "ambient"}
+    known_fabs = {"injection", "extrusion", "cast", "am", "3d printed", "compression", "machined", "fdm"}
+
+    if pv_val in known_cfaces and (cf_val in known_tests or tt_val in known_envs):
+        actual_counterface = r["PV_factor"]
+        actual_test_type = r["counterface"]
+        actual_environment = r["test_type"]
+        actual_humidity = r["environment"] if r["environment"].replace(".", "", 1).isdigit() else r.get("humidity_pct", "")
+        actual_temp = r.get("humidity_pct", "") if r["environment"].replace(".", "", 1).isdigit() else r.get("temperature_C", "")
+        actual_fab = r.get("temperature_C", "") if r["temperature_C"].lower() in known_fabs else r.get("fabrication", "")
+        actual_cof = r.get("fabrication", "") if r["fabrication"].replace(".", "", 1).isdigit() else r.get("COF", "")
+        
+        r["PV_factor"] = ""
+        r["counterface"] = actual_counterface
+        r["test_type"] = actual_test_type
+        r["environment"] = actual_environment if actual_environment in known_envs else "dry"
+        r["humidity_pct"] = actual_humidity if actual_humidity.replace(".", "", 1).isdigit() else ""
+        r["temperature_C"] = actual_temp if actual_temp.replace(".", "", 1).isdigit() else "23"
+        r["fabrication"] = actual_fab if actual_fab in known_fabs else "injection"
+        if actual_cof.replace(".", "", 1).isdigit():
+            r["COF"] = actual_cof
+
+    # Tail shift (DOI landed in mass_loss_mg or contact_temp_C)
+    m_loss = r.get("mass_loss_mg", "")
+    c_temp = r.get("contact_temp_C", "")
+    doi = r.get("source_doi", "")
+    ext = r.get("extraction_method", "")
+    conf = r.get("confidence", "")
+    notes = r.get("notes", "")
+
+    if m_loss.startswith("10.") or m_loss.startswith("http"):
+        r["source_doi"] = m_loss
+        r["mass_loss_mg"] = ""
+        actual_ext = c_temp if c_temp.lower() in EXTRACTION_METHODS else "mixed"
+        actual_conf = doi if doi.lower() in {"high", "medium", "low"} else "high"
+        actual_note = ext if ext else ""
+        r["contact_temp_C"] = ""
+        r["extraction_method"] = actual_ext
+        r["confidence"] = actual_conf
+        r["notes"] = f"{actual_note}; {notes}".strip("; ")
+    elif c_temp.startswith("10.") or c_temp.startswith("http") or "doi" in c_temp.lower():
+        r["source_doi"] = c_temp
+        r["contact_temp_C"] = ""
+        if doi.lower() in EXTRACTION_METHODS:
+            r["extraction_method"] = doi
+            if ext.lower() in {"high", "medium", "low"}:
+                r["confidence"] = ext
+                if conf:
+                    r["notes"] = f"{conf}; {notes}" if notes and conf != notes else (conf or notes)
+            else:
+                r["confidence"] = "high"
+                if ext:
+                    r["notes"] = f"{ext}; {notes}" if notes and ext != notes else (ext or notes)
+        elif doi.lower() in {"high", "medium", "low"}:
+            r["confidence"] = doi
+            r["extraction_method"] = "mixed"
+            if ext:
+                r["notes"] = f"{ext}; {notes}".strip("; ")
+
+    if r.get("source_doi", "").lower() in EXTRACTION_METHODS and r.get("extraction_method", "").lower() in {"high", "medium", "low"}:
+        method = r["source_doi"]
+        confidence = r["extraction_method"]
+        note_text = r.get("confidence", "")
+        r["source_doi"] = ""
+        r["extraction_method"] = method
+        r["confidence"] = confidence
+        if note_text:
+            r["notes"] = f"{note_text}; {r.get('notes', '')}".rstrip("; ")
+
+    if paper_id:
+        r["paper_id"] = paper_id
+    return r
+
+
+def realign_dataframe(df: pd.DataFrame, paper_id: str | None = None) -> pd.DataFrame:
+    """Run deterministic alignment across all rows of a DataFrame."""
+    if paper_id is None:
+        paper_id = ""
+    rows = [realign_row(row.to_dict(), paper_id) for _, row in df.iterrows()]
+    return pd.DataFrame(rows, columns=ALL_COLUMNS)

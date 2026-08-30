@@ -1,0 +1,10 @@
+PAPER_ID: AVALLE2018
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. Friction coefficient measured during the tests on TPU compounds as a function of the distance travelled by the pin: (a) GR; (b) Silicone; (c) MoS₂; (d) CNT.
+X_AXIS: Distance (m)
+Y_AXIS: Friction coefficient
+SERIES: Subplot (a) GR: 66NAT, 66GR2, 66GR4, 66GR8, Subplot (b) Silicone: 66NAT, 66SI2, 66SI4, 66SI8, Subplot (c) MoS2: 66NAT, 66MS2, 66MS4, 66MS8, Subplot (d) CNT: 66NAT, 66CNT1.5, 66CNT3
+TEST_CONDITIONS: PA66 base material, Normal pin load = 20 N, Speed = 300 rpm, Track diameter = 40 mm, Tangential speed = 628 mm/s
+WHAT_TO_EXTRACT: Steady-state coefficient of friction vs distance
+WEBPLOTDIGITIZER_NOTES: 4 subplots (a-d). Linear axes, read steady-state values at x > 400 m.

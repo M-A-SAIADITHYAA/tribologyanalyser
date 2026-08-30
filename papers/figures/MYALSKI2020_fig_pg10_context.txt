@@ -1,0 +1,10 @@
+PAPER_ID: MYALSKI2020
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Figure 10. Changes in the coefficient of friction determined with reciprocating movement for the composites and reference material over a distance of 250 m: (a) after injection, (b) after heat treatment.
+X_AXIS: Distance, m
+Y_AXIS: Friction coefficient, µ
+SERIES: 4 data series per graph ((a) as injected and (b) after heat treatment): PA6 (neat polyamide), PA6 + GO (1 wt.% graphene oxide), PA6 + GC (10 wt.% glassy carbon), PA6 + BC (10 wt.% biocarbon)
+TEST_CONDITIONS: Pin-on-block dry friction reciprocating test against cast iron (GJL-250, φ = 3 mm) counterpart, normal force 40 N (p = 5.7 MPa), sliding velocity 0.1 m/s, total distance 250 m, room temperature
+WHAT_TO_EXTRACT: Steady-state coefficient of friction plateau value (x > 100 m) and mean COF
+WEBPLOTDIGITIZER_NOTES: Two stacked subplots: (a) as-injected and (b) heat-treated (HT). Standard linear axes. Curves show initial running-in/lapping stage (0-70 m) followed by steady-state region (100-250 m).

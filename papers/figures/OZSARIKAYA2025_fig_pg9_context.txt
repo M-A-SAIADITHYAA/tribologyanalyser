@@ -1,0 +1,10 @@
+PAPER_ID: OZSARIKAYA2025
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Variation of COF with sliding distance for the PA66 and the PA66 composites (Sliding velocity: 1.2 m/s, Load: 30 N).
+X_AXIS: Sliding distance, m
+Y_AXIS: Coefficient of friction, µ
+SERIES: PA66, PA66/10CF, PA66/20CF, PA66/30CF, PA66/30CF/0.5MWCNT, PA66/30CF/0.5MWCNT/3MoS2, PA66/30CF/0.5MWCNT/3Silicone
+TEST_CONDITIONS: Sliding velocity: 1.2 m/s, Load: 30 N, dry sliding against AISI 1040 steel disc
+WHAT_TO_EXTRACT: Steady-state COF plateau values
+WEBPLOTDIGITIZER_NOTES: Line graph alongside Table 5. Highly fluctuating curves in running-in stage (0–200 m); extract plateau value after 400 m.

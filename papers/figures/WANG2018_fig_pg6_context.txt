@@ -1,0 +1,10 @@
+PAPER_ID: WANG2018
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10 Friction coefficient (a) and wear rate (b) of BF/PA6, PDA–BF/PA6, and GO–PDA–BF/PA6 composites as a function of sliding speed (70 N, 30 min).
+X_AXIS: Sliding speed (m/s)
+Y_AXIS: (a) Coefficient of friction (μ); (b) Wear rate (x10^-4 mm3 N^-1 m^-1)
+SERIES: BF/PA6, PDA-BF/PA6, GO-PDA-BF/PA6
+TEST_CONDITIONS: Applied Load = 70 N; Duration = 30 min; Sliding speeds = 0.1, 0.133, 0.166, 0.2 m/s
+WHAT_TO_EXTRACT: Friction coefficient and wear rate values at each sliding speed
+WEBPLOTDIGITIZER_NOTES: Linear x-axis with 4 discrete sliding speed values (0.1, 0.133, 0.166, 0.2 m/s). 3 distinct data series per subplot with error bars.

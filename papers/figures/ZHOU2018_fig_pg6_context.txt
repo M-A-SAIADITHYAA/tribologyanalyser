@@ -1,0 +1,10 @@
+PAPER_ID: ZHOU2018
+PAGE: 6
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 8. (a) Friction coefficient and (b) wear rate of the BF/PA6 composites (100 N, 0.167 m/s, 30min).
+X_AXIS: Composite sample treatment (BF/PA6, PU-BF/PA6, 0.1 GR-BF/PA6, 0.3 GR-BF/PA6, 0.5 GR-BF/PA6, 1.0 GR-BF/PA6)
+Y_AXIS: (a) Coefficient of friction (μ); (b) Wear rate (×10⁻⁶ mm³ N⁻¹ m⁻¹)
+SERIES: Friction coefficient, Wear rate
+TEST_CONDITIONS: Load = 100 N, Sliding speed = 0.167 m/s, Duration = 30 min, dry sliding against 5 mm stainless steel ball
+WHAT_TO_EXTRACT: Steady-state friction coefficient and wear rate values across varying graphene concentrations
+WEBPLOTDIGITIZER_NOTES: Categorical X-axis with 6 discrete composite formulations. Friction coefficient ranges from ~0.235 to 0.280; wear rate ranges from ~9.8 to 17.0 ×10⁻⁶ mm³ N⁻¹ m⁻¹.

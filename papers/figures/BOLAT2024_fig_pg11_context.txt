@@ -1,0 +1,10 @@
+PAPER_ID: BOLAT2024
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: FIGURE 9 Variation of coefficient of friction depending on load, (A) untreated samples, (B) heat treated samples, and (C) instant change of the friction coefficient for the highest/lowest results.
+X_AXIS: Time (sec) for line graph (C); Coefficient of Friction for horizontal bar charts (A) and (B)
+Y_AXIS: Coefficient of Friction for line graph (C); Test Force (N) for horizontal bar charts (A) and (B)
+SERIES: PA6 (HT) [highest COF condition at 10 N], PA6-GF (HT) [lowest COF condition at 5 N]
+TEST_CONDITIONS: Dry sliding pin-on-disc wear test, SiC paper counter-face (320 grit), sliding speed 2 m/s, test duration 120 seconds.
+WHAT_TO_EXTRACT: Real-time coefficient of friction evolution over 120 s test duration for extreme bounding conditions
+WEBPLOTDIGITIZER_NOTES: Linear axes for Figure 9(C) (0 to 120 s on X-axis, 0 to 1.4 on Y-axis). Two curves showing real-time COF vs duration.

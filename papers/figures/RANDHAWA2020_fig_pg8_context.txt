@@ -1,0 +1,10 @@
+PAPER_ID: RANDHAWA2020
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Figure 3. COF at (a) constant velocity and varying load & sliding distance (b) constant sliding distance and varying load & sliding velocity (c) constant load and varying sliding distance & velocity (d) varying all parameters i.e. load, sliding distance & velocity; Figure 4. Wear vs (a) Load (b) sliding distance (c) sliding velocity
+X_AXIS: Fig 3(c,d): Wt% of diboron trioxide in PA6; Fig 4(a): Load in N; Fig 4(b): Sliding Distance in metres
+Y_AXIS: Fig 3(c,d): Coefficient of Friction; Fig 4(a,b): Wear (µm)
+SERIES: Fig 3(c,d): Mean COF with error bars; Fig 4(a,b): Pure PA6, PA6 with 2wt%, 4wt%, 8wt% diboron trioxide
+TEST_CONDITIONS: Fig 3(c): Load 4.9 N; Fig 3(d): All parameters varied; Fig 4(a): Velocity 1.05 m/s, Distance 1000 m; Fig 4(b): Load 4.9 N, Velocity 1.05 m/s
+WHAT_TO_EXTRACT: COF vs filler percentage and Wear (µm) vs Load and Sliding Distance
+WEBPLOTDIGITIZER_NOTES: Fig 4(a,b) have 4 distinct material lines; Fig 3(c,d) plot mean values with error bars.

@@ -1,0 +1,10 @@
+PAPER_ID: AVALLE2018
+PAGE: 15
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. Effect of additives content on PA compounds, coefficient of friction at distance traveled (a) 300 m; (b) 900 m; Fig. 13. Effect on wear of additives content on PA compounds
+X_AXIS: Additive content (%)
+Y_AXIS: Fig. 12 (a, b): Friction coefficient; Fig. 13: Volume loss (mm³) @ 300 m
+SERIES: Fig. 12 (a, b): GR, SIL, MoS2, CNT, Fig. 13: GR, SIL, MoS2, CNT
+TEST_CONDITIONS: PA66 compounds, Pin load = 20 N, Speed = 300 rpm
+WHAT_TO_EXTRACT: COF at 300 m and 900 m vs additive content; Volume loss at 300 m vs additive content
+WEBPLOTDIGITIZER_NOTES: Page also contains Table 6 at the top.
