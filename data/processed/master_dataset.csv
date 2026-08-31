@@ -252,6 +252,18 @@ KUMAR2025,PA66,0,0,0,5,95,,,50,,,,steel,BoP,dry,55,22.5,injection,0.35,0.000011,
 KUMAR2025,PA66,0,0,0,10,90,,,10,,,,steel,BoP,dry,55,22.5,injection,0.52,0.000039,,,,10.1002/app.57081,bar_chart,medium,Abrading frequency: 25 Hz,2026-08-31
 KUMAR2025,PA66,0,0,0,10,90,,,30,,,,steel,BoP,dry,55,22.5,injection,0.58,0.000049,,,,10.1002/app.57081,bar_chart,medium,Abrading frequency: 25 Hz,2026-08-31
 KUMAR2025,PA66,0,0,0,10,90,,,50,,,,steel,BoP,dry,55,22.5,injection,0.62,0.000051,,,,10.1002/app.57081,bar_chart,medium,Abrading frequency: 25 Hz,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,120,1,,,steel,,dry,,25,injection,0.256,,,,,,10.1016/j.wear.2021.203899,prose,high,2026-08-31
+KUNISHIMA2021,PA66,0,15,0,0,85,,,120,1,,,steel,,dry,,25,injection,0.305,,,,,,10.1016/j.wear.2021.203899,prose,high,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.050,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,100,,,350,1,,,steel,,lubricated,,25,injection,0.035,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.045,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,2026-08-31
 LI2010,PA6,90,0,0,0,,polyurethane,10,78.5,1000,,,steel,BoP,dry,50,20,cast,0.102,0.0000354,,,,10.1016/j.wear.2010.04.004,table,high,speed reported in r/min; wear rate reported as 3.54e-5 mm3/Nm,2026-08-31
 LI2010,PA6,90,0,0,0,,polyurethane,10,157,1000,,,steel,BoP,dry,50,20,cast,0.171,0.000177,,,,10.1016/j.wear.2010.04.004,table,high,speed reported in r/min; wear rate reported as 17.7e-5 mm3/Nm,2026-08-31
 LI2010,PA6,89.1,1,0,0,,polyurethane,9.9,78.5,1000,,,steel,BoP,dry,50,20,cast,0.096,0.0000324,,,,10.1016/j.wear.2010.04.004,table,high,speed reported in r/min; wear rate reported as 3.24e-5 mm3/Nm,2026-08-31

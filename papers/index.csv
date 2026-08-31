@@ -1,7 +1,7 @@
 paper_id,full_title,authors,journal,year,doi,pdf_filename,access_type,extraction_status,notes
 NEIS2017a,Tribological properties of PA6 in self-mated and steel contacts,Neis et al.,Wear,2017,10.1016/j.wear.2017.02.032,NEIS2017a.pdf,institutional,done,3 counterface configs
 NEIS2017b,Tribological behavior of polyamide-6 plastics and their potential use in industrial applications,Neis et al.,Wear,2017,10.1016/j.wear.2017.01.090,NEIS2017b.pdf,institutional,done,load and velocity sweep; RuntimeError: Gemini did not return paper context
-CHERNETS2023,Wear resistance of PA6 for metal-polymer bearings and gears,Chernets et al.,Tribology in Industry,2023,researchgate.net/publication/376590359,CHERNETS2023.pdf,open,done,PA6+MoS2+Oil vs C45
+CHERNETS2023,"Investigation of Wear Resistance of Polyamide PA6 Based Composite Materials for Metal - Polymer Plain Bearings and Gears",Chernets et al.,Tribology in Industry,2023,10.24874/ti.1526.07.23.09,CHERNETS2023.pdf,open,done,"PA6+MoS2+Oil vs C45"
 KULKARNI2014,Tribological behaviours of ABS and PA6 under dry/water/EP conditions,Kulkarni et al.,Journal of Tribology,2014,academia.edu/8264436,KULKARNI2014.pdf,open,done,dry vs water vs electroplated
 CHERNETSSWIC,Evaluation of wear resistance of PA6 PA66 functional composites,Chernets & Swic,ASTRJ,2022,astrj.com/pdf-161591-88743,CHERNETSSWIC.pdf,open,done,6 material types vs C45; RuntimeError: Gemini did not return paper context
 SATHEESKUMAR2016,"Experimental investigation on tribological behaviours of PA6, PA6-reinforced Al2O3 and PA6-reinforced graphite polymer composites",Satheeskumar & Kanagaraj,Bulletin of Materials Science,2016,10.1007/s12034-016-1296-6,SATHEESKUMAR2016.pdf,institutional,done,Taguchi L16; RuntimeError: Gemini did not return paper context
