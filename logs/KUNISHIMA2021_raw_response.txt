@@ -1,0 +1,18 @@
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,120,1,,,steel,,dry,,25,injection,0.256,,,,,,10.1016/j.wear.2021.203899,prose,high,Sample No. 1 PA66+10CF dry test stabilized COF 15k-20k cycles
+KUNISHIMA2021,PA66,0,15,0,0,85,,,120,1,,,steel,,dry,,25,injection,0.305,,,,,,10.1016/j.wear.2021.203899,prose,high,Sample No. 3 PA66+15GF dry test stabilized COF 15k-20k cycles
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.050,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF grease lubricated (Grease No. 1)
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 3 PA66+15GF grease lubricated (Grease No. 1)
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 5 PA66+33GF grease lubricated (Grease No. 1)
+KUNISHIMA2021,PA66,0,0,0,0,100,,,350,1,,,steel,,lubricated,,25,injection,0.035,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 6 Unreinforced PA66 grease lubricated (Grease No. 1)
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.045,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF grease lubricated 220N S45C steel
+KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 3 PA66+15GF grease lubricated 220N S45C steel
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 3 PA66+15GF grease lubricated RT 10s slide 200s stop
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 3 PA66+15GF grease lubricated 80C 10s slide 200s stop
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF grease lubricated RT 10s slide 200s stop
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF grease lubricated 80C 10s slide 200s stop
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF Grease No. 2 (w/o zinc carboxylate) 80C
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 3 PA66+15GF Grease No. 2 (w/o zinc carboxylate) 80C
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF 220N RT 10s slide 200s stop
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low,Sample No. 1 PA66+10CF 220N 80C 10s slide 200s stop
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,,

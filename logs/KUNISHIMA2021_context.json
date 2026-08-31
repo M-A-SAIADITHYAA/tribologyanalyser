@@ -1,0 +1,14 @@
+{
+  "paper_id": "KUNISHIMA2021",
+  "counterface": "S45C steel",
+  "test_type": "rotating ring on fixed cylinders",
+  "environment": "dry and grease lubricated",
+  "disc_diameter_mm": 25.6,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": "PA66",
+  "source_doi": "10.1016/j.wear.2021.203899",
+  "n_conditions": 23
+}

@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 13
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 15. Evolution of (a) the friction coefficient using the GF composite, (b) the vertical displacement of the GF composite, (c) the friction coefficient using the CF composite, and (d) the vertical displacement of the CF composite at room temperature (RT) and 80 °C under a normal load of 350 N with sliding for 10 s sliding, followed by stopping for 200 s.
+X_AXIS: Cycle numbers
+Y_AXIS: (a, c) Friction coefficient, (b, d) Displacement (mm)
+SERIES: RT 1st, RT 2nd, 80 °C 1st, 80 °C 2nd
+TEST_CONDITIONS: Normal load 350 N, 10 s sliding / 200 s stopping, ambient temperature RT vs 80 °C, grease lubrication
+WHAT_TO_EXTRACT: Temperature effect on COF and vertical displacement evolution for GF vs CF composites
+WEBPLOTDIGITIZER_NOTES: Four subplots (a-d). Fig. 16 on the same page is a bar chart showing wear/creep height loss and steel wear.

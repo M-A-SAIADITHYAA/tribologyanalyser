@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 16
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 21. (a) Wear and creep height loss of the CF composite and (b) wear volume of the steel cylinders after the sliding tests for 43,004 and 104,114 cycles under a normal load of 220 N, with sliding for 10 s followed by stopping for 200 s. / Fig. 22. Evolution of (a) the friction coefficient and (b) the vertical displacement during the sliding tests using the GF 33% composite and grease with/without zinc carboxylate, under a normal load of 350 N (at room temperature and 80 °C), with sliding for 10 s followed by stopping for 200 s.
+X_AXIS: Cycle numbers
+Y_AXIS: Height loss (mm), Wear volume of steel cylinders (mm³), Friction coefficient, Displacement (mm)
+SERIES: RT Wear, RT Creep, 80 °C Wear, 80 °C Creep, 80 °C Without zinc carboxylate, 80 °C With zinc carboxylate, RT With zinc carboxylate
+TEST_CONDITIONS: Load 220 N and 350 N, GF 33% and CF 10% composites, RT vs 80 °C
+WHAT_TO_EXTRACT: Wear/creep progression over cycle numbers and effect of contact pressure/additive on GF 33% composite
+WEBPLOTDIGITIZER_NOTES: Fig. 21 (a, b) shows height loss and steel wear vs cycles; Fig. 22 (a, b) shows COF and displacement for GF 33%.

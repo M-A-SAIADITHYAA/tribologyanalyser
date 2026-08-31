@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 9
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 9. Relationship between the hardness of steel cylinders and (a) the decrease in the weight of the composite ring; (b) the creep height loss of the composite ring; and (c) wear volume of the steel cylinders after 61,700 cycles of the sliding test for a normal load of 220 N with sliding for 10 s followed by stopping for 20 s.
+X_AXIS: Hardness of steel, GPa
+Y_AXIS: (a) Wear height loss (mm), (b) Creep height loss (mm), (c) Wear volume of steel cylinders (mm³)
+SERIES: PA66+GF15%, PA66+CF10%
+TEST_CONDITIONS: Grease lubrication, normal load 220 N, 61,700 cycles (10 s sliding / 20 s stopping)
+WHAT_TO_EXTRACT: Composite wear height loss, composite creep height loss, and steel wear volume as a function of steel hardness
+WEBPLOTDIGITIZER_NOTES: Three line plots with data points plotted against steel hardness (4.5, 5.4, 7.2 GPa).

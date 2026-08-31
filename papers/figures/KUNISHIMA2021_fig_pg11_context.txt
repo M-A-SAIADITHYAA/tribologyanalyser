@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 11
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 12. (a) AFM image of the CFs after the hardness measurements with a normal load of 13,000 μN, (b) the hardness of the GFs and CFs measured at various positions with a normal load of 4000 μN, and (c) the effect of the normal load of the nanoindentation on the measured hardness of the CFs oriented in the perpendicular direction.
+X_AXIS: (c) Normal load (μN)
+Y_AXIS: (b, c) Hardness of fiber (GPa)
+SERIES: CF (Carbon Fiber), GF (Glass Fiber)
+TEST_CONDITIONS: Nanoindentation using Berkovich indenter at loads from 4,000 to 13,000 μN
+WHAT_TO_EXTRACT: Fiber hardness values and load dependency for CF vs GF
+WEBPLOTDIGITIZER_NOTES: Fig. 12(b) is a bar chart (extractable by LLM); Fig. 12(c) is a line plot of hardness vs indentation normal load.

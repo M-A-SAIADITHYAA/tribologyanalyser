@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 5
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 3. Evolution of the (a) friction coefficient, (b) temperature, and (c) vertical displacement during the sliding tests under dry conditions and a normal load of 120 N, with sliding for 10 s followed by stopping for 1 s.
+X_AXIS: Cycle numbers
+Y_AXIS: (a) Friction coefficient, (b) Temperature (°C), (c) Displacement (mm)
+SERIES: Unreinforced PA66, GF 15% composite, CF 10% composite
+TEST_CONDITIONS: Dry conditions, normal load 120 N, intermittent process (10 s sliding / 1 s stopping), 1 m/s sliding speed
+WHAT_TO_EXTRACT: Steady-state COF, peak temperature, and vertical displacement vs sliding cycle numbers
+WEBPLOTDIGITIZER_NOTES: Three stacked subplots (a, b, c) sharing linear x-axis up to 60,000 cycles.

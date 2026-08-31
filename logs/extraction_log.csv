@@ -90,3 +90,7 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-30 16:29:06,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
 2026-08-30 16:31:20,ZHOU2018,done,6,6,0,0,2,
 2026-08-30 16:34:53,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-08-31 21:52:34,KUNISHIMA2021,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-08-31 21:54:36,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-08-31 21:59:10,KUNISHIMA2021,done,17,16,1,0,8,
+2026-08-31 22:01:19,UNNIKRISHNAN2022,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV

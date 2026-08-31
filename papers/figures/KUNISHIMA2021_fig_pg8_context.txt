@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 8
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 7. Evolution of the (a) friction coefficient, (b) temperature, and (c) vertical displacement during the first 10,000 cycles, and the (d) friction coefficient, (e) temperature, and (f) vertical displacement during the entire duration of the sliding tests under grease lubrication and a normal load of 350 N.
+X_AXIS: Cycle numbers
+Y_AXIS: (a, d) Friction coefficient, (b, e) Temperature (°C), (c, f) Displacement (mm)
+SERIES: Unreinforced PA66, CF 10% composite, GF 15% composite, GF 33% composite
+TEST_CONDITIONS: Grease lubrication (diurea/PAO8 with zinc carboxylate), normal load 350 N, 10 s sliding / 1 s stopping
+WHAT_TO_EXTRACT: Initial (0-10k cycles) and full duration (up to 70k cycles) COF, temperature, and vertical displacement
+WEBPLOTDIGITIZER_NOTES: Six subplots arranged in two columns (initial 10k cycles vs full test duration). Linear axes.

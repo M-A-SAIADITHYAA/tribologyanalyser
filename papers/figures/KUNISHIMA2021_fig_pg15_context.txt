@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 15
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 19. Evolution of the friction coefficient and vertical displacement using (a, b) the CF 10% composite and (c, d) the GF 15% composite and grease, with or without zinc carboxylate in the sliding tests under a normal load of 350 N with sliding for 10 s, sliding followed by stopping for 200 s at 80 °C. / Fig. 20. Evolution of the friction coefficient and vertical displacement using the CF 10% composite and grease with zinc carboxylate in the sliding tests under a normal load of 220 N (at room temperature and 80 °C), with sliding for 10 s followed by stopping for 200 (a, b) over 43,044 cycles and (c, d) over 104,114 cycles.
+X_AXIS: Cycle numbers
+Y_AXIS: Friction coefficient, Displacement (mm)
+SERIES: With zinc carboxylate, Without zinc carboxylate, RT, 80 °C
+TEST_CONDITIONS: Grease lubrication with/without zinc carboxylate, loads 350 N and 220 N, temperatures RT vs 80 °C
+WHAT_TO_EXTRACT: Effects of zinc carboxylate additive and load/temperature on COF and vertical displacement
+WEBPLOTDIGITIZER_NOTES: Eight line graph panels (Fig. 19 a-d and Fig. 20 a-d) showing transient tribological behavior.

@@ -1,0 +1,10 @@
+PAPER_ID: KUNISHIMA2021
+PAGE: 10
+FIGURE_TYPE: line_graph
+CAPTION: Fig. 10. Evolution of the (a) friction coefficient, (b) temperature, and (c) vertical displacement in the sliding tests under grease lubrication for a normal load of 220 N with sliding for 10 s, followed by stopping for 20 s using steel cylinders with a hardness of 4.5 GPa.
+X_AXIS: Cycle numbers
+Y_AXIS: (a) Friction coefficient, (b) Temperature (°C), (c) Displacement (mm)
+SERIES: CF 10% composite, GF 15% composite
+TEST_CONDITIONS: Grease lubrication, normal load 220 N, steel cylinder hardness 4.5 GPa, 10 s sliding / 20 s stopping
+WHAT_TO_EXTRACT: Evolution of COF, temperature, and vertical displacement up to 70,000 cycles
+WEBPLOTDIGITIZER_NOTES: Three stacked subplots (a, b, c) sharing linear x-axis from 0 to 70,000 cycles.
