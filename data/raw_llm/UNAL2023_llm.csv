@@ -1,18 +1,27 @@
 paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
-UNAL2023,PA6,90,0,0,0,0,load:10N,10,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.98,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,80,0,0,0,0,load:20N,20,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.65,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,70,0,0,0,0,load:30N,30,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.6,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,85,0,5,0,0,load:10N,10,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.83,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,75,0,5,0,0,load:20N,20,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.55,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,65,0,5,0,0,load:30N,30,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.5,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,80,0,10,0,0,load:10N,10,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.72,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,70,0,10,0,0,load:20N,20,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.5,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,60,0,10,0,0,load:30N,30,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.4,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,75,0,15,0,0,load:10N,10,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.63,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,65,0,15,0,0,load:20N,20,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.45,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,55,0,15,0,0,load:30N,30,0.5,1000,,,PA6,PoD,dry,23,23,injection,0.36,,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,83,0,15,0,0,wax,2,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.18,0.00025,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,83,0,15,0,0,wax,2,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.14,0.00023,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,83,0,15,0,0,wax,2,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.11,0.00021,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,83,0,15,0,0,wax,2,50,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00016,,,,10.1002/mawe.202200057,line_graph,low,reported wear rate in m2/N converted to mm3/Nm
-UNAL2023,PA6,99,0,1,0,0,,,,,,,,,,,,,,,,,,,,,
+UNAL2023,PA6,100,0,0,0,0,,,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.98,0.00022,,,,10.1002/mawe.202200057,line_graph,high,Pure PA6; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,100,0,0,0,0,,,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.65,0.00030,,,,10.1002/mawe.202200057,line_graph,high,Pure PA6; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,100,0,0,0,0,,,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.60,0.00040,,,,10.1002/mawe.202200057,line_graph,high,Pure PA6; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,95,0,5,0,0,,,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.83,0.00018,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 5 wt% graphite; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,95,0,5,0,0,,,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.55,0.00022,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 5 wt% graphite; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,95,0,5,0,0,,,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.50,0.00027,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 5 wt% graphite; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,90,0,10,0,0,,,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.72,0.00015,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 10 wt% graphite; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,90,0,10,0,0,,,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.50,0.00017,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 10 wt% graphite; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,90,0,10,0,0,,,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.40,0.00019,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 10 wt% graphite; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,85,0,15,0,0,,,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.63,0.00013,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15 wt% graphite; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,85,0,15,0,0,,,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.45,0.00014,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15 wt% graphite; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,85,0,15,0,0,,,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.36,0.00016,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15 wt% graphite; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.18,0.00025,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.14,0.00023,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.11,0.00021,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,50,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00016,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 50 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,100,0.5,1000,,PA6,PoD,dry,,23,injection,0.08,0.00012,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 100 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,200,0.5,1000,,PA6,PoD,dry,,23,injection,0.075,0.00008,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 200 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,83,0,15,0,0,wax,2,250,0.5,1000,,PA6,PoD,dry,,23,injection,0.070,0.00006,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 2% Wax; self-mating polymer-polymer PoD; 250 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,10,0.5,1000,,PA6,PoD,dry,,23,injection,0.16,0.00022,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 10 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,20,0.5,1000,,PA6,PoD,dry,,23,injection,0.12,0.00020,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 20 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,30,0.5,1000,,PA6,PoD,dry,,23,injection,0.09,0.00018,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 30 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,50,0.5,1000,,PA6,PoD,dry,,23,injection,0.085,0.00014,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 50 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,100,0.5,1000,,PA6,PoD,dry,,23,injection,0.075,0.00010,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 100 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,200,0.5,1000,,PA6,PoD,dry,,23,injection,0.070,0.00007,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 200 N; 0.5 m/s; 1000 m; Figs. 5 and 6
+UNAL2023,PA6,79,0,15,0,0,wax,6,250,0.5,1000,,PA6,PoD,dry,,23,injection,0.065,0.00005,,,,10.1002/mawe.202200057,line_graph,high,PA6 + 15% Gr + 6% Wax; self-mating polymer-polymer PoD; 250 N; 0.5 m/s; 1000 m; Figs. 5 and 6

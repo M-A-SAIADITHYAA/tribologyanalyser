@@ -1,18 +1,22 @@
 paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,120,1,,,steel,,dry,,25,injection,0.256,,,,,,10.1016/j.wear.2021.203899,prose,high
-KUNISHIMA2021,PA66,0,15,0,0,85,,,120,1,,,steel,,dry,,25,injection,0.305,,,,,,10.1016/j.wear.2021.203899,prose,high
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.050,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,100,,,350,1,,,steel,,lubricated,,25,injection,0.035,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.045,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,,lubricated,,80,injection,0.090,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,25,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,,lubricated,,80,injection,0.040,,,,,,10.1016/j.wear.2021.203899,line_graph,low
-KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,,,,,,,,,,,,,,
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,120,1,,,steel,BoR,dry,,25,injection,0.256,,,,,10.1016/j.wear.2021.203899,prose,high,Dry sliding; 10 wt% CF (Normal PA66); JIS K 7218 ring-on-4-cylinders vs S45C steel (4.5 GPa); 120 N; 1 m/s; Fig. 3
+KUNISHIMA2021,PA66,0,15,0,0,85,,,120,1,,,steel,BoR,dry,,25,injection,0.305,,,,,10.1016/j.wear.2021.203899,prose,high,Dry sliding; 15 wt% GF (Normal PA66); JIS K 7218 ring-on-4-cylinders vs S45C steel (4.5 GPa); 120 N; 1 m/s; Fig. 3
+KUNISHIMA2021,PA66,0,0,0,0,100,,,120,1,,,steel,BoR,dry,,25,injection,0.420,,,,,10.1016/j.wear.2021.203899,line_graph,high,Dry sliding; Unreinforced PA66 benchmark; JIS K 7218 ring-on-4-cylinders vs S45C steel (4.5 GPa); 120 N; 1 m/s; Fig. 3
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,BoR,lubricated,,25,injection,0.050,,,,,10.1016/j.wear.2021.203899,line_graph,high,Normal PA66 + 10% CF; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,BoR,lubricated,,25,injection,0.048,,,,,10.1016/j.wear.2021.203899,line_graph,high,High molecular mass PA66 + 10% CF; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,Normal PA66 + 15% GF; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,High molecular mass PA66 + 15% GF; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,Normal PA66 + 33% GF; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,0,0,0,100,,,350,1,,,steel,BoR,lubricated,,25,injection,0.035,,,,,10.1016/j.wear.2021.203899,line_graph,high,Unreinforced PA66; PAO8/diurea/Zn-carboxylate grease; S45C steel (4.5 GPa); 350 N; 1 m/s; Fig. 7
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,BoR,lubricated,,25,injection,0.045,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 10% CF vs raw S45C steel (4.5 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9 & 10
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,BoR,lubricated,,25,injection,0.045,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 10% CF vs quenched/tempered S45C steel (5.4 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,220,1,,,steel,BoR,lubricated,,25,injection,0.045,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 10% CF vs hardened S45C steel (7.2 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9
+KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 15% GF vs raw S45C steel (4.5 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9 & 10
+KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 15% GF vs quenched/tempered S45C steel (5.4 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9
+KUNISHIMA2021,PA66,0,15,0,0,85,,,220,1,,,steel,BoR,lubricated,,25,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 15% GF vs hardened S45C steel (7.2 GPa); grease lubricated; 220 N; 1 m/s; Fig. 9
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,BoR,lubricated,,80,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 10% CF at 80 °C; Grease 1 (with Zn-carboxylate); 350 N; 1 m/s; Fig. 19
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,BoR,lubricated,,80,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 15% GF at 80 °C; Grease 1 (with Zn-carboxylate); 350 N; 1 m/s; Fig. 19
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,BoR,lubricated,,80,injection,0.040,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 33% GF at 80 °C; Grease 1 (with Zn-carboxylate); 350 N; 1 m/s; Fig. 22
+KUNISHIMA2021,PA66,0,0,0,0,90,CF,10,350,1,,,steel,BoR,lubricated,,80,injection,0.090,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 10% CF at 80 °C; Grease 2 (WITHOUT Zn-carboxylate); 350 N; 1 m/s; Fig. 19
+KUNISHIMA2021,PA66,0,15,0,0,85,,,350,1,,,steel,BoR,lubricated,,80,injection,0.090,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 15% GF at 80 °C; Grease 2 (WITHOUT Zn-carboxylate); 350 N; 1 m/s; Fig. 19
+KUNISHIMA2021,PA66,0,33,0,0,67,,,350,1,,,steel,BoR,lubricated,,80,injection,0.090,,,,,10.1016/j.wear.2021.203899,line_graph,high,PA66 + 33% GF at 80 °C; Grease 2 (WITHOUT Zn-carboxylate); 350 N; 1 m/s; Fig. 22

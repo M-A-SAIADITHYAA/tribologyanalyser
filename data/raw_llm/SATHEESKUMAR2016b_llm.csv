@@ -1,25 +1,37 @@
 paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
-SATHEESKUMAR2016b,PA6,100,0,0,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.42,0.0092,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,100,0,0,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.39,0.0083,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,100,0,0,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.35,0.0074,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,100,0,0,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.32,0.0068,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,95,0,5,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.40,0.0075,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,95,0,5,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.36,0.0065,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,95,0,5,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.33,0.0056,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,95,0,5,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.30,0.0049,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,90,0,10,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.38,0.0072,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,90,0,10,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.35,0.0061,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,90,0,10,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.31,0.0052,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,90,0,10,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.29,0.0045,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,80,0,20,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.29,0.0058,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,80,0,20,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.21,0.0048,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,80,0,20,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.16,0.0042,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,80,0,20,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.14,0.0037,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,70,0,30,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.34,0.0063,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,70,0,30,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.28,0.0053,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,70,0,30,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.21,0.0046,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,70,0,30,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.16,0.0041,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,60,0,40,0,,,,5,,1000,,steel,PoD,dry,,,injection,0.35,0.0066,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,60,0,40,0,,,,10,,1000,,steel,PoD,dry,,,injection,0.30,0.0057,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,60,0,40,0,,,,20,,1000,,steel,PoD,dry,,,injection,0.24,0.0051,,,,10.1007/s13369-016-2126-2,mixed,high,
-SATHEESKUMAR2016b,PA6,60,0,40,0,,,,30,,1000,,steel,PoD,dry,,,injection,0.21,0.0047,,,,10.1007/s13369-016-2126-2,mixed,high,
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.30,0.0092,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.33,0.0092,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.37,0.0092,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.38,0.0083,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.38,0.0074,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,100,0,0,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.55,0.0068,,,,10.1007/s13369-016-2126-2,table,high,Pure PA6; DUCOM pin-on-disc vs EN31 steel disc; 30 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.28,0.0075,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.30,0.0075,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.32,0.0075,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.36,0.0065,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.35,0.0056,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,95,0,5,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.53,0.0049,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 5 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 30 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.29,0.0072,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.32,0.0072,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.35,0.0072,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.37,0.0061,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.36,0.0052,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,90,0,10,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.54,0.0045,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 10 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 30 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.26,0.0058,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.28,0.0058,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.32,0.0058,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.33,0.0048,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.32,0.0042,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,80,0,20,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.51,0.0037,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 20 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 30 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.26,0.0063,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.29,0.0063,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.31,0.0063,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.28,0.0053,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.33,0.0046,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,70,0,30,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.53,0.0041,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 30 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 30 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,5,5.23,1000,,steel,PoD,dry,,23,injection,0.28,0.0066,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,5,7.85,1000,,steel,PoD,dry,,23,injection,0.30,0.0066,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 7.85 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,5,10.0,1000,,steel,PoD,dry,,23,injection,0.32,0.0066,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 5 N; 10.0 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,10,5.23,1000,,steel,PoD,dry,,23,injection,0.34,0.0057,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 10 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,20,5.23,1000,,steel,PoD,dry,,23,injection,0.34,0.0051,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 20 N; 5.23 m/s; 1000 m; Table 3
+SATHEESKUMAR2016b,PA6,60,0,40,0,0,,,30,5.23,1000,,steel,PoD,dry,,23,injection,0.53,0.0047,,,,10.1007/s13369-016-2126-2,table,high,PA6 + 40 wt% graphite; DUCOM pin-on-disc vs EN31 steel; 30 N; 5.23 m/s; 1000 m; Table 3
