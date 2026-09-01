@@ -1,0 +1,10 @@
+PAPER_ID: RAJESH2001
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Figure 3 Wear volume as a function of various mechanical properties (a) as -------- (HSe)^-1 and ——— (Se)^-1, (b) as (e)^-1.
+X_AXIS: (a) (Se)^-1 (x 10^-3) / (HSe)^-1 (x 10^-5); (b) (e)^-1 (x 10^-2)
+Y_AXIS: Wear volume (x 10^-9 m^3)
+SERIES: (HSe)^-1, (Se)^-1, (e)^-1
+TEST_CONDITIONS: Wear volume after single pass abrasion against 80 grade SiC paper under 10 N load
+WHAT_TO_EXTRACT: Wear volume vs reciprocal mechanical property factors
+WEBPLOTDIGITIZER_NOTES: Two subplots (a) and (b), linear axes.

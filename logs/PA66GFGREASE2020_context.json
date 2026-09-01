@@ -1,0 +1,14 @@
+{
+  "paper_id": "PA66GFGREASE2020",
+  "counterface": "S45C carbon steel",
+  "test_type": "composite ring on four steel cylinders",
+  "environment": "grease lubricated",
+  "disc_diameter_mm": 22.8,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": "PA66",
+  "source_doi": "10.1016/j.wear.2020.203500",
+  "n_conditions": 10
+}

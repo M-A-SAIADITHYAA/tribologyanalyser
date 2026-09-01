@@ -1,0 +1,20 @@
+paper_id,material_base,pa6_pct,glass_fiber_pct,graphite_pct,mos2_pct,pa66_pct,other_ingredients,other_ingredients_wt_pct,load_N,speed_ms,distance_m,PV_factor,counterface,test_type,environment,humidity_pct,temperature_C,fabrication,COF,wear_rate_mm3Nm,wear_volume_mm3,mass_loss_mg,contact_temp_C,source_doi,extraction_method,confidence,notes
+RAJESH2001,PA6,100,0,0,0,,,,,4,0.05,3.26,,other,PoD,dry,,,injection,,1.15e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,100,0,0,0,,,,,6,0.05,3.26,,other,PoD,dry,,,injection,,1.05e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,100,0,0,0,,,,,8,0.05,3.26,,other,PoD,dry,,,injection,,1.00e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,100,0,0,0,,,,,10,0.05,3.26,,other,PoD,dry,,,injection,,1.00e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,80,20,0,0,,,,,4,0.05,3.26,,other,PoD,dry,,,injection,,1.95e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,80,20,0,0,,,,,6,0.05,3.26,,other,PoD,dry,,,injection,,1.80e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,80,20,0,0,,,,,8,0.05,3.26,,other,PoD,dry,,,injection,,1.75e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,80,20,0,0,,,,,10,0.05,3.26,,other,PoD,dry,,,injection,,1.70e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,70,30,0,0,,,,,4,0.05,3.26,,other,PoD,dry,,,injection,,2.45e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,70,30,0,0,,,,,6,0.05,3.26,,other,PoD,dry,,,injection,,2.20e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,70,30,0,0,,,,,8,0.05,3.26,,other,PoD,dry,,,injection,,2.10e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,70,30,0,0,,,,,10,0.05,3.26,,other,PoD,dry,,,injection,,2.05e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Copper powder","3; 6",4,0.05,3.26,,other,PoD,dry,,,injection,,2.75e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Copper powder","3; 6",6,0.05,3.26,,other,PoD,dry,,,injection,,2.45e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Copper powder","3; 6",8,0.05,3.26,,other,PoD,dry,,,injection,,2.40e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Copper powder","3; 6",10,0.05,3.26,,other,PoD,dry,,,injection,,2.35e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Bronze powder","3; 6",4,0.05,3.26,,other,PoD,dry,,,injection,,2.85e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Bronze powder","3; 6",6,0.05,3.26,,other,PoD,dry,,,injection,,2.65e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL
+RAJESH2001,PA6,76,15,0,0,,"PTFE; Bronze powder","3; 6",8,0.05,3.26,,other,PoD,dry,,,injection,,2.55e-10,,,,,line_graph,low,Specific wear rate read from Fig 2; unit: m3/Nm; COF not reported; SAVE_FOR_MANUAL

@@ -1,0 +1,14 @@
+{
+  "paper_id": "UYSAL2024",
+  "counterface": "metal",
+  "test_type": "pin-on-disc",
+  "environment": "room humidity",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "mm3/Nm",
+  "fabrication": "injection molding",
+  "pa6_grade": "Durethan B26",
+  "source_doi": "10.1007/s13233-024-00260-y",
+  "n_conditions": 7
+}

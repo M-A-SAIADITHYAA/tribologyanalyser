@@ -1,0 +1,14 @@
+{
+  "paper_id": "UNAL2013",
+  "counterface": "stainless steel (AISI 4140 steel)",
+  "test_type": "pin-on-disc",
+  "environment": "dry / atmospheric",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "m/s",
+  "wear_unit": "m3 N-1 m-1",
+  "fabrication": "injection moulding (neat), extrusion followed by injection moulding (composites)",
+  "pa6_grade": "Domamid",
+  "source_doi": "10.1179/1743294413Y.0000000141",
+  "n_conditions": 72
+}

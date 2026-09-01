@@ -94,3 +94,20 @@ timestamp,paper_id,status,raw_rows,passing_rows,failing_rows,manual_rows,figures
 2026-08-31 21:54:36,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
 2026-08-31 21:59:10,KUNISHIMA2021,done,17,16,1,0,8,
 2026-08-31 22:01:19,UNNIKRISHNAN2022,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-09-01 21:04:33,KARPOV2025,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/KARPOV2025_raw_response.txt
+2026-09-01 21:06:39,LI2012,done,20,20,0,0,2,
+2026-09-01 21:09:20,NIE2010,failed,0,0,0,0,0,ValueError: Gemini response did not start with the required exact CSV header; saved raw response to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/NIE2010_raw_response.txt
+2026-09-01 21:13:44,PA66GFGREASE2020,done,2,0,2,0,0,Figure scan warning: Gemini did not return a parseable page-classification JSON array
+2026-09-01 21:17:18,RAJESH2001,done,19,0,7,12,2,
+2026-09-01 21:18:11,UNAL2013,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context
+2026-09-01 21:19:22,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-09-01 21:27:30,UYSAL2024,failed,0,0,0,0,0,RuntimeError: Gemini did not return extracted CSV
+2026-09-01 21:29:08,VAIDYA2022,done,18,18,0,0,0,"Figure scan warning: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash\nPlease retry in 51.892245554s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}"
+2026-09-01 21:33:17,KARPOV2025,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/KARPOV2025_raw_response.txt
+2026-09-01 21:36:13,NIE2010,done,27,20,7,0,0,"Figure scan warning: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+2026-09-01 21:40:24,UNAL2013,done,14,13,1,0,3,
+2026-09-01 21:41:09,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-09-01 21:51:57,KARPOV2025,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/KARPOV2025_raw_response.txt
+2026-09-01 21:54:24,UNNIKRISHNAN2022,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/UNNIKRISHNAN2022_raw_response.txt
+2026-09-01 22:00:49,KARPOV2025,failed,0,0,0,0,0,ValueError: Gemini CSV is missing schema columns or rows; saved to /Users/saiadithyaa/Documents/ChatGPT/final_year_project/logs/KARPOV2025_raw_response.txt
+2026-09-01 22:03:15,UNNIKRISHNAN2022,failed,0,0,0,0,0,RuntimeError: Gemini did not return paper context

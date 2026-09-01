@@ -1,0 +1,10 @@
+PAPER_ID: LI2012
+PAGE: 3
+FIGURE_TYPE: line_graph
+CAPTION: Figure 1 Mechanical properties of PA6 filled with PTFE.; Figure 2 Variation of friction and wear behaviors of PA6 composites with PTFE content.; Figure 3 Mechanical properties of PA6 filled with graphite.
+X_AXIS: Content of PTFE (wt.%) / Content of Graphite (wt.%)
+Y_AXIS: Tensile Strength (MPa) [left] / Impact Strength (kJ/m²) [right] / cof [left] / Rate of Wear (×10⁻⁵ cm³/N·m) [right]
+SERIES: Fig 1: Tensile Strength, Impact Strength, Fig 2: cof (Load: 40N), cof (Load: 160N), Rate of Wear (Load: 40N), Rate of Wear (Load: 160N), Fig 3: Tensile Strength, Impact Strength
+TEST_CONDITIONS: Friction & wear tests at loads of 40 N and 160 N, rotating speed 1500 rpm, dry sliding
+WHAT_TO_EXTRACT: Tensile strength, impact strength, COF, and wear rate vs solid lubricant content
+WEBPLOTDIGITIZER_NOTES: All three graphs use dual Y-axes. Figure 2 has 4 overlapping series (2 for COF, 2 for wear rate).

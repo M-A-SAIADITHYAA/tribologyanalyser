@@ -1,0 +1,10 @@
+PAPER_ID: RAJESH2001
+PAGE: 2
+FIGURE_TYPE: line_graph
+CAPTION: Figure 2 Specific wear rate as a function of load: (a) for PA 6, (b) for PA 6 + 20% GF, (c) for PA 6 + 30% GF, (d) for PA 6 + 15% GF + 3% PTFE + 6% Copper powder, (e) for PA 6 + 15% GF + 3% PTFE + 6% Bronze powder.
+X_AXIS: Load (N)
+Y_AXIS: Sp wear rate (x 10^-11 m^3/Nm)
+SERIES: A: PA 6, B: PA 6 + 20% GF, C: PA 6 + 30% GF, D: PA 6 + 15% GF + 3% PTFE + 6% Copper powder, E: PA 6 + 15% GF + 3% PTFE + 6% Bronze powder
+TEST_CONDITIONS: Single pass pin-on-disc abrasion against 80 grade SiC paper (grit size ~175 µm), speed = 50 mm/s, sliding distance = 3.26 m, load = 4 to 10 N
+WHAT_TO_EXTRACT: Specific wear rate (K0) values vs applied load for composites A through E
+WEBPLOTDIGITIZER_NOTES: Linear scales on both axes. Contains 5 series with distinct markers.

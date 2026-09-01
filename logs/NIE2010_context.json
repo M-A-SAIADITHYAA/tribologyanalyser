@@ -1,0 +1,14 @@
+{
+  "paper_id": "NIE2010",
+  "counterface": "CGr15 steel ball",
+  "test_type": "reciprocating ball-on-block",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "Hz",
+  "wear_unit": "mm3",
+  "fabrication": "injection moulded",
+  "pa6_grade": null,
+  "source_doi": "10.1179/174328910X12608851832056",
+  "n_conditions": 28
+}

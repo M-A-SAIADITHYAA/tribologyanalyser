@@ -1,0 +1,14 @@
+{
+  "paper_id": "VAIDYA2022",
+  "counterface": "hardened EN31 steel",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": 100,
+  "load_unit": "N",
+  "speed_unit": "rpm",
+  "wear_unit": "%",
+  "fabrication": "injection moulding",
+  "pa6_grade": null,
+  "source_doi": "10.1080/14484846.2022.2073019",
+  "n_conditions": 9
+}

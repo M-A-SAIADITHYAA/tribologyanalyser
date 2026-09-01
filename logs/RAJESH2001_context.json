@@ -1,0 +1,14 @@
+{
+  "paper_id": "RAJESH2001",
+  "counterface": "silicon carbide (SiC) abrasive paper (80 grade)",
+  "test_type": "pin-on-disc",
+  "environment": "dry",
+  "disc_diameter_mm": null,
+  "load_unit": "N",
+  "speed_unit": "mm/s",
+  "wear_unit": "m3/Nm",
+  "fabrication": "extrusion followed by injection moulding",
+  "pa6_grade": null,
+  "source_doi": null,
+  "n_conditions": 20
+}

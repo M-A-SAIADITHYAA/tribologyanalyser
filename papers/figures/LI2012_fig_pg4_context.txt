@@ -1,0 +1,10 @@
+PAPER_ID: LI2012
+PAGE: 4
+FIGURE_TYPE: line_graph
+CAPTION: Figure 4 Variation of friction and wear behaviors of PA6 composites with graphite content.; Table I Coefficient of Friction and Wear Rate of Graphite/PA6 Composites Under Different Loads; Figure 5 Mechanical properties of PA6 filled with UHMWPE.
+X_AXIS: Content of Graphite (wt.%)
+Y_AXIS: cof [left] / Rate of Wear (×10⁻⁵ cm³/N·m) [right]
+SERIES: cof (Load: 40N), cof (Load: 160N), Wear Rate (Load: 40N), Wear Rate (Load: 160N)
+TEST_CONDITIONS: Friction & wear tests at 40 N and 160 N, rotating speed 1500 rpm, dry sliding
+WHAT_TO_EXTRACT: COF and wear rate vs graphite content (Table I gives exact numeric values)
+WEBPLOTDIGITIZER_NOTES: Dual Y-axes. Data values for Fig 4 are explicitly tabulated in Table I on the same page.
