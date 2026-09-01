@@ -421,7 +421,7 @@ def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
         actual_fab = r["COF"] if r["COF"].lower() in KNOWN_FABRICATIONS else "injection"
         actual_cof = r["wear_rate_mm3Nm"] if is_float(r["wear_rate_mm3Nm"]) else ""
         actual_wear = r["wear_volume_mm3"] if is_float(r["wear_volume_mm3"]) else ""
-        actual_doi = r["extraction_method"] if r["extraction_method"].startswith("10.") else r.get("source_doi", "")
+        actual_doi = r["extraction_method"] if (r["extraction_method"].startswith("10.") and "/" in r["extraction_method"]) else r.get("source_doi", "")
         actual_ext = r["confidence"] if r["confidence"].lower() in EXTRACTION_METHODS else r.get("extraction_method", "table")
         actual_conf = r["notes"] if r["notes"].lower() in CONFIDENCE_LEVELS else "high"
         
@@ -447,14 +447,14 @@ def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
     conf = r.get("confidence", "")
     notes = r.get("notes", "")
 
-    if m_loss.startswith("10.") or m_loss.startswith("http"):
+    if (m_loss.startswith("10.") and "/" in m_loss) or m_loss.startswith("http"):
         r["source_doi"] = m_loss
         r["mass_loss_mg"] = ""
         r["contact_temp_C"] = ""
         r["extraction_method"] = c_temp if c_temp.lower() in EXTRACTION_METHODS else "mixed"
         r["confidence"] = doi if doi.lower() in CONFIDENCE_LEVELS else "high"
         r["notes"] = f"{ext}; {notes}".strip("; ")
-    elif c_temp.startswith("10.") or c_temp.startswith("http"):
+    elif (c_temp.startswith("10.") and "/" in c_temp) or c_temp.startswith("http"):
         r["source_doi"] = c_temp
         r["contact_temp_C"] = ""
         if doi.lower() in EXTRACTION_METHODS:

@@ -178,14 +178,14 @@ def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
     conf = r.get("confidence", "")
     notes = r.get("notes", "")
 
-    if m_loss.startswith("10.") or m_loss.startswith("http"):
+    if (m_loss.startswith("10.") and "/" in m_loss) or m_loss.startswith("http"):
         r["source_doi"] = m_loss
         r["mass_loss_mg"] = ""
         r["contact_temp_C"] = ""
         r["extraction_method"] = c_temp if c_temp.lower() in EXTRACTION_METHODS else "mixed"
         r["confidence"] = doi if doi.lower() in CONFIDENCE_LEVELS else "high"
         r["notes"] = f"{ext}; {notes}".strip("; ")
-    elif c_temp.startswith("10.") or c_temp.startswith("http"):
+    elif (c_temp.startswith("10.") and "/" in c_temp) or c_temp.startswith("http"):
         r["source_doi"] = c_temp
         r["contact_temp_C"] = ""
         if doi.lower() in EXTRACTION_METHODS:
