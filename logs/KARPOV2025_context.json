@@ -1,0 +1,14 @@
+{
+  "paper_id": "KARPOV2025",
+  "counterface": null,
+  "test_type": null,
+  "environment": null,
+  "disc_diameter_mm": null,
+  "load_unit": null,
+  "speed_unit": null,
+  "wear_unit": null,
+  "fabrication": "injection molded",
+  "pa6_grade": "TU RB 500048054.037-2002 (JSC Grodno Azot); Volgamid F34 (KuibyshevAzot)",
+  "source_doi": "10.1134/S1070427225030036",
+  "n_conditions": 6
+}
