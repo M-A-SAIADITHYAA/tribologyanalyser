@@ -334,17 +334,17 @@ def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
             r["pa6_pct"] = str(int(100.0 - gf_amt - other_amt))
 
     # 2. SPECIAL CASE: ABRASIVECFPA6 legacy format
-    elif paper_id == "ABRASIVECFPA6" or r.get("paper_id") in {"unfilled", "CF"}:
+    elif (paper_id == "ABRASIVECFPA6" and r.get("paper_id") in {"unfilled", "CF"}) or (r.get("paper_id") in {"unfilled", "CF"} and not r.get("material_base")):
         p_id = r.get("paper_id", "")
         mat_b = r.get("material_base", "")
         r["paper_id"] = "ABRASIVECFPA6"
-        r["material_base"] = "PA6"
+        r["material_base"] = "PA66"
         r["glass_fiber_pct"] = "0"
         r["graphite_pct"] = "0"
         r["mos2_pct"] = "0"
-        r["pa66_pct"] = "0"
+        r["pa6_pct"] = "0"
         if p_id == "unfilled":
-            r["pa6_pct"] = "100"
+            r["pa66_pct"] = "100"
         elif p_id == "CF":
             cf_amt = float(mat_b) if is_float(mat_b) else 20.0
             other_ing = r.get("other_ingredients", "")
@@ -352,11 +352,11 @@ def realign_row(row_dict: dict[str, Any], paper_id: str) -> dict[str, str]:
             if "PTFE" in other_ing or "15" in other_wt:
                 r["other_ingredients"] = "CF; PTFE"
                 r["other_ingredients_wt_pct"] = f"{int(cf_amt)}; 15"
-                r["pa6_pct"] = str(int(100.0 - cf_amt - 15.0))
+                r["pa66_pct"] = str(int(100.0 - cf_amt - 15.0))
             else:
                 r["other_ingredients"] = "CF"
                 r["other_ingredients_wt_pct"] = str(int(cf_amt))
-                r["pa6_pct"] = str(int(100.0 - cf_amt))
+                r["pa66_pct"] = str(int(100.0 - cf_amt))
 
     # 3. SPECIAL CASE: KULKARNI2014 legacy format
     elif paper_id == "KULKARNI2014":
